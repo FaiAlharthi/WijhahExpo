@@ -23,9 +23,6 @@
 
 Wijha (وِجهة) helps visitors of Expo 2030 Riyadh get the most out of their day. A visitor tells the app who is coming, what they like and what they need, and the AI builds a day roadmap through the pavilions. The route is ordered by real walking paths and expected queues, every pavilion visited adds a stamp to the visitor's passport, and the visitor can share the plan as a PDF or find a group to visit with.
 
-This repository is the Spring Boot backend that serves the Flutter mobile app.
-
-> Capstone — Web Application Development by Java (Group Project)
 
 ## 📑 Table of Contents
 
