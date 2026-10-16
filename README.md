@@ -14,7 +14,7 @@
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=white)
 ![Gemini](https://img.shields.io/badge/Google_Gemini-8E75B2?logo=googlegemini&logoColor=white)
 ![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?logo=whatsapp&logoColor=white)
-![Flutter](https://img.shields.io/badge/Flutter_app-02569B?logo=flutter&logoColor=white)
+![Swift](https://img.shields.io/badge/Flutter_app-02569B?logo=swift&logoColor=white)
 
 </div>
 
