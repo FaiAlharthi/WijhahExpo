@@ -7,7 +7,7 @@ A visitor companion app for Expo 2030 Riyadh — an AI‑planned day, a clear si
 ---
 
 ## 🗂️ Structure (Monorepo)
-
+-
 ```
 WijhahExpo/
 ├── frontend/WijhaApp/   # iOS app — SwiftUI
