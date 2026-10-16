@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <title>Expo Paths</title>
+  <style>
+    body { font-family: sans-serif; background: #eef2ef; color: #14242b; margin: 0; padding: 24px 16px; }
+    .box { max-width: 640px; margin: auto; background: #fff; border: 1px solid #d3ddd8; border-radius: 14px; padding: 20px; display: grid; gap: 12px; }
+    h1 { margin: 0; font-size: 22px; color: #0e6f63; }
+    p { margin: 0; color: #5d6d6a; }
+    button { background: #0e6f63; color: #fff; border: 0; padding: 12px 18px; border-radius: 10px; font-size: 16px; cursor: pointer; }
+    button:disabled { opacity: .5; cursor: default; }
+    #log { font-family: monospace; font-size: 14px; background: #f3f6f4; border-radius: 8px; padding: 10px; direction: ltr; text-align: left; }
+    #log:empty { display: none; }
+    a { color: #0e6f63; font-weight: bold; }
+  </style>
+</head>
+<body>
+<div class="box">
+  <h1>تجهيز الممرات</h1>
+  <p>الزونات والأجنحة والبوابات تنضاف تلقائي من <code>expo-data.json</code> أول ما يشتغل المشروع. هذي الصفحة تولّد الممرات (Path) بينها عشان يشتغل Dijkstra.</p>
+  <p>تقدرين تضغطينه أكثر من مرة، ما يكرر الممرات الموجودة.</p>
+  <button id="go">ولّد الممرات</button>
+  <div id="log"></div>
+  <p id="done" hidden>✅ خلص. افتحي <a href="route.html">route.html</a></p>
+</div>
+<script>
+  document.getElementById("go").addEventListener("click", async e => {
+    const log = document.getElementById("log");
+    e.target.disabled = true; log.textContent = "";
+    try {
+      const res = await fetch("/api/v1/path/generate", { method: "POST" });
+      const data = await res.json();
+      log.textContent = data.message || JSON.stringify(data);
+      if (res.ok) document.getElementById("done").hidden = false;
+    } catch (err) {
+      log.textContent = "✗ " + err.message;
+    }
+    e.target.disabled = false;
+  });
+</script>
+</body>
+</html>

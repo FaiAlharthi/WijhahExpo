@@ -1,0 +1,16 @@
+# ===== macOS =====
+.DS_Store
+
+# ===== Xcode / Swift (frontend) =====
+frontend/**/xcuserdata/
+frontend/**/DerivedData/
+frontend/**/build/
+*.xcuserstate
+
+# ===== Java / Maven (backend) =====
+backend/target/
+backend/.idea/
+*.class
+
+# ===== env / secrets =====
+backend/src/main/resources/application-local.properties

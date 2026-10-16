@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Wijha roadmap PDF template (Thymeleaf XML mode -> openhtmltopdf). Filled by JourneyPdfService.
+  Written to be openhtmltopdf-safe: well-formed XHTML (use &#160; not &nbsp;), tables instead of
+  flexbox/grid, solid colours only, inline SVG for the logo and the route line.
+
+  Model: journey.{title, dateLabel, departureTime, distanceKm (null = card hidden), partyLine (null = hidden), closingMessage,
+                  entranceName, exitName, stopsCount, mapWidth, mapHeight, routePoints}
+         journey.stops[]  : order, name, zone, visitTime, status (STAMPED|PLANNED), x, y (percent, null = no pin)
+         journey.gates[]  : label, x, y (percent)
+         mapImage (data URI), generatedAt, labels.*
+-->
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org" lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8"/>
+  <title th:text="${journey.title}">رحلتي في إكسبو</title>
+  <style type="text/css">
+    @page {
+      size: A4;
+      margin: 12mm 0 12mm 0;
+      background-color: #070E26;
+    }
+    html, body {
+      margin: 0;
+      padding: 0;
+      background-color: #070E26;
+      color: #FFFFFF;
+      font-family: 'Cairo', sans-serif;
+      font-size: 11pt;
+      direction: rtl;
+    }
+    .page { padding: 0 11mm; }
+    table { border-collapse: collapse; width: 100%; }
+    td { vertical-align: middle; }
+
+    /* ---------- header ---------- */
+    .brand-name { font-size: 20pt; font-weight: bold; color: #FFFFFF; padding-right: 10px; }
+    .brand-tag  { font-size: 8.5pt; color: #8FA0CF; padding-right: 10px; }
+    .date-pill  { background-color: #0F1A3D; border: 1px solid #1E2C5C; border-radius: 14px;
+                  padding: 5px 14px; color: #FFFFFF; font-size: 9.5pt; text-align: center; }
+    .hr { border-top: 1px solid #1E2C5C; margin: 14px 0 18px 0; }
+
+    /* ---------- title + stats ---------- */
+    .kicker { color: #8AED03; font-size: 10pt; font-weight: bold; }
+    .title  { font-size: 22pt; font-weight: bold; margin: 2px 0 4px 0; }
+    .sub    { color: #8FA0CF; font-size: 10pt; margin-bottom: 2px; }
+    .stats  { margin-top: 12px; }
+    .stat-cell { padding-left: 8px; }
+    .stat-cell-last { padding-left: 0; }
+    .stat { background-color: #0F1A3D; border: 1px solid #1E2C5C; border-radius: 14px;
+            padding: 10px 14px; }
+    .stat-num   { font-size: 17pt; font-weight: bold; color: #8AED03; }
+    .stat-unit  { font-size: 9pt; color: #8FA0CF; }
+    .stat-label { font-size: 8.5pt; color: #8FA0CF; }
+
+    /* ---------- map ---------- */
+    .section-title { font-size: 12pt; font-weight: bold; margin: 20px 0 8px 0; page-break-after: avoid; }
+    .map-box { position: relative; margin: 0 auto; background-color: #0B1536;
+               border: 1px solid #1E2C5C; overflow: hidden; }
+    .map-img { position: absolute; top: 0; left: 0; }
+    .map-svg { position: absolute; top: 0; left: 0; }
+    .legend { width: 600px; margin: 0 auto; }
+    .legend td { font-size: 8.5pt; color: #8FA0CF; padding-top: 6px; white-space: nowrap; width: 33.33%; text-align: center; }
+    .dot { display: inline-block; width: 9px; height: 9px; border-radius: 5px; margin-left: 6px; }
+    .gate-pin { position: absolute; width: 44px; margin-left: -22px; margin-top: -10px; text-align: center;
+                background-color: #FFA629; color: #070E26; border-radius: 10px; font-size: 7.5pt;
+                font-weight: bold; line-height: 16px; height: 16px; border: 1px solid #070E26; }
+
+    /* ---------- stops ---------- */
+    .stop { background-color: #0F1A3D; border: 1px solid #1E2C5C; border-radius: 14px;
+            margin-bottom: 8px; page-break-inside: avoid; }
+    .stop td { padding: 9px 12px; }
+    .badge { width: 28px; height: 28px; border-radius: 14px; text-align: center;
+             font-weight: bold; font-size: 11pt; line-height: 28px; }
+    .badge-stamped { background-color: #8AED03; color: #070E26; }
+    .badge-planned { background-color: #2A5BFF; color: #FFFFFF; }
+    .pin { position: absolute; width: 22px; height: 22px; margin-left: -11px; margin-top: -11px;
+           border-radius: 11px; text-align: center; font-weight: bold; font-size: 9pt; line-height: 22px;
+           border: 2px solid #070E26; }
+    .stop-name { font-size: 12pt; font-weight: bold; }
+    .stop-meta { font-size: 8.5pt; color: #8FA0CF; }
+    .pill { display: inline-block; border-radius: 10px; padding: 2px 10px; font-size: 8.5pt;
+            font-weight: bold; }
+    .pill-stamped { background-color: #1D3A12; color: #8AED03; border: 1px solid #8AED03; }
+    .pill-planned { background-color: #14245E; color: #8FA9FF; border: 1px solid #2A5BFF; }
+
+    /* ---------- footer ---------- */
+    .closing { margin-top: 22px; text-align: center; color: #8AED03; font-size: 13pt; font-weight: bold; page-break-inside: avoid; }
+    .footer { margin-top: 10px; color: #8FA0CF; font-size: 8.5pt; text-align: center; }
+  </style>
+</head>
+<body>
+<div class="page">
+
+  <!-- ===== header ===== -->
+  <table>
+    <tr>
+      <td style="width: 60%;">
+        <table style="width: auto;">
+          <tr>
+            <td>
+              <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 180 180">
+                <defs>
+                  <linearGradient id="wijhaGrad" x1="0" y1="0" x2="1" y2="1">
+                    <stop offset="0.05" stop-color="#5A82FF"/>
+                    <stop offset="0.32" stop-color="#2A5BFF"/>
+                    <stop offset="0.78" stop-color="#8AED03"/>
+                  </linearGradient>
+                </defs>
+                <polygon points="14,14 166,76 92,92 76,166" fill="url(#wijhaGrad)"
+                         stroke="url(#wijhaGrad)" stroke-width="14" stroke-linejoin="round"/>
+              </svg>
+            </td>
+            <td>
+              <div class="brand-name" th:text="${labels.brand}">وجهة</div>
+              <div class="brand-tag" th:text="${labels.brandTag}">مسارك في إكسبو 2030 الرياض</div>
+            </td>
+          </tr>
+        </table>
+      </td>
+      <td style="width: 40%; text-align: left;">
+        <span class="date-pill" th:text="${journey.dateLabel}">الثلاثاء ١٥ أكتوبر</span>
+      </td>
+    </tr>
+  </table>
+  <div class="hr"></div>
+
+  <!-- ===== title ===== -->
+  <div class="kicker" th:text="${labels.kicker}">خطة الرحلة</div>
+  <div class="title" th:text="${journey.title}">رحلتي في إكسبو</div>
+  <div class="sub" th:if="${journey.partyLine != null}" th:text="${journey.partyLine}">عدد المرافقين: ٣ | مع أطفال</div>
+  <div class="sub" th:if="${journey.entranceName != null}"
+       th:text="${labels.enterFrom + ' ' + journey.entranceName + (journey.exitName != null ? ' | ' + labels.exitFrom + ' ' + journey.exitName : '')}">الدخول من ...</div>
+
+  <!-- ===== stats ===== -->
+  <table class="stats">
+    <tr>
+      <td class="stat-cell">
+        <div class="stat">
+          <span class="stat-num" th:text="${journey.stopsCount}">6</span>
+          <span class="stat-unit" th:text="${labels.stops}">محطات</span>
+          <div class="stat-label" th:text="${labels.stopsLabel}">عدد الأجنحة في الرحلة</div>
+        </div>
+      </td>
+      <td class="stat-cell" th:if="${journey.distanceKm != null}">
+        <div class="stat">
+          <span class="stat-num" th:text="${journey.distanceKm}">3.2</span>
+          <span class="stat-unit" th:text="${labels.km}">كم</span>
+          <div class="stat-label" th:text="${labels.distanceLabel}">مسافة المشي التقريبية</div>
+        </div>
+      </td>
+      <td class="stat-cell stat-cell-last">
+        <div class="stat">
+          <span class="stat-num" th:text="${journey.departureTime}">4:30 م</span>
+          <div class="stat-label" th:text="${labels.departureLabel}">وقت المغادرة</div>
+        </div>
+      </td>
+    </tr>
+  </table>
+
+  <!-- ===== map ===== -->
+  <div class="section-title" th:text="${labels.mapTitle}">خريطة المسار</div>
+  <div class="map-box" th:attr="style=${'width:' + journey.mapWidth + 'px; height:' + journey.mapHeight + 'px;'}">
+    <img class="map-img" th:if="${mapImage != null}" th:src="${mapImage}" alt="" src=""
+         th:attr="width=${journey.mapWidth},height=${journey.mapHeight},style=${'width:' + journey.mapWidth + 'px; height:' + journey.mapHeight + 'px;'}"/>
+    <svg class="map-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none"
+         th:attr="width=${journey.mapWidth},height=${journey.mapHeight}">
+      <!-- walking route (all points of the shortest path, in percent of the map) -->
+      <polyline th:if="${journey.routePoints != null}" th:attr="points=${journey.routePoints}"
+                fill="none" stroke="#8AED03" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+    <!-- pins are plain HTML so they stay round whatever the map's aspect ratio -->
+    <div th:each="g : ${journey.gates}" class="gate-pin" th:text="${g.label}"
+         th:attr="style=${'left:' + g.x + '%; top:' + g.y + '%;'}">دخول</div>
+    <div th:each="s : ${journey.stops}" th:if="${s.x != null}"
+         th:attr="class=${'pin badge-' + #strings.toLowerCase(s.status)},
+                  style=${'left:' + s.x + '%; top:' + s.y + '%;'}"
+         th:text="${s.order}">1</div>
+  </div>
+  <table class="legend">
+    <tr>
+      <td><span class="dot" style="background-color:#8AED03;"></span>&#160;<span th:text="${labels.legendStamped}">تم الختم</span></td>
+      <td><span class="dot" style="background-color:#2A5BFF;"></span>&#160;<span th:text="${labels.legendPlanned}">مخطط</span></td>
+      <td><span class="dot" style="background-color:#FFA629;"></span>&#160;<span th:text="${labels.legendGate}">البوابات</span></td>
+    </tr>
+  </table>
+
+  <!-- ===== stops ===== -->
+  <div class="section-title" th:text="${labels.stopsTitle}">محطات الرحلة</div>
+  <table class="stop" th:each="s : ${journey.stops}">
+    <tr>
+      <td style="width: 44px;">
+        <div th:attr="class=${'badge badge-' + #strings.toLowerCase(s.status)}" th:text="${s.order}">1</div>
+      </td>
+      <td>
+        <div class="stop-name" th:text="${s.name}">Ireland Pavilion</div>
+        <div class="stop-meta" th:text="${s.zone}">Humanity</div>
+      </td>
+      <td style="width: 90px; text-align: center;">
+        <div class="stop-meta" th:text="${s.visitTime}">4:45 م</div>
+      </td>
+      <td style="width: 110px; text-align: left;">
+        <span th:attr="class=${'pill pill-' + #strings.toLowerCase(s.status)}"
+              th:text="${labels.status[s.status]}">مخطط</span>
+      </td>
+    </tr>
+  </table>
+
+  <div class="closing" th:text="${journey.closingMessage}">نتمنى لكم رحلة سعيدة!</div>
+
+  <div class="footer">
+    <span th:text="${labels.generatedBy + ' | ' + generatedAt}">أُنشئ عبر وجهة | ١٥ أكتوبر ٢٠٢٦</span>
+  </div>
+</div>
+</body>
+</html>

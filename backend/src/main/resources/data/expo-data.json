@@ -1,0 +1,3696 @@
+{
+  "meta": {
+    "notes": "Pavilions are real national pavilions from Expo 2025 Osaka, placed on our own Expo 2030 Riyadh map. Zones follow the five Expo 2030 Riyadh sub-themes (BIE). Images are from Wikimedia Commons.",
+    "coordinates": "x and y from 0 to 1000, center (500,500), north is y=0, south main gate at the bottom.",
+    "fieldsNotInDatabase": [
+      "country",
+      "sourceExpo",
+      "imageSource"
+    ],
+    "paths": "Each path links two points by type and name (ZONE, ENTRANCE, PAVILION). Distance is calculated from x and y.",
+    "accessibility": "Demo accessibility data for testing (Expo 2030 is not open yet). Each pavilion has a status per need: ACCESSIBLE, PARTIAL or NOT_ACCESSIBLE. Paths have stepFree (no stairs) and shaded.",
+    "crowd": "Demo crowd data: capacity is how many people the pavilion holds at once, avgVisitMinutes is the usual time inside. Used to estimate the queue from the roadmaps."
+  },
+  "interests": [
+    {
+      "name": "Technology & AI",
+      "nameAr": "التقنية والذكاء الاصطناعي"
+    },
+    {
+      "name": "Space",
+      "nameAr": "الفضاء"
+    },
+    {
+      "name": "Science",
+      "nameAr": "العلوم"
+    },
+    {
+      "name": "Sustainability",
+      "nameAr": "الاستدامة"
+    },
+    {
+      "name": "Nature & Wildlife",
+      "nameAr": "الطبيعة والحياة البرية"
+    },
+    {
+      "name": "Oceans",
+      "nameAr": "البحار والمحيطات"
+    },
+    {
+      "name": "Art & Design",
+      "nameAr": "الفن والتصميم"
+    },
+    {
+      "name": "Architecture",
+      "nameAr": "العمارة"
+    },
+    {
+      "name": "History & Heritage",
+      "nameAr": "التاريخ والتراث"
+    },
+    {
+      "name": "Music & Performance",
+      "nameAr": "الموسيقى والعروض"
+    },
+    {
+      "name": "Food & Cuisine",
+      "nameAr": "الأكل والمطابخ"
+    },
+    {
+      "name": "Health & Wellbeing",
+      "nameAr": "الصحة وجودة الحياة"
+    },
+    {
+      "name": "Crafts",
+      "nameAr": "الحرف اليدوية"
+    },
+    {
+      "name": "Innovation & Business",
+      "nameAr": "الابتكار والأعمال"
+    }
+  ],
+  "zones": [
+    {
+      "name": "Collaboration",
+      "description": "Central district of the site. Brings nations together around global partnership, with the host pavilion and joint multi-country pavilions.",
+      "location": {
+        "x": 500,
+        "y": 480
+      }
+    },
+    {
+      "name": "Technology",
+      "description": "Transformational technology: AI, robotics, mobility, space and digital innovation shaping the future.",
+      "location": {
+        "x": 290,
+        "y": 280
+      }
+    },
+    {
+      "name": "Planet",
+      "description": "Climate action and sustainability: clean energy, water, oceans, forests and circular economy.",
+      "location": {
+        "x": 710,
+        "y": 280
+      }
+    },
+    {
+      "name": "Culture",
+      "description": "Heritage, arts and creativity: how nations express their identity, history and traditions.",
+      "location": {
+        "x": 290,
+        "y": 690
+      }
+    },
+    {
+      "name": "Humanity",
+      "description": "People and prosperity: health, wellbeing, education and better lives for communities.",
+      "location": {
+        "x": 710,
+        "y": 690
+      }
+    }
+  ],
+  "entrances": [
+    {
+      "name": "South Main Gate",
+      "location": {
+        "x": 500,
+        "y": 960
+      }
+    },
+    {
+      "name": "North Gate",
+      "location": {
+        "x": 500,
+        "y": 40
+      }
+    },
+    {
+      "name": "East Gate",
+      "location": {
+        "x": 960,
+        "y": 480
+      }
+    },
+    {
+      "name": "West Gate",
+      "location": {
+        "x": 40,
+        "y": 480
+      }
+    }
+  ],
+  "pavilions": [
+    {
+      "name": "Japan Pavilion",
+      "country": "Japan",
+      "description": "Built from timber panels in a ring shape. Its theme 'Between Lives' shows circulation and recycling, and it displayed a large Martian meteorite.",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Expo_2025_Japan_Pavilion_01.JPG?width=1024",
+      "zone": "Technology",
+      "location": {
+        "x": 290,
+        "y": 210
+      },
+      "sourceExpo": "Expo 2025 Osaka",
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Expo_2025_Japan_Pavilion_01.JPG",
+      "accessibility": {
+        "WHEELCHAIR": {
+          "status": "ACCESSIBLE",
+          "note": "Step-free entrance, wide aisles and a lift to every level",
+          "noteAr": "مدخل بدون درج وممرات واسعة ومصعد لكل الأدوار"
+        },
+        "LIMITED_MOBILITY": {
+          "status": "ACCESSIBLE",
+          "note": "Short route inside with seating every few meters",
+          "noteAr": "جولة قصيرة داخل الجناح مع كراسي جلوس قريبة"
+        },
+        "VISUAL": {
+          "status": "ACCESSIBLE",
+          "note": "Audio guide, braille signs and tactile models",
+          "noteAr": "دليل صوتي ولوحات برايل ومجسمات باللمس"
+        },
+        "HEARING": {
+          "status": "PARTIAL",
+          "note": "Captions on the main show only",
+          "noteAr": "ترجمة نصية للعرض الرئيسي فقط"
+        },
+        "SENSORY": {
+          "status": "NOT_ACCESSIBLE",
+          "note": "Strong light and sound effects and big crowds",
+          "noteAr": "مؤثرات ضوئية وصوتية قوية وزحام كبير"
+        },
+        "STROLLER_ELDERLY": {
+          "status": "NOT_ACCESSIBLE",
+          "note": "Narrow stairs only, no lift",
+          "noteAr": "درج ضيق فقط وبدون مصعد"
+        }
+      },
+      "capacity": 360,
+      "avgVisitMinutes": 30
+    },
+    {
+      "name": "United States Pavilion",
+      "country": "United States",
+      "description": "Theme 'Let's Dream Together'. Two buildings linked by a giant LED screen, with space exploration exhibits including a Moon rock.",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Expo_2025_United_States_Pavilion_01.JPG?width=1024",
+      "zone": "Technology",
+      "location": {
+        "x": 350,
+        "y": 176
+      },
+      "sourceExpo": "Expo 2025 Osaka",
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Expo_2025_United_States_Pavilion_01.JPG",
+      "accessibility": {
+        "WHEELCHAIR": {
+          "status": "ACCESSIBLE",
+          "note": "Step-free entrance, wide aisles and a lift to every level",
+          "noteAr": "مدخل بدون درج وممرات واسعة ومصعد لكل الأدوار"
+        },
+        "LIMITED_MOBILITY": {
+          "status": "ACCESSIBLE",
+          "note": "Short route inside with seating every few meters",
+          "noteAr": "جولة قصيرة داخل الجناح مع كراسي جلوس قريبة"
+        },
+        "VISUAL": {
+          "status": "PARTIAL",
+          "note": "Audio guide available, exhibits are mostly visual screens",
+          "noteAr": "فيه دليل صوتي، بس أغلب المعروضات شاشات مرئية"
+        },
+        "HEARING": {
+          "status": "ACCESSIBLE",
+          "note": "Captions on all shows and sign language guides",
+          "noteAr": "ترجمة نصية لكل العروض ومرشدين بلغة الإشارة"
+        },
+        "SENSORY": {
+          "status": "NOT_ACCESSIBLE",
+          "note": "Strong light and sound effects and big crowds",
+          "noteAr": "مؤثرات ضوئية وصوتية قوية وزحام كبير"
+        },
+        "STROLLER_ELDERLY": {
+          "status": "PARTIAL",
+          "note": "Strollers must be left at the entrance",
+          "noteAr": "لازم تترك عربة الأطفال عند المدخل"
+        }
+      },
+      "capacity": 340,
+      "avgVisitMinutes": 30
+    },
+    {
+      "name": "China Pavilion",
+      "country": "China",
+      "description": "Facade inspired by bamboo scrolls. Showcases harmony between people and nature and China's space program, including lunar samples.",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/China_Pavilion_at_Expo_2025.jpg?width=1024",
+      "zone": "Technology",
+      "location": {
+        "x": 351,
+        "y": 245
+      },
+      "sourceExpo": "Expo 2025 Osaka",
+      "imageSource": "https://commons.wikimedia.org/wiki/File:China_Pavilion_at_Expo_2025.jpg",
+      "accessibility": {
+        "WHEELCHAIR": {
+          "status": "PARTIAL",
+          "note": "Ground floor is step-free, the upper gallery has stairs only",
+          "noteAr": "الدور الأرضي بدون درج، والدور العلوي بدرج فقط"
+        },
+        "LIMITED_MOBILITY": {
+          "status": "ACCESSIBLE",
+          "note": "Short route inside with seating every few meters",
+          "noteAr": "جولة قصيرة داخل الجناح مع كراسي جلوس قريبة"
+        },
+        "VISUAL": {
+          "status": "NOT_ACCESSIBLE",
+          "note": "Dark immersive rooms with screen-only content",
+          "noteAr": "غرف مظلمة وعروض على الشاشات فقط"
+        },
+        "HEARING": {
+          "status": "NOT_ACCESSIBLE",
+          "note": "Spoken show with no captions or sign language",
+          "noteAr": "عرض صوتي بدون ترجمة نصية أو لغة إشارة"
+        },
+        "SENSORY": {
+          "status": "NOT_ACCESSIBLE",
+          "note": "Strong light and sound effects and big crowds",
+          "noteAr": "مؤثرات ضوئية وصوتية قوية وزحام كبير"
+        },
+        "STROLLER_ELDERLY": {
+          "status": "PARTIAL",
+          "note": "Strollers must be left at the entrance",
+          "noteAr": "لازم تترك عربة الأطفال عند المدخل"
+        }
+      },
+      "capacity": 360,
+      "avgVisitMinutes": 30
+    },
+    {
+      "name": "South Korea Pavilion",
+      "country": "South Korea",
+      "description": "Large media facade with immersive digital shows about Korean technology, clean energy and culture.",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Korea_Pavilion_at_Expo_2025.jpg?width=1024",
+      "zone": "Technology",
+      "location": {
+        "x": 410,
+        "y": 280
+      },
+      "sourceExpo": "Expo 2025 Osaka",
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Korea_Pavilion_at_Expo_2025.jpg",
+      "accessibility": {
+        "WHEELCHAIR": {
+          "status": "ACCESSIBLE",
+          "note": "Step-free entrance, wide aisles and a lift to every level",
+          "noteAr": "مدخل بدون درج وممرات واسعة ومصعد لكل الأدوار"
+        },
+        "LIMITED_MOBILITY": {
+          "status": "PARTIAL",
+          "note": "Long standing queue and about 400 m of walking inside",
+          "noteAr": "طابور وقوف طويل وحوالي 400 متر مشي داخل الجناح"
+        },
+        "VISUAL": {
+          "status": "PARTIAL",
+          "note": "Audio guide available, exhibits are mostly visual screens",
+          "noteAr": "فيه دليل صوتي، بس أغلب المعروضات شاشات مرئية"
+        },
+        "HEARING": {
+          "status": "PARTIAL",
+          "note": "Captions on the main show only",
+          "noteAr": "ترجمة نصية للعرض الرئيسي فقط"
+        },
+        "SENSORY": {
+          "status": "PARTIAL",
+          "note": "One loud show room, the rest of the pavilion is calm",
+          "noteAr": "غرفة عرض صوتها عالي، وباقي الجناح هادئ"
+        },
+        "STROLLER_ELDERLY": {
+          "status": "ACCESSIBLE",
+          "note": "Stroller parking, lifts and seating areas",
+          "noteAr": "مواقف عربات أطفال ومصاعد وأماكن جلوس"
+        }
+      },
+      "capacity": 260,
+      "avgVisitMinutes": 25
+    },
+    {
+      "name": "Singapore Pavilion",
+      "country": "Singapore",
+      "description": "A bright red sphere called the 'Dream Sphere', presenting Singapore as a smart and green city of the future.",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Exterior_of_Singapore_Pavilion_Expo_2025_20250712_03.jpg?width=1024",
+      "zone": "Technology",
+      "location": {
+        "x": 351,
+        "y": 315
+      },
+      "sourceExpo": "Expo 2025 Osaka",
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Exterior_of_Singapore_Pavilion_Expo_2025_20250712_03.jpg",
+      "accessibility": {
+        "WHEELCHAIR": {
+          "status": "ACCESSIBLE",
+          "note": "Step-free entrance, wide aisles and a lift to every level",
+          "noteAr": "مدخل بدون درج وممرات واسعة ومصعد لكل الأدوار"
+        },
+        "LIMITED_MOBILITY": {
+          "status": "PARTIAL",
+          "note": "Long standing queue and about 400 m of walking inside",
+          "noteAr": "طابور وقوف طويل وحوالي 400 متر مشي داخل الجناح"
+        },
+        "VISUAL": {
+          "status": "ACCESSIBLE",
+          "note": "Audio guide, braille signs and tactile models",
+          "noteAr": "دليل صوتي ولوحات برايل ومجسمات باللمس"
+        },
+        "HEARING": {
+          "status": "ACCESSIBLE",
+          "note": "Captions on all shows and sign language guides",
+          "noteAr": "ترجمة نصية لكل العروض ومرشدين بلغة الإشارة"
+        },
+        "SENSORY": {
+          "status": "PARTIAL",
+          "note": "One loud show room, the rest of the pavilion is calm",
+          "noteAr": "غرفة عرض صوتها عالي، وباقي الجناح هادئ"
+        },
+        "STROLLER_ELDERLY": {
+          "status": "ACCESSIBLE",
+          "note": "Stroller parking, lifts and seating areas",
+          "noteAr": "مواقف عربات أطفال ومصاعد وأماكن جلوس"
+        }
+      },
+      "capacity": 60,
+      "avgVisitMinutes": 15
+    },
+    {
+      "name": "United Arab Emirates Pavilion",
+      "country": "United Arab Emirates",
+      "description": "Theme 'Earth to Ether'. Columns made from date palm ribs, showing UAE ambitions from heritage to space and science.",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Osaka_Expo2025_UAE_Pavilion.jpg?width=1024",
+      "zone": "Technology",
+      "location": {
+        "x": 350,
+        "y": 384
+      },
+      "sourceExpo": "Expo 2025 Osaka",
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Osaka_Expo2025_UAE_Pavilion.jpg",
+      "accessibility": {
+        "WHEELCHAIR": {
+          "status": "ACCESSIBLE",
+          "note": "Step-free entrance, wide aisles and a lift to every level",
+          "noteAr": "مدخل بدون درج وممرات واسعة ومصعد لكل الأدوار"
+        },
+        "LIMITED_MOBILITY": {
+          "status": "PARTIAL",
+          "note": "Long standing queue and about 400 m of walking inside",
+          "noteAr": "طابور وقوف طويل وحوالي 400 متر مشي داخل الجناح"
+        },
+        "VISUAL": {
+          "status": "ACCESSIBLE",
+          "note": "Audio guide, braille signs and tactile models",
+          "noteAr": "دليل صوتي ولوحات برايل ومجسمات باللمس"
+        },
+        "HEARING": {
+          "status": "ACCESSIBLE",
+          "note": "Captions on all shows and sign language guides",
+          "noteAr": "ترجمة نصية لكل العروض ومرشدين بلغة الإشارة"
+        },
+        "SENSORY": {
+          "status": "NOT_ACCESSIBLE",
+          "note": "Strong light and sound effects and big crowds",
+          "noteAr": "مؤثرات ضوئية وصوتية قوية وزحام كبير"
+        },
+        "STROLLER_ELDERLY": {
+          "status": "PARTIAL",
+          "note": "Strollers must be left at the entrance",
+          "noteAr": "لازم تترك عربة الأطفال عند المدخل"
+        }
+      },
+      "capacity": 300,
+      "avgVisitMinutes": 30
+    },
+    {
+      "name": "United Kingdom Pavilion",
+      "country": "United Kingdom",
+      "description": "Theme 'Come Build The Future'. Built around the idea of building blocks, showing British innovation and creativity.",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Expo_2025_United_Kingdom_Pavilion_01.JPG?width=1024",
+      "zone": "Technology",
+      "location": {
+        "x": 290,
+        "y": 350
+      },
+      "sourceExpo": "Expo 2025 Osaka",
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Expo_2025_United_Kingdom_Pavilion_01.JPG",
+      "accessibility": {
+        "WHEELCHAIR": {
+          "status": "ACCESSIBLE",
+          "note": "Step-free entrance, wide aisles and a lift to every level",
+          "noteAr": "مدخل بدون درج وممرات واسعة ومصعد لكل الأدوار"
+        },
+        "LIMITED_MOBILITY": {
+          "status": "ACCESSIBLE",
+          "note": "Short route inside with seating every few meters",
+          "noteAr": "جولة قصيرة داخل الجناح مع كراسي جلوس قريبة"
+        },
+        "VISUAL": {
+          "status": "NOT_ACCESSIBLE",
+          "note": "Dark immersive rooms with screen-only content",
+          "noteAr": "غرف مظلمة وعروض على الشاشات فقط"
+        },
+        "HEARING": {
+          "status": "ACCESSIBLE",
+          "note": "Captions on all shows and sign language guides",
+          "noteAr": "ترجمة نصية لكل العروض ومرشدين بلغة الإشارة"
+        },
+        "SENSORY": {
+          "status": "ACCESSIBLE",
+          "note": "Calm lighting, low sound and a quiet room",
+          "noteAr": "إضاءة هادئة وصوت منخفض وغرفة هادئة"
+        },
+        "STROLLER_ELDERLY": {
+          "status": "NOT_ACCESSIBLE",
+          "note": "Narrow stairs only, no lift",
+          "noteAr": "درج ضيق فقط وبدون مصعد"
+        }
+      },
+      "capacity": 240,
+      "avgVisitMinutes": 25
+    },
+    {
+      "name": "Luxembourg Pavilion",
+      "country": "Luxembourg",
+      "description": "Theme 'Doki Doki' (heartbeat). Presents Luxembourg as a small, multicultural country focused on innovation and the future.",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Expo_2025_Luxembourg_Pavilion_01.JPG?width=1024",
+      "zone": "Technology",
+      "location": {
+        "x": 230,
+        "y": 384
+      },
+      "sourceExpo": "Expo 2025 Osaka",
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Expo_2025_Luxembourg_Pavilion_01.JPG",
+      "accessibility": {
+        "WHEELCHAIR": {
+          "status": "ACCESSIBLE",
+          "note": "Step-free entrance, wide aisles and a lift to every level",
+          "noteAr": "مدخل بدون درج وممرات واسعة ومصعد لكل الأدوار"
+        },
+        "LIMITED_MOBILITY": {
+          "status": "NOT_ACCESSIBLE",
+          "note": "Steep ramps and a long walk with no places to sit",
+          "noteAr": "منحدرات شديدة ومشي طويل بدون أماكن جلوس"
+        },
+        "VISUAL": {
+          "status": "ACCESSIBLE",
+          "note": "Audio guide, braille signs and tactile models",
+          "noteAr": "دليل صوتي ولوحات برايل ومجسمات باللمس"
+        },
+        "HEARING": {
+          "status": "NOT_ACCESSIBLE",
+          "note": "Spoken show with no captions or sign language",
+          "noteAr": "عرض صوتي بدون ترجمة نصية أو لغة إشارة"
+        },
+        "SENSORY": {
+          "status": "NOT_ACCESSIBLE",
+          "note": "Strong light and sound effects and big crowds",
+          "noteAr": "مؤثرات ضوئية وصوتية قوية وزحام كبير"
+        },
+        "STROLLER_ELDERLY": {
+          "status": "ACCESSIBLE",
+          "note": "Stroller parking, lifts and seating areas",
+          "noteAr": "مواقف عربات أطفال ومصاعد وأماكن جلوس"
+        }
+      },
+      "capacity": 220,
+      "avgVisitMinutes": 25
+    },
+    {
+      "name": "Czech Republic Pavilion",
+      "country": "Czech Republic",
+      "description": "Glass and timber building with a spiral walkway, celebrating Czech glassmaking, talent and creativity.",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Czech_Pavilion_Expo_2025.jpg?width=1024",
+      "zone": "Technology",
+      "location": {
+        "x": 229,
+        "y": 315
+      },
+      "sourceExpo": "Expo 2025 Osaka",
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Czech_Pavilion_Expo_2025.jpg",
+      "accessibility": {
+        "WHEELCHAIR": {
+          "status": "ACCESSIBLE",
+          "note": "Step-free entrance, wide aisles and a lift to every level",
+          "noteAr": "مدخل بدون درج وممرات واسعة ومصعد لكل الأدوار"
+        },
+        "LIMITED_MOBILITY": {
+          "status": "ACCESSIBLE",
+          "note": "Short route inside with seating every few meters",
+          "noteAr": "جولة قصيرة داخل الجناح مع كراسي جلوس قريبة"
+        },
+        "VISUAL": {
+          "status": "NOT_ACCESSIBLE",
+          "note": "Dark immersive rooms with screen-only content",
+          "noteAr": "غرف مظلمة وعروض على الشاشات فقط"
+        },
+        "HEARING": {
+          "status": "ACCESSIBLE",
+          "note": "Captions on all shows and sign language guides",
+          "noteAr": "ترجمة نصية لكل العروض ومرشدين بلغة الإشارة"
+        },
+        "SENSORY": {
+          "status": "PARTIAL",
+          "note": "One loud show room, the rest of the pavilion is calm",
+          "noteAr": "غرفة عرض صوتها عالي، وباقي الجناح هادئ"
+        },
+        "STROLLER_ELDERLY": {
+          "status": "ACCESSIBLE",
+          "note": "Stroller parking, lifts and seating areas",
+          "noteAr": "مواقف عربات أطفال ومصاعد وأماكن جلوس"
+        }
+      },
+      "capacity": 160,
+      "avgVisitMinutes": 20
+    },
+    {
+      "name": "India Pavilion",
+      "country": "India",
+      "description": "Bharat pavilion inspired by the lotus. Shows India's technology, space missions and culture.",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Expo_2025_India_Pavilion_01.JPG?width=1024",
+      "zone": "Technology",
+      "location": {
+        "x": 170,
+        "y": 280
+      },
+      "sourceExpo": "Expo 2025 Osaka",
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Expo_2025_India_Pavilion_01.JPG",
+      "accessibility": {
+        "WHEELCHAIR": {
+          "status": "ACCESSIBLE",
+          "note": "Step-free entrance, wide aisles and a lift to every level",
+          "noteAr": "مدخل بدون درج وممرات واسعة ومصعد لكل الأدوار"
+        },
+        "LIMITED_MOBILITY": {
+          "status": "NOT_ACCESSIBLE",
+          "note": "Steep ramps and a long walk with no places to sit",
+          "noteAr": "منحدرات شديدة ومشي طويل بدون أماكن جلوس"
+        },
+        "VISUAL": {
+          "status": "PARTIAL",
+          "note": "Audio guide available, exhibits are mostly visual screens",
+          "noteAr": "فيه دليل صوتي، بس أغلب المعروضات شاشات مرئية"
+        },
+        "HEARING": {
+          "status": "PARTIAL",
+          "note": "Captions on the main show only",
+          "noteAr": "ترجمة نصية للعرض الرئيسي فقط"
+        },
+        "SENSORY": {
+          "status": "PARTIAL",
+          "note": "One loud show room, the rest of the pavilion is calm",
+          "noteAr": "غرفة عرض صوتها عالي، وباقي الجناح هادئ"
+        },
+        "STROLLER_ELDERLY": {
+          "status": "ACCESSIBLE",
+          "note": "Stroller parking, lifts and seating areas",
+          "noteAr": "مواقف عربات أطفال ومصاعد وأماكن جلوس"
+        }
+      },
+      "capacity": 110,
+      "avgVisitMinutes": 20
+    },
+    {
+      "name": "Kuwait Pavilion",
+      "country": "Kuwait",
+      "description": "Presents Kuwait's vision for the future, from its desert and sea heritage to modern development.",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Kuwait_Pavilion_at_Expo_2025.jpg?width=1024",
+      "zone": "Technology",
+      "location": {
+        "x": 229,
+        "y": 245
+      },
+      "sourceExpo": "Expo 2025 Osaka",
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Kuwait_Pavilion_at_Expo_2025.jpg",
+      "accessibility": {
+        "WHEELCHAIR": {
+          "status": "PARTIAL",
+          "note": "Ground floor is step-free, the upper gallery has stairs only",
+          "noteAr": "الدور الأرضي بدون درج، والدور العلوي بدرج فقط"
+        },
+        "LIMITED_MOBILITY": {
+          "status": "PARTIAL",
+          "note": "Long standing queue and about 400 m of walking inside",
+          "noteAr": "طابور وقوف طويل وحوالي 400 متر مشي داخل الجناح"
+        },
+        "VISUAL": {
+          "status": "NOT_ACCESSIBLE",
+          "note": "Dark immersive rooms with screen-only content",
+          "noteAr": "غرف مظلمة وعروض على الشاشات فقط"
+        },
+        "HEARING": {
+          "status": "PARTIAL",
+          "note": "Captions on the main show only",
+          "noteAr": "ترجمة نصية للعرض الرئيسي فقط"
+        },
+        "SENSORY": {
+          "status": "ACCESSIBLE",
+          "note": "Calm lighting, low sound and a quiet room",
+          "noteAr": "إضاءة هادئة وصوت منخفض وغرفة هادئة"
+        },
+        "STROLLER_ELDERLY": {
+          "status": "ACCESSIBLE",
+          "note": "Stroller parking, lifts and seating areas",
+          "noteAr": "مواقف عربات أطفال ومصاعد وأماكن جلوس"
+        }
+      },
+      "capacity": 150,
+      "avgVisitMinutes": 20
+    },
+    {
+      "name": "Switzerland Pavilion",
+      "country": "Switzerland",
+      "description": "Light bubble-shaped membranes with the theme 'From Heidi to High-Tech', mixing Swiss nature and innovation.",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Switzerland_Pavilion_at_Expo_2025.jpg?width=1024",
+      "zone": "Technology",
+      "location": {
+        "x": 230,
+        "y": 176
+      },
+      "sourceExpo": "Expo 2025 Osaka",
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Switzerland_Pavilion_at_Expo_2025.jpg",
+      "accessibility": {
+        "WHEELCHAIR": {
+          "status": "NOT_ACCESSIBLE",
+          "note": "Entrance is on a raised platform with stairs and no ramp",
+          "noteAr": "المدخل على منصة مرتفعة بدرج وبدون منحدر"
+        },
+        "LIMITED_MOBILITY": {
+          "status": "ACCESSIBLE",
+          "note": "Short route inside with seating every few meters",
+          "noteAr": "جولة قصيرة داخل الجناح مع كراسي جلوس قريبة"
+        },
+        "VISUAL": {
+          "status": "PARTIAL",
+          "note": "Audio guide available, exhibits are mostly visual screens",
+          "noteAr": "فيه دليل صوتي، بس أغلب المعروضات شاشات مرئية"
+        },
+        "HEARING": {
+          "status": "ACCESSIBLE",
+          "note": "Captions on all shows and sign language guides",
+          "noteAr": "ترجمة نصية لكل العروض ومرشدين بلغة الإشارة"
+        },
+        "SENSORY": {
+          "status": "ACCESSIBLE",
+          "note": "Calm lighting, low sound and a quiet room",
+          "noteAr": "إضاءة هادئة وصوت منخفض وغرفة هادئة"
+        },
+        "STROLLER_ELDERLY": {
+          "status": "ACCESSIBLE",
+          "note": "Stroller parking, lifts and seating areas",
+          "noteAr": "مواقف عربات أطفال ومصاعد وأماكن جلوس"
+        }
+      },
+      "capacity": 70,
+      "avgVisitMinutes": 15
+    },
+    {
+      "name": "Germany Pavilion",
+      "country": "Germany",
+      "description": "Theme 'WA! Doitsu'. Round timber buildings that show the circular economy and how materials can be reused.",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Germany_Pavilion_at_Expo_2025.jpg?width=1024",
+      "zone": "Planet",
+      "location": {
+        "x": 710,
+        "y": 210
+      },
+      "sourceExpo": "Expo 2025 Osaka",
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Germany_Pavilion_at_Expo_2025.jpg",
+      "accessibility": {
+        "WHEELCHAIR": {
+          "status": "ACCESSIBLE",
+          "note": "Step-free entrance, wide aisles and a lift to every level",
+          "noteAr": "مدخل بدون درج وممرات واسعة ومصعد لكل الأدوار"
+        },
+        "LIMITED_MOBILITY": {
+          "status": "NOT_ACCESSIBLE",
+          "note": "Steep ramps and a long walk with no places to sit",
+          "noteAr": "منحدرات شديدة ومشي طويل بدون أماكن جلوس"
+        },
+        "VISUAL": {
+          "status": "ACCESSIBLE",
+          "note": "Audio guide, braille signs and tactile models",
+          "noteAr": "دليل صوتي ولوحات برايل ومجسمات باللمس"
+        },
+        "HEARING": {
+          "status": "PARTIAL",
+          "note": "Captions on the main show only",
+          "noteAr": "ترجمة نصية للعرض الرئيسي فقط"
+        },
+        "SENSORY": {
+          "status": "ACCESSIBLE",
+          "note": "Calm lighting, low sound and a quiet room",
+          "noteAr": "إضاءة هادئة وصوت منخفض وغرفة هادئة"
+        },
+        "STROLLER_ELDERLY": {
+          "status": "ACCESSIBLE",
+          "note": "Stroller parking, lifts and seating areas",
+          "noteAr": "مواقف عربات أطفال ومصاعد وأماكن جلوس"
+        }
+      },
+      "capacity": 260,
+      "avgVisitMinutes": 25
+    },
+    {
+      "name": "Netherlands Pavilion",
+      "country": "Netherlands",
+      "description": "Theme 'Common Ground'. A glowing sphere represents a new sun and clean energy, with a focus on water and sustainability.",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Expo_2025_Netherlands_Pavilion_01.JPG?width=1024",
+      "zone": "Planet",
+      "location": {
+        "x": 770,
+        "y": 176
+      },
+      "sourceExpo": "Expo 2025 Osaka",
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Expo_2025_Netherlands_Pavilion_01.JPG",
+      "accessibility": {
+        "WHEELCHAIR": {
+          "status": "NOT_ACCESSIBLE",
+          "note": "Entrance is on a raised platform with stairs and no ramp",
+          "noteAr": "المدخل على منصة مرتفعة بدرج وبدون منحدر"
+        },
+        "LIMITED_MOBILITY": {
+          "status": "PARTIAL",
+          "note": "Long standing queue and about 400 m of walking inside",
+          "noteAr": "طابور وقوف طويل وحوالي 400 متر مشي داخل الجناح"
+        },
+        "VISUAL": {
+          "status": "ACCESSIBLE",
+          "note": "Audio guide, braille signs and tactile models",
+          "noteAr": "دليل صوتي ولوحات برايل ومجسمات باللمس"
+        },
+        "HEARING": {
+          "status": "ACCESSIBLE",
+          "note": "Captions on all shows and sign language guides",
+          "noteAr": "ترجمة نصية لكل العروض ومرشدين بلغة الإشارة"
+        },
+        "SENSORY": {
+          "status": "PARTIAL",
+          "note": "One loud show room, the rest of the pavilion is calm",
+          "noteAr": "غرفة عرض صوتها عالي، وباقي الجناح هادئ"
+        },
+        "STROLLER_ELDERLY": {
+          "status": "PARTIAL",
+          "note": "Strollers must be left at the entrance",
+          "noteAr": "لازم تترك عربة الأطفال عند المدخل"
+        }
+      },
+      "capacity": 90,
+      "avgVisitMinutes": 15
+    },
+    {
+      "name": "Australia Pavilion",
+      "country": "Australia",
+      "description": "Design inspired by Australian nature and eucalyptus, presenting the country's landscapes, culture and sustainability.",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Australia_Pavilion_at_Expo_2025.jpg?width=1024",
+      "zone": "Planet",
+      "location": {
+        "x": 771,
+        "y": 245
+      },
+      "sourceExpo": "Expo 2025 Osaka",
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Australia_Pavilion_at_Expo_2025.jpg",
+      "accessibility": {
+        "WHEELCHAIR": {
+          "status": "ACCESSIBLE",
+          "note": "Step-free entrance, wide aisles and a lift to every level",
+          "noteAr": "مدخل بدون درج وممرات واسعة ومصعد لكل الأدوار"
+        },
+        "LIMITED_MOBILITY": {
+          "status": "PARTIAL",
+          "note": "Long standing queue and about 400 m of walking inside",
+          "noteAr": "طابور وقوف طويل وحوالي 400 متر مشي داخل الجناح"
+        },
+        "VISUAL": {
+          "status": "PARTIAL",
+          "note": "Audio guide available, exhibits are mostly visual screens",
+          "noteAr": "فيه دليل صوتي، بس أغلب المعروضات شاشات مرئية"
+        },
+        "HEARING": {
+          "status": "ACCESSIBLE",
+          "note": "Captions on all shows and sign language guides",
+          "noteAr": "ترجمة نصية لكل العروض ومرشدين بلغة الإشارة"
+        },
+        "SENSORY": {
+          "status": "PARTIAL",
+          "note": "One loud show room, the rest of the pavilion is calm",
+          "noteAr": "غرفة عرض صوتها عالي، وباقي الجناح هادئ"
+        },
+        "STROLLER_ELDERLY": {
+          "status": "PARTIAL",
+          "note": "Strollers must be left at the entrance",
+          "noteAr": "لازم تترك عربة الأطفال عند المدخل"
+        }
+      },
+      "capacity": 100,
+      "avgVisitMinutes": 20
+    },
+    {
+      "name": "Canada Pavilion",
+      "country": "Canada",
+      "description": "Theme 'Regeneration'. Shows how nature renews itself, with forms inspired by ice and Canadian landscapes.",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Expo_2025_Canada_Pavilion_01.JPG?width=1024",
+      "zone": "Planet",
+      "location": {
+        "x": 830,
+        "y": 280
+      },
+      "sourceExpo": "Expo 2025 Osaka",
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Expo_2025_Canada_Pavilion_01.JPG",
+      "accessibility": {
+        "WHEELCHAIR": {
+          "status": "ACCESSIBLE",
+          "note": "Step-free entrance, wide aisles and a lift to every level",
+          "noteAr": "مدخل بدون درج وممرات واسعة ومصعد لكل الأدوار"
+        },
+        "LIMITED_MOBILITY": {
+          "status": "ACCESSIBLE",
+          "note": "Short route inside with seating every few meters",
+          "noteAr": "جولة قصيرة داخل الجناح مع كراسي جلوس قريبة"
+        },
+        "VISUAL": {
+          "status": "ACCESSIBLE",
+          "note": "Audio guide, braille signs and tactile models",
+          "noteAr": "دليل صوتي ولوحات برايل ومجسمات باللمس"
+        },
+        "HEARING": {
+          "status": "PARTIAL",
+          "note": "Captions on the main show only",
+          "noteAr": "ترجمة نصية للعرض الرئيسي فقط"
+        },
+        "SENSORY": {
+          "status": "NOT_ACCESSIBLE",
+          "note": "Strong light and sound effects and big crowds",
+          "noteAr": "مؤثرات ضوئية وصوتية قوية وزحام كبير"
+        },
+        "STROLLER_ELDERLY": {
+          "status": "ACCESSIBLE",
+          "note": "Stroller parking, lifts and seating areas",
+          "noteAr": "مواقف عربات أطفال ومصاعد وأماكن جلوس"
+        }
+      },
+      "capacity": 130,
+      "avgVisitMinutes": 20
+    },
+    {
+      "name": "Portugal Pavilion",
+      "country": "Portugal",
+      "description": "Theme 'Ocean, the Blue Dialogue'. Designed by Kengo Kuma with hanging ropes and nets about the sea and its protection.",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Portugal_Pavilion_at_Expo_2025.jpg?width=1024",
+      "zone": "Planet",
+      "location": {
+        "x": 771,
+        "y": 315
+      },
+      "sourceExpo": "Expo 2025 Osaka",
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Portugal_Pavilion_at_Expo_2025.jpg",
+      "accessibility": {
+        "WHEELCHAIR": {
+          "status": "ACCESSIBLE",
+          "note": "Step-free entrance, wide aisles and a lift to every level",
+          "noteAr": "مدخل بدون درج وممرات واسعة ومصعد لكل الأدوار"
+        },
+        "LIMITED_MOBILITY": {
+          "status": "ACCESSIBLE",
+          "note": "Short route inside with seating every few meters",
+          "noteAr": "جولة قصيرة داخل الجناح مع كراسي جلوس قريبة"
+        },
+        "VISUAL": {
+          "status": "PARTIAL",
+          "note": "Audio guide available, exhibits are mostly visual screens",
+          "noteAr": "فيه دليل صوتي، بس أغلب المعروضات شاشات مرئية"
+        },
+        "HEARING": {
+          "status": "PARTIAL",
+          "note": "Captions on the main show only",
+          "noteAr": "ترجمة نصية للعرض الرئيسي فقط"
+        },
+        "SENSORY": {
+          "status": "ACCESSIBLE",
+          "note": "Calm lighting, low sound and a quiet room",
+          "noteAr": "إضاءة هادئة وصوت منخفض وغرفة هادئة"
+        },
+        "STROLLER_ELDERLY": {
+          "status": "ACCESSIBLE",
+          "note": "Stroller parking, lifts and seating areas",
+          "noteAr": "مواقف عربات أطفال ومصاعد وأماكن جلوس"
+        }
+      },
+      "capacity": 120,
+      "avgVisitMinutes": 20
+    },
+    {
+      "name": "Spain Pavilion",
+      "country": "Spain",
+      "description": "Focuses on the ocean and the sun, and the sea links between Spain and Japan, with a sustainability message.",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Spain_Pavilion_at_Expo_2025.jpg?width=1024",
+      "zone": "Planet",
+      "location": {
+        "x": 770,
+        "y": 384
+      },
+      "sourceExpo": "Expo 2025 Osaka",
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Spain_Pavilion_at_Expo_2025.jpg",
+      "accessibility": {
+        "WHEELCHAIR": {
+          "status": "NOT_ACCESSIBLE",
+          "note": "Entrance is on a raised platform with stairs and no ramp",
+          "noteAr": "المدخل على منصة مرتفعة بدرج وبدون منحدر"
+        },
+        "LIMITED_MOBILITY": {
+          "status": "ACCESSIBLE",
+          "note": "Short route inside with seating every few meters",
+          "noteAr": "جولة قصيرة داخل الجناح مع كراسي جلوس قريبة"
+        },
+        "VISUAL": {
+          "status": "ACCESSIBLE",
+          "note": "Audio guide, braille signs and tactile models",
+          "noteAr": "دليل صوتي ولوحات برايل ومجسمات باللمس"
+        },
+        "HEARING": {
+          "status": "PARTIAL",
+          "note": "Captions on the main show only",
+          "noteAr": "ترجمة نصية للعرض الرئيسي فقط"
+        },
+        "SENSORY": {
+          "status": "NOT_ACCESSIBLE",
+          "note": "Strong light and sound effects and big crowds",
+          "noteAr": "مؤثرات ضوئية وصوتية قوية وزحام كبير"
+        },
+        "STROLLER_ELDERLY": {
+          "status": "ACCESSIBLE",
+          "note": "Stroller parking, lifts and seating areas",
+          "noteAr": "مواقف عربات أطفال ومصاعد وأماكن جلوس"
+        }
+      },
+      "capacity": 160,
+      "avgVisitMinutes": 20
+    },
+    {
+      "name": "Indonesia Pavilion",
+      "country": "Indonesia",
+      "description": "Ship-shaped pavilion taking visitors on a journey through Indonesia's rainforests, oceans and future cities.",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Indonesia_Pavilion_-_EXPO_2025.jpg?width=1024",
+      "zone": "Planet",
+      "location": {
+        "x": 710,
+        "y": 350
+      },
+      "sourceExpo": "Expo 2025 Osaka",
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Indonesia_Pavilion_-_EXPO_2025.jpg",
+      "accessibility": {
+        "WHEELCHAIR": {
+          "status": "NOT_ACCESSIBLE",
+          "note": "Entrance is on a raised platform with stairs and no ramp",
+          "noteAr": "المدخل على منصة مرتفعة بدرج وبدون منحدر"
+        },
+        "LIMITED_MOBILITY": {
+          "status": "PARTIAL",
+          "note": "Long standing queue and about 400 m of walking inside",
+          "noteAr": "طابور وقوف طويل وحوالي 400 متر مشي داخل الجناح"
+        },
+        "VISUAL": {
+          "status": "PARTIAL",
+          "note": "Audio guide available, exhibits are mostly visual screens",
+          "noteAr": "فيه دليل صوتي، بس أغلب المعروضات شاشات مرئية"
+        },
+        "HEARING": {
+          "status": "ACCESSIBLE",
+          "note": "Captions on all shows and sign language guides",
+          "noteAr": "ترجمة نصية لكل العروض ومرشدين بلغة الإشارة"
+        },
+        "SENSORY": {
+          "status": "PARTIAL",
+          "note": "One loud show room, the rest of the pavilion is calm",
+          "noteAr": "غرفة عرض صوتها عالي، وباقي الجناح هادئ"
+        },
+        "STROLLER_ELDERLY": {
+          "status": "PARTIAL",
+          "note": "Strollers must be left at the entrance",
+          "noteAr": "لازم تترك عربة الأطفال عند المدخل"
+        }
+      },
+      "capacity": 120,
+      "avgVisitMinutes": 20
+    },
+    {
+      "name": "Malaysia Pavilion",
+      "country": "Malaysia",
+      "description": "Designed by Kengo Kuma with a woven-style timber facade. Theme about harmony between people, nature and the future.",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Malaysia_Pavilion_at_Expo_2025.jpg?width=1024",
+      "zone": "Planet",
+      "location": {
+        "x": 650,
+        "y": 384
+      },
+      "sourceExpo": "Expo 2025 Osaka",
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Malaysia_Pavilion_at_Expo_2025.jpg",
+      "accessibility": {
+        "WHEELCHAIR": {
+          "status": "ACCESSIBLE",
+          "note": "Step-free entrance, wide aisles and a lift to every level",
+          "noteAr": "مدخل بدون درج وممرات واسعة ومصعد لكل الأدوار"
+        },
+        "LIMITED_MOBILITY": {
+          "status": "PARTIAL",
+          "note": "Long standing queue and about 400 m of walking inside",
+          "noteAr": "طابور وقوف طويل وحوالي 400 متر مشي داخل الجناح"
+        },
+        "VISUAL": {
+          "status": "PARTIAL",
+          "note": "Audio guide available, exhibits are mostly visual screens",
+          "noteAr": "فيه دليل صوتي، بس أغلب المعروضات شاشات مرئية"
+        },
+        "HEARING": {
+          "status": "ACCESSIBLE",
+          "note": "Captions on all shows and sign language guides",
+          "noteAr": "ترجمة نصية لكل العروض ومرشدين بلغة الإشارة"
+        },
+        "SENSORY": {
+          "status": "PARTIAL",
+          "note": "One loud show room, the rest of the pavilion is calm",
+          "noteAr": "غرفة عرض صوتها عالي، وباقي الجناح هادئ"
+        },
+        "STROLLER_ELDERLY": {
+          "status": "ACCESSIBLE",
+          "note": "Stroller parking, lifts and seating areas",
+          "noteAr": "مواقف عربات أطفال ومصاعد وأماكن جلوس"
+        }
+      },
+      "capacity": 60,
+      "avgVisitMinutes": 15
+    },
+    {
+      "name": "Brazil Pavilion",
+      "country": "Brazil",
+      "description": "Shows Brazil's biodiversity, nature and culture, with a message about protecting the environment.",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Brazil_Pavilion_at_Expo_2025.jpg?width=1024",
+      "zone": "Planet",
+      "location": {
+        "x": 649,
+        "y": 315
+      },
+      "sourceExpo": "Expo 2025 Osaka",
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Brazil_Pavilion_at_Expo_2025.jpg",
+      "accessibility": {
+        "WHEELCHAIR": {
+          "status": "ACCESSIBLE",
+          "note": "Step-free entrance, wide aisles and a lift to every level",
+          "noteAr": "مدخل بدون درج وممرات واسعة ومصعد لكل الأدوار"
+        },
+        "LIMITED_MOBILITY": {
+          "status": "ACCESSIBLE",
+          "note": "Short route inside with seating every few meters",
+          "noteAr": "جولة قصيرة داخل الجناح مع كراسي جلوس قريبة"
+        },
+        "VISUAL": {
+          "status": "ACCESSIBLE",
+          "note": "Audio guide, braille signs and tactile models",
+          "noteAr": "دليل صوتي ولوحات برايل ومجسمات باللمس"
+        },
+        "HEARING": {
+          "status": "PARTIAL",
+          "note": "Captions on the main show only",
+          "noteAr": "ترجمة نصية للعرض الرئيسي فقط"
+        },
+        "SENSORY": {
+          "status": "PARTIAL",
+          "note": "One loud show room, the rest of the pavilion is calm",
+          "noteAr": "غرفة عرض صوتها عالي، وباقي الجناح هادئ"
+        },
+        "STROLLER_ELDERLY": {
+          "status": "ACCESSIBLE",
+          "note": "Stroller parking, lifts and seating areas",
+          "noteAr": "مواقف عربات أطفال ومصاعد وأماكن جلوس"
+        }
+      },
+      "capacity": 130,
+      "avgVisitMinutes": 20
+    },
+    {
+      "name": "Colombia Pavilion",
+      "country": "Colombia",
+      "description": "Inspired by magical realism and yellow butterflies, celebrating Colombia's biodiversity and nature.",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Colombia_Pavilion_at_Expo_2025.jpg?width=1024",
+      "zone": "Planet",
+      "location": {
+        "x": 590,
+        "y": 280
+      },
+      "sourceExpo": "Expo 2025 Osaka",
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Colombia_Pavilion_at_Expo_2025.jpg",
+      "accessibility": {
+        "WHEELCHAIR": {
+          "status": "ACCESSIBLE",
+          "note": "Step-free entrance, wide aisles and a lift to every level",
+          "noteAr": "مدخل بدون درج وممرات واسعة ومصعد لكل الأدوار"
+        },
+        "LIMITED_MOBILITY": {
+          "status": "ACCESSIBLE",
+          "note": "Short route inside with seating every few meters",
+          "noteAr": "جولة قصيرة داخل الجناح مع كراسي جلوس قريبة"
+        },
+        "VISUAL": {
+          "status": "ACCESSIBLE",
+          "note": "Audio guide, braille signs and tactile models",
+          "noteAr": "دليل صوتي ولوحات برايل ومجسمات باللمس"
+        },
+        "HEARING": {
+          "status": "ACCESSIBLE",
+          "note": "Captions on all shows and sign language guides",
+          "noteAr": "ترجمة نصية لكل العروض ومرشدين بلغة الإشارة"
+        },
+        "SENSORY": {
+          "status": "PARTIAL",
+          "note": "One loud show room, the rest of the pavilion is calm",
+          "noteAr": "غرفة عرض صوتها عالي، وباقي الجناح هادئ"
+        },
+        "STROLLER_ELDERLY": {
+          "status": "ACCESSIBLE",
+          "note": "Stroller parking, lifts and seating areas",
+          "noteAr": "مواقف عربات أطفال ومصاعد وأماكن جلوس"
+        }
+      },
+      "capacity": 90,
+      "avgVisitMinutes": 15
+    },
+    {
+      "name": "Oman Pavilion",
+      "country": "Oman",
+      "description": "Focuses on water and Oman's traditional falaj irrigation system, along with frankincense heritage.",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Oman_Pavilion_at_Expo_2025.jpg?width=1024",
+      "zone": "Planet",
+      "location": {
+        "x": 649,
+        "y": 245
+      },
+      "sourceExpo": "Expo 2025 Osaka",
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Oman_Pavilion_at_Expo_2025.jpg",
+      "accessibility": {
+        "WHEELCHAIR": {
+          "status": "PARTIAL",
+          "note": "Ground floor is step-free, the upper gallery has stairs only",
+          "noteAr": "الدور الأرضي بدون درج، والدور العلوي بدرج فقط"
+        },
+        "LIMITED_MOBILITY": {
+          "status": "ACCESSIBLE",
+          "note": "Short route inside with seating every few meters",
+          "noteAr": "جولة قصيرة داخل الجناح مع كراسي جلوس قريبة"
+        },
+        "VISUAL": {
+          "status": "ACCESSIBLE",
+          "note": "Audio guide, braille signs and tactile models",
+          "noteAr": "دليل صوتي ولوحات برايل ومجسمات باللمس"
+        },
+        "HEARING": {
+          "status": "NOT_ACCESSIBLE",
+          "note": "Spoken show with no captions or sign language",
+          "noteAr": "عرض صوتي بدون ترجمة نصية أو لغة إشارة"
+        },
+        "SENSORY": {
+          "status": "PARTIAL",
+          "note": "One loud show room, the rest of the pavilion is calm",
+          "noteAr": "غرفة عرض صوتها عالي، وباقي الجناح هادئ"
+        },
+        "STROLLER_ELDERLY": {
+          "status": "ACCESSIBLE",
+          "note": "Stroller parking, lifts and seating areas",
+          "noteAr": "مواقف عربات أطفال ومصاعد وأماكن جلوس"
+        }
+      },
+      "capacity": 90,
+      "avgVisitMinutes": 15
+    },
+    {
+      "name": "Chile Pavilion",
+      "country": "Chile",
+      "description": "Presents Chile's diverse landscapes, from deserts to glaciers, and its natural resources.",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Chile_Pavilion_at_Expo_2025.jpg?width=1024",
+      "zone": "Planet",
+      "location": {
+        "x": 650,
+        "y": 176
+      },
+      "sourceExpo": "Expo 2025 Osaka",
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Chile_Pavilion_at_Expo_2025.jpg",
+      "accessibility": {
+        "WHEELCHAIR": {
+          "status": "ACCESSIBLE",
+          "note": "Step-free entrance, wide aisles and a lift to every level",
+          "noteAr": "مدخل بدون درج وممرات واسعة ومصعد لكل الأدوار"
+        },
+        "LIMITED_MOBILITY": {
+          "status": "ACCESSIBLE",
+          "note": "Short route inside with seating every few meters",
+          "noteAr": "جولة قصيرة داخل الجناح مع كراسي جلوس قريبة"
+        },
+        "VISUAL": {
+          "status": "ACCESSIBLE",
+          "note": "Audio guide, braille signs and tactile models",
+          "noteAr": "دليل صوتي ولوحات برايل ومجسمات باللمس"
+        },
+        "HEARING": {
+          "status": "PARTIAL",
+          "note": "Captions on the main show only",
+          "noteAr": "ترجمة نصية للعرض الرئيسي فقط"
+        },
+        "SENSORY": {
+          "status": "NOT_ACCESSIBLE",
+          "note": "Strong light and sound effects and big crowds",
+          "noteAr": "مؤثرات ضوئية وصوتية قوية وزحام كبير"
+        },
+        "STROLLER_ELDERLY": {
+          "status": "ACCESSIBLE",
+          "note": "Stroller parking, lifts and seating areas",
+          "noteAr": "مواقف عربات أطفال ومصاعد وأماكن جلوس"
+        }
+      },
+      "capacity": 60,
+      "avgVisitMinutes": 15
+    },
+    {
+      "name": "Thailand Pavilion",
+      "country": "Thailand",
+      "description": "Focuses on health and wellbeing, presenting Thai medical care, wellness and hospitality.",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Thailand_Pavilion_at_Expo_2025.jpg?width=1024",
+      "zone": "Humanity",
+      "location": {
+        "x": 710,
+        "y": 620
+      },
+      "sourceExpo": "Expo 2025 Osaka",
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Thailand_Pavilion_at_Expo_2025.jpg",
+      "accessibility": {
+        "WHEELCHAIR": {
+          "status": "PARTIAL",
+          "note": "Ground floor is step-free, the upper gallery has stairs only",
+          "noteAr": "الدور الأرضي بدون درج، والدور العلوي بدرج فقط"
+        },
+        "LIMITED_MOBILITY": {
+          "status": "ACCESSIBLE",
+          "note": "Short route inside with seating every few meters",
+          "noteAr": "جولة قصيرة داخل الجناح مع كراسي جلوس قريبة"
+        },
+        "VISUAL": {
+          "status": "PARTIAL",
+          "note": "Audio guide available, exhibits are mostly visual screens",
+          "noteAr": "فيه دليل صوتي، بس أغلب المعروضات شاشات مرئية"
+        },
+        "HEARING": {
+          "status": "NOT_ACCESSIBLE",
+          "note": "Spoken show with no captions or sign language",
+          "noteAr": "عرض صوتي بدون ترجمة نصية أو لغة إشارة"
+        },
+        "SENSORY": {
+          "status": "PARTIAL",
+          "note": "One loud show room, the rest of the pavilion is calm",
+          "noteAr": "غرفة عرض صوتها عالي، وباقي الجناح هادئ"
+        },
+        "STROLLER_ELDERLY": {
+          "status": "ACCESSIBLE",
+          "note": "Stroller parking, lifts and seating areas",
+          "noteAr": "مواقف عربات أطفال ومصاعد وأماكن جلوس"
+        }
+      },
+      "capacity": 90,
+      "avgVisitMinutes": 15
+    },
+    {
+      "name": "Belgium Pavilion",
+      "country": "Belgium",
+      "description": "Highlights Belgian health and life sciences innovation for a healthier future.",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Belgium_Pavilion_at_Expo_2025.jpg?width=1024",
+      "zone": "Humanity",
+      "location": {
+        "x": 775,
+        "y": 589
+      },
+      "sourceExpo": "Expo 2025 Osaka",
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Belgium_Pavilion_at_Expo_2025.jpg",
+      "accessibility": {
+        "WHEELCHAIR": {
+          "status": "PARTIAL",
+          "note": "Ground floor is step-free, the upper gallery has stairs only",
+          "noteAr": "الدور الأرضي بدون درج، والدور العلوي بدرج فقط"
+        },
+        "LIMITED_MOBILITY": {
+          "status": "NOT_ACCESSIBLE",
+          "note": "Steep ramps and a long walk with no places to sit",
+          "noteAr": "منحدرات شديدة ومشي طويل بدون أماكن جلوس"
+        },
+        "VISUAL": {
+          "status": "PARTIAL",
+          "note": "Audio guide available, exhibits are mostly visual screens",
+          "noteAr": "فيه دليل صوتي، بس أغلب المعروضات شاشات مرئية"
+        },
+        "HEARING": {
+          "status": "ACCESSIBLE",
+          "note": "Captions on all shows and sign language guides",
+          "noteAr": "ترجمة نصية لكل العروض ومرشدين بلغة الإشارة"
+        },
+        "SENSORY": {
+          "status": "PARTIAL",
+          "note": "One loud show room, the rest of the pavilion is calm",
+          "noteAr": "غرفة عرض صوتها عالي، وباقي الجناح هادئ"
+        },
+        "STROLLER_ELDERLY": {
+          "status": "PARTIAL",
+          "note": "Strollers must be left at the entrance",
+          "noteAr": "لازم تترك عربة الأطفال عند المدخل"
+        }
+      },
+      "capacity": 70,
+      "avgVisitMinutes": 15
+    },
+    {
+      "name": "Philippines Pavilion",
+      "country": "Philippines",
+      "description": "Facade covered with handwoven textiles from different regions, celebrating Filipino communities and craftsmanship.",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Philippines_Pavilion_at_Expo_2025.jpg?width=1024",
+      "zone": "Humanity",
+      "location": {
+        "x": 774,
+        "y": 661
+      },
+      "sourceExpo": "Expo 2025 Osaka",
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Philippines_Pavilion_at_Expo_2025.jpg",
+      "accessibility": {
+        "WHEELCHAIR": {
+          "status": "ACCESSIBLE",
+          "note": "Step-free entrance, wide aisles and a lift to every level",
+          "noteAr": "مدخل بدون درج وممرات واسعة ومصعد لكل الأدوار"
+        },
+        "LIMITED_MOBILITY": {
+          "status": "ACCESSIBLE",
+          "note": "Short route inside with seating every few meters",
+          "noteAr": "جولة قصيرة داخل الجناح مع كراسي جلوس قريبة"
+        },
+        "VISUAL": {
+          "status": "NOT_ACCESSIBLE",
+          "note": "Dark immersive rooms with screen-only content",
+          "noteAr": "غرف مظلمة وعروض على الشاشات فقط"
+        },
+        "HEARING": {
+          "status": "ACCESSIBLE",
+          "note": "Captions on all shows and sign language guides",
+          "noteAr": "ترجمة نصية لكل العروض ومرشدين بلغة الإشارة"
+        },
+        "SENSORY": {
+          "status": "ACCESSIBLE",
+          "note": "Calm lighting, low sound and a quiet room",
+          "noteAr": "إضاءة هادئة وصوت منخفض وغرفة هادئة"
+        },
+        "STROLLER_ELDERLY": {
+          "status": "ACCESSIBLE",
+          "note": "Stroller parking, lifts and seating areas",
+          "noteAr": "مواقف عربات أطفال ومصاعد وأماكن جلوس"
+        }
+      },
+      "capacity": 90,
+      "avgVisitMinutes": 15
+    },
+    {
+      "name": "Bangladesh Pavilion",
+      "country": "Bangladesh",
+      "description": "Presents the people of Bangladesh, their development story and growing economy.",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Bangladesh_Pavilion_at_Expo_2025.jpg?width=1024",
+      "zone": "Humanity",
+      "location": {
+        "x": 829,
+        "y": 707
+      },
+      "sourceExpo": "Expo 2025 Osaka",
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Bangladesh_Pavilion_at_Expo_2025.jpg",
+      "accessibility": {
+        "WHEELCHAIR": {
+          "status": "ACCESSIBLE",
+          "note": "Step-free entrance, wide aisles and a lift to every level",
+          "noteAr": "مدخل بدون درج وممرات واسعة ومصعد لكل الأدوار"
+        },
+        "LIMITED_MOBILITY": {
+          "status": "ACCESSIBLE",
+          "note": "Short route inside with seating every few meters",
+          "noteAr": "جولة قصيرة داخل الجناح مع كراسي جلوس قريبة"
+        },
+        "VISUAL": {
+          "status": "ACCESSIBLE",
+          "note": "Audio guide, braille signs and tactile models",
+          "noteAr": "دليل صوتي ولوحات برايل ومجسمات باللمس"
+        },
+        "HEARING": {
+          "status": "PARTIAL",
+          "note": "Captions on the main show only",
+          "noteAr": "ترجمة نصية للعرض الرئيسي فقط"
+        },
+        "SENSORY": {
+          "status": "PARTIAL",
+          "note": "One loud show room, the rest of the pavilion is calm",
+          "noteAr": "غرفة عرض صوتها عالي، وباقي الجناح هادئ"
+        },
+        "STROLLER_ELDERLY": {
+          "status": "ACCESSIBLE",
+          "note": "Stroller parking, lifts and seating areas",
+          "noteAr": "مواقف عربات أطفال ومصاعد وأماكن جلوس"
+        }
+      },
+      "capacity": 90,
+      "avgVisitMinutes": 15
+    },
+    {
+      "name": "Angola Pavilion",
+      "country": "Angola",
+      "description": "Presents Angola's people, health and education goals, and its natural and cultural wealth.",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Angola_Pavilion_at_Expo_2025.jpg?width=1024",
+      "zone": "Humanity",
+      "location": {
+        "x": 763,
+        "y": 736
+      },
+      "sourceExpo": "Expo 2025 Osaka",
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Angola_Pavilion_at_Expo_2025.jpg",
+      "accessibility": {
+        "WHEELCHAIR": {
+          "status": "ACCESSIBLE",
+          "note": "Step-free entrance, wide aisles and a lift to every level",
+          "noteAr": "مدخل بدون درج وممرات واسعة ومصعد لكل الأدوار"
+        },
+        "LIMITED_MOBILITY": {
+          "status": "ACCESSIBLE",
+          "note": "Short route inside with seating every few meters",
+          "noteAr": "جولة قصيرة داخل الجناح مع كراسي جلوس قريبة"
+        },
+        "VISUAL": {
+          "status": "PARTIAL",
+          "note": "Audio guide available, exhibits are mostly visual screens",
+          "noteAr": "فيه دليل صوتي، بس أغلب المعروضات شاشات مرئية"
+        },
+        "HEARING": {
+          "status": "PARTIAL",
+          "note": "Captions on the main show only",
+          "noteAr": "ترجمة نصية للعرض الرئيسي فقط"
+        },
+        "SENSORY": {
+          "status": "ACCESSIBLE",
+          "note": "Calm lighting, low sound and a quiet room",
+          "noteAr": "إضاءة هادئة وصوت منخفض وغرفة هادئة"
+        },
+        "STROLLER_ELDERLY": {
+          "status": "PARTIAL",
+          "note": "Strollers must be left at the entrance",
+          "noteAr": "لازم تترك عربة الأطفال عند المدخل"
+        }
+      },
+      "capacity": 140,
+      "avgVisitMinutes": 20
+    },
+    {
+      "name": "Senegal Pavilion",
+      "country": "Senegal",
+      "description": "Introduces Senegal's people, hospitality (teranga) and development projects.",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Expo_2025_Senegal_Pavilion_01.JPG?width=1024",
+      "zone": "Humanity",
+      "location": {
+        "x": 744,
+        "y": 805
+      },
+      "sourceExpo": "Expo 2025 Osaka",
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Expo_2025_Senegal_Pavilion_01.JPG",
+      "accessibility": {
+        "WHEELCHAIR": {
+          "status": "PARTIAL",
+          "note": "Ground floor is step-free, the upper gallery has stairs only",
+          "noteAr": "الدور الأرضي بدون درج، والدور العلوي بدرج فقط"
+        },
+        "LIMITED_MOBILITY": {
+          "status": "NOT_ACCESSIBLE",
+          "note": "Steep ramps and a long walk with no places to sit",
+          "noteAr": "منحدرات شديدة ومشي طويل بدون أماكن جلوس"
+        },
+        "VISUAL": {
+          "status": "ACCESSIBLE",
+          "note": "Audio guide, braille signs and tactile models",
+          "noteAr": "دليل صوتي ولوحات برايل ومجسمات باللمس"
+        },
+        "HEARING": {
+          "status": "ACCESSIBLE",
+          "note": "Captions on all shows and sign language guides",
+          "noteAr": "ترجمة نصية لكل العروض ومرشدين بلغة الإشارة"
+        },
+        "SENSORY": {
+          "status": "NOT_ACCESSIBLE",
+          "note": "Strong light and sound effects and big crowds",
+          "noteAr": "مؤثرات ضوئية وصوتية قوية وزحام كبير"
+        },
+        "STROLLER_ELDERLY": {
+          "status": "ACCESSIBLE",
+          "note": "Stroller parking, lifts and seating areas",
+          "noteAr": "مواقف عربات أطفال ومصاعد وأماكن جلوس"
+        }
+      },
+      "capacity": 70,
+      "avgVisitMinutes": 15
+    },
+    {
+      "name": "Nepal Pavilion",
+      "country": "Nepal",
+      "description": "Shows Nepal's communities, crafts and the Himalayan way of life.",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Expo_2025_Nepal_Pavilion_01.JPG?width=1024",
+      "zone": "Humanity",
+      "location": {
+        "x": 690,
+        "y": 757
+      },
+      "sourceExpo": "Expo 2025 Osaka",
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Expo_2025_Nepal_Pavilion_01.JPG",
+      "accessibility": {
+        "WHEELCHAIR": {
+          "status": "ACCESSIBLE",
+          "note": "Step-free entrance, wide aisles and a lift to every level",
+          "noteAr": "مدخل بدون درج وممرات واسعة ومصعد لكل الأدوار"
+        },
+        "LIMITED_MOBILITY": {
+          "status": "ACCESSIBLE",
+          "note": "Short route inside with seating every few meters",
+          "noteAr": "جولة قصيرة داخل الجناح مع كراسي جلوس قريبة"
+        },
+        "VISUAL": {
+          "status": "PARTIAL",
+          "note": "Audio guide available, exhibits are mostly visual screens",
+          "noteAr": "فيه دليل صوتي، بس أغلب المعروضات شاشات مرئية"
+        },
+        "HEARING": {
+          "status": "PARTIAL",
+          "note": "Captions on the main show only",
+          "noteAr": "ترجمة نصية للعرض الرئيسي فقط"
+        },
+        "SENSORY": {
+          "status": "NOT_ACCESSIBLE",
+          "note": "Strong light and sound effects and big crowds",
+          "noteAr": "مؤثرات ضوئية وصوتية قوية وزحام كبير"
+        },
+        "STROLLER_ELDERLY": {
+          "status": "ACCESSIBLE",
+          "note": "Stroller parking, lifts and seating areas",
+          "noteAr": "مواقف عربات أطفال ومصاعد وأماكن جلوس"
+        }
+      },
+      "capacity": 120,
+      "avgVisitMinutes": 20
+    },
+    {
+      "name": "Cambodia Pavilion",
+      "country": "Cambodia",
+      "description": "Presents Cambodian people, culture and its development, with references to Angkor heritage.",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Cambodia_Pavilion_at_Expo_2025.jpg?width=1024",
+      "zone": "Humanity",
+      "location": {
+        "x": 619,
+        "y": 769
+      },
+      "sourceExpo": "Expo 2025 Osaka",
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Cambodia_Pavilion_at_Expo_2025.jpg",
+      "accessibility": {
+        "WHEELCHAIR": {
+          "status": "ACCESSIBLE",
+          "note": "Step-free entrance, wide aisles and a lift to every level",
+          "noteAr": "مدخل بدون درج وممرات واسعة ومصعد لكل الأدوار"
+        },
+        "LIMITED_MOBILITY": {
+          "status": "ACCESSIBLE",
+          "note": "Short route inside with seating every few meters",
+          "noteAr": "جولة قصيرة داخل الجناح مع كراسي جلوس قريبة"
+        },
+        "VISUAL": {
+          "status": "PARTIAL",
+          "note": "Audio guide available, exhibits are mostly visual screens",
+          "noteAr": "فيه دليل صوتي، بس أغلب المعروضات شاشات مرئية"
+        },
+        "HEARING": {
+          "status": "ACCESSIBLE",
+          "note": "Captions on all shows and sign language guides",
+          "noteAr": "ترجمة نصية لكل العروض ومرشدين بلغة الإشارة"
+        },
+        "SENSORY": {
+          "status": "NOT_ACCESSIBLE",
+          "note": "Strong light and sound effects and big crowds",
+          "noteAr": "مؤثرات ضوئية وصوتية قوية وزحام كبير"
+        },
+        "STROLLER_ELDERLY": {
+          "status": "ACCESSIBLE",
+          "note": "Stroller parking, lifts and seating areas",
+          "noteAr": "مواقف عربات أطفال ومصاعد وأماكن جلوس"
+        }
+      },
+      "capacity": 60,
+      "avgVisitMinutes": 15
+    },
+    {
+      "name": "Peru Pavilion",
+      "country": "Peru",
+      "description": "Presents Peruvian people, food, crafts and Andean traditions.",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Peru_Pavilion_at_Expo_2025.jpg?width=1024",
+      "zone": "Humanity",
+      "location": {
+        "x": 641,
+        "y": 700
+      },
+      "sourceExpo": "Expo 2025 Osaka",
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Peru_Pavilion_at_Expo_2025.jpg",
+      "accessibility": {
+        "WHEELCHAIR": {
+          "status": "ACCESSIBLE",
+          "note": "Step-free entrance, wide aisles and a lift to every level",
+          "noteAr": "مدخل بدون درج وممرات واسعة ومصعد لكل الأدوار"
+        },
+        "LIMITED_MOBILITY": {
+          "status": "ACCESSIBLE",
+          "note": "Short route inside with seating every few meters",
+          "noteAr": "جولة قصيرة داخل الجناح مع كراسي جلوس قريبة"
+        },
+        "VISUAL": {
+          "status": "PARTIAL",
+          "note": "Audio guide available, exhibits are mostly visual screens",
+          "noteAr": "فيه دليل صوتي، بس أغلب المعروضات شاشات مرئية"
+        },
+        "HEARING": {
+          "status": "NOT_ACCESSIBLE",
+          "note": "Spoken show with no captions or sign language",
+          "noteAr": "عرض صوتي بدون ترجمة نصية أو لغة إشارة"
+        },
+        "SENSORY": {
+          "status": "NOT_ACCESSIBLE",
+          "note": "Strong light and sound effects and big crowds",
+          "noteAr": "مؤثرات ضوئية وصوتية قوية وزحام كبير"
+        },
+        "STROLLER_ELDERLY": {
+          "status": "ACCESSIBLE",
+          "note": "Stroller parking, lifts and seating areas",
+          "noteAr": "مواقف عربات أطفال ومصاعد وأماكن جلوس"
+        }
+      },
+      "capacity": 80,
+      "avgVisitMinutes": 15
+    },
+    {
+      "name": "Poland Pavilion",
+      "country": "Poland",
+      "description": "Timber pavilion presenting Polish people, science, creativity and quality of life.",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Poland_Pavilion_at_Expo_2025.jpg?width=1024",
+      "zone": "Humanity",
+      "location": {
+        "x": 601,
+        "y": 640
+      },
+      "sourceExpo": "Expo 2025 Osaka",
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Poland_Pavilion_at_Expo_2025.jpg",
+      "accessibility": {
+        "WHEELCHAIR": {
+          "status": "NOT_ACCESSIBLE",
+          "note": "Entrance is on a raised platform with stairs and no ramp",
+          "noteAr": "المدخل على منصة مرتفعة بدرج وبدون منحدر"
+        },
+        "LIMITED_MOBILITY": {
+          "status": "PARTIAL",
+          "note": "Long standing queue and about 400 m of walking inside",
+          "noteAr": "طابور وقوف طويل وحوالي 400 متر مشي داخل الجناح"
+        },
+        "VISUAL": {
+          "status": "PARTIAL",
+          "note": "Audio guide available, exhibits are mostly visual screens",
+          "noteAr": "فيه دليل صوتي، بس أغلب المعروضات شاشات مرئية"
+        },
+        "HEARING": {
+          "status": "PARTIAL",
+          "note": "Captions on the main show only",
+          "noteAr": "ترجمة نصية للعرض الرئيسي فقط"
+        },
+        "SENSORY": {
+          "status": "NOT_ACCESSIBLE",
+          "note": "Strong light and sound effects and big crowds",
+          "noteAr": "مؤثرات ضوئية وصوتية قوية وزحام كبير"
+        },
+        "STROLLER_ELDERLY": {
+          "status": "PARTIAL",
+          "note": "Strollers must be left at the entrance",
+          "noteAr": "لازم تترك عربة الأطفال عند المدخل"
+        }
+      },
+      "capacity": 180,
+      "avgVisitMinutes": 25
+    },
+    {
+      "name": "Ireland Pavilion",
+      "country": "Ireland",
+      "description": "Presents Irish people, storytelling and community, with links between Ireland and Japan.",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Ireland_Pavilion_at_Expo_2025.jpg?width=1024",
+      "zone": "Humanity",
+      "location": {
+        "x": 672,
+        "y": 631
+      },
+      "sourceExpo": "Expo 2025 Osaka",
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Ireland_Pavilion_at_Expo_2025.jpg",
+      "accessibility": {
+        "WHEELCHAIR": {
+          "status": "ACCESSIBLE",
+          "note": "Step-free entrance, wide aisles and a lift to every level",
+          "noteAr": "مدخل بدون درج وممرات واسعة ومصعد لكل الأدوار"
+        },
+        "LIMITED_MOBILITY": {
+          "status": "PARTIAL",
+          "note": "Long standing queue and about 400 m of walking inside",
+          "noteAr": "طابور وقوف طويل وحوالي 400 متر مشي داخل الجناح"
+        },
+        "VISUAL": {
+          "status": "NOT_ACCESSIBLE",
+          "note": "Dark immersive rooms with screen-only content",
+          "noteAr": "غرف مظلمة وعروض على الشاشات فقط"
+        },
+        "HEARING": {
+          "status": "NOT_ACCESSIBLE",
+          "note": "Spoken show with no captions or sign language",
+          "noteAr": "عرض صوتي بدون ترجمة نصية أو لغة إشارة"
+        },
+        "SENSORY": {
+          "status": "PARTIAL",
+          "note": "One loud show room, the rest of the pavilion is calm",
+          "noteAr": "غرفة عرض صوتها عالي، وباقي الجناح هادئ"
+        },
+        "STROLLER_ELDERLY": {
+          "status": "ACCESSIBLE",
+          "note": "Stroller parking, lifts and seating areas",
+          "noteAr": "مواقف عربات أطفال ومصاعد وأماكن جلوس"
+        }
+      },
+      "capacity": 210,
+      "avgVisitMinutes": 25
+    },
+    {
+      "name": "Italy Pavilion",
+      "country": "Italy",
+      "description": "Theme 'Art Regenerates Life'. Displays Italian masterpieces including the ancient Farnese Atlas statue.",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Expo_2025_Italy_Pavilion_02.JPG?width=1024",
+      "zone": "Culture",
+      "location": {
+        "x": 290,
+        "y": 620
+      },
+      "sourceExpo": "Expo 2025 Osaka",
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Expo_2025_Italy_Pavilion_02.JPG",
+      "accessibility": {
+        "WHEELCHAIR": {
+          "status": "NOT_ACCESSIBLE",
+          "note": "Entrance is on a raised platform with stairs and no ramp",
+          "noteAr": "المدخل على منصة مرتفعة بدرج وبدون منحدر"
+        },
+        "LIMITED_MOBILITY": {
+          "status": "ACCESSIBLE",
+          "note": "Short route inside with seating every few meters",
+          "noteAr": "جولة قصيرة داخل الجناح مع كراسي جلوس قريبة"
+        },
+        "VISUAL": {
+          "status": "NOT_ACCESSIBLE",
+          "note": "Dark immersive rooms with screen-only content",
+          "noteAr": "غرف مظلمة وعروض على الشاشات فقط"
+        },
+        "HEARING": {
+          "status": "PARTIAL",
+          "note": "Captions on the main show only",
+          "noteAr": "ترجمة نصية للعرض الرئيسي فقط"
+        },
+        "SENSORY": {
+          "status": "PARTIAL",
+          "note": "One loud show room, the rest of the pavilion is calm",
+          "noteAr": "غرفة عرض صوتها عالي، وباقي الجناح هادئ"
+        },
+        "STROLLER_ELDERLY": {
+          "status": "ACCESSIBLE",
+          "note": "Stroller parking, lifts and seating areas",
+          "noteAr": "مواقف عربات أطفال ومصاعد وأماكن جلوس"
+        }
+      },
+      "capacity": 240,
+      "avgVisitMinutes": 25
+    },
+    {
+      "name": "France Pavilion",
+      "country": "France",
+      "description": "Theme 'Hymn to Love'. Presents French art, fashion, crafts and lifestyle.",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/France_Pavilion_at_Expo_2025.jpg?width=1024",
+      "zone": "Culture",
+      "location": {
+        "x": 350,
+        "y": 586
+      },
+      "sourceExpo": "Expo 2025 Osaka",
+      "imageSource": "https://commons.wikimedia.org/wiki/File:France_Pavilion_at_Expo_2025.jpg",
+      "accessibility": {
+        "WHEELCHAIR": {
+          "status": "NOT_ACCESSIBLE",
+          "note": "Entrance is on a raised platform with stairs and no ramp",
+          "noteAr": "المدخل على منصة مرتفعة بدرج وبدون منحدر"
+        },
+        "LIMITED_MOBILITY": {
+          "status": "PARTIAL",
+          "note": "Long standing queue and about 400 m of walking inside",
+          "noteAr": "طابور وقوف طويل وحوالي 400 متر مشي داخل الجناح"
+        },
+        "VISUAL": {
+          "status": "ACCESSIBLE",
+          "note": "Audio guide, braille signs and tactile models",
+          "noteAr": "دليل صوتي ولوحات برايل ومجسمات باللمس"
+        },
+        "HEARING": {
+          "status": "ACCESSIBLE",
+          "note": "Captions on all shows and sign language guides",
+          "noteAr": "ترجمة نصية لكل العروض ومرشدين بلغة الإشارة"
+        },
+        "SENSORY": {
+          "status": "NOT_ACCESSIBLE",
+          "note": "Strong light and sound effects and big crowds",
+          "noteAr": "مؤثرات ضوئية وصوتية قوية وزحام كبير"
+        },
+        "STROLLER_ELDERLY": {
+          "status": "ACCESSIBLE",
+          "note": "Stroller parking, lifts and seating areas",
+          "noteAr": "مواقف عربات أطفال ومصاعد وأماكن جلوس"
+        }
+      },
+      "capacity": 240,
+      "avgVisitMinutes": 25
+    },
+    {
+      "name": "Austria Pavilion",
+      "country": "Austria",
+      "description": "Wooden spiral ribbon carrying the notes of Beethoven's 'Ode to Joy', celebrating Austrian music and craftsmanship.",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Austria_Pavilion_at_Expo_2025.jpg?width=1024",
+      "zone": "Culture",
+      "location": {
+        "x": 351,
+        "y": 655
+      },
+      "sourceExpo": "Expo 2025 Osaka",
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Austria_Pavilion_at_Expo_2025.jpg",
+      "accessibility": {
+        "WHEELCHAIR": {
+          "status": "ACCESSIBLE",
+          "note": "Step-free entrance, wide aisles and a lift to every level",
+          "noteAr": "مدخل بدون درج وممرات واسعة ومصعد لكل الأدوار"
+        },
+        "LIMITED_MOBILITY": {
+          "status": "PARTIAL",
+          "note": "Long standing queue and about 400 m of walking inside",
+          "noteAr": "طابور وقوف طويل وحوالي 400 متر مشي داخل الجناح"
+        },
+        "VISUAL": {
+          "status": "NOT_ACCESSIBLE",
+          "note": "Dark immersive rooms with screen-only content",
+          "noteAr": "غرف مظلمة وعروض على الشاشات فقط"
+        },
+        "HEARING": {
+          "status": "PARTIAL",
+          "note": "Captions on the main show only",
+          "noteAr": "ترجمة نصية للعرض الرئيسي فقط"
+        },
+        "SENSORY": {
+          "status": "ACCESSIBLE",
+          "note": "Calm lighting, low sound and a quiet room",
+          "noteAr": "إضاءة هادئة وصوت منخفض وغرفة هادئة"
+        },
+        "STROLLER_ELDERLY": {
+          "status": "ACCESSIBLE",
+          "note": "Stroller parking, lifts and seating areas",
+          "noteAr": "مواقف عربات أطفال ومصاعد وأماكن جلوس"
+        }
+      },
+      "capacity": 150,
+      "avgVisitMinutes": 20
+    },
+    {
+      "name": "Hungary Pavilion",
+      "country": "Hungary",
+      "description": "Haystack-like mound where visitors listen to Hungarian folk singing, connecting nature and tradition.",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Expo_2025_Hungary_Pavilion_01.JPG?width=1024",
+      "zone": "Culture",
+      "location": {
+        "x": 410,
+        "y": 690
+      },
+      "sourceExpo": "Expo 2025 Osaka",
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Expo_2025_Hungary_Pavilion_01.JPG",
+      "accessibility": {
+        "WHEELCHAIR": {
+          "status": "PARTIAL",
+          "note": "Ground floor is step-free, the upper gallery has stairs only",
+          "noteAr": "الدور الأرضي بدون درج، والدور العلوي بدرج فقط"
+        },
+        "LIMITED_MOBILITY": {
+          "status": "PARTIAL",
+          "note": "Long standing queue and about 400 m of walking inside",
+          "noteAr": "طابور وقوف طويل وحوالي 400 متر مشي داخل الجناح"
+        },
+        "VISUAL": {
+          "status": "ACCESSIBLE",
+          "note": "Audio guide, braille signs and tactile models",
+          "noteAr": "دليل صوتي ولوحات برايل ومجسمات باللمس"
+        },
+        "HEARING": {
+          "status": "ACCESSIBLE",
+          "note": "Captions on all shows and sign language guides",
+          "noteAr": "ترجمة نصية لكل العروض ومرشدين بلغة الإشارة"
+        },
+        "SENSORY": {
+          "status": "PARTIAL",
+          "note": "One loud show room, the rest of the pavilion is calm",
+          "noteAr": "غرفة عرض صوتها عالي، وباقي الجناح هادئ"
+        },
+        "STROLLER_ELDERLY": {
+          "status": "ACCESSIBLE",
+          "note": "Stroller parking, lifts and seating areas",
+          "noteAr": "مواقف عربات أطفال ومصاعد وأماكن جلوس"
+        }
+      },
+      "capacity": 60,
+      "avgVisitMinutes": 15
+    },
+    {
+      "name": "Egypt Pavilion",
+      "country": "Egypt",
+      "description": "Presents Egypt's ancient civilization and heritage alongside modern Egypt.",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Egypt_Pavilion_at_Expo_2025.jpg?width=1024",
+      "zone": "Culture",
+      "location": {
+        "x": 351,
+        "y": 725
+      },
+      "sourceExpo": "Expo 2025 Osaka",
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Egypt_Pavilion_at_Expo_2025.jpg",
+      "accessibility": {
+        "WHEELCHAIR": {
+          "status": "ACCESSIBLE",
+          "note": "Step-free entrance, wide aisles and a lift to every level",
+          "noteAr": "مدخل بدون درج وممرات واسعة ومصعد لكل الأدوار"
+        },
+        "LIMITED_MOBILITY": {
+          "status": "PARTIAL",
+          "note": "Long standing queue and about 400 m of walking inside",
+          "noteAr": "طابور وقوف طويل وحوالي 400 متر مشي داخل الجناح"
+        },
+        "VISUAL": {
+          "status": "PARTIAL",
+          "note": "Audio guide available, exhibits are mostly visual screens",
+          "noteAr": "فيه دليل صوتي، بس أغلب المعروضات شاشات مرئية"
+        },
+        "HEARING": {
+          "status": "NOT_ACCESSIBLE",
+          "note": "Spoken show with no captions or sign language",
+          "noteAr": "عرض صوتي بدون ترجمة نصية أو لغة إشارة"
+        },
+        "SENSORY": {
+          "status": "PARTIAL",
+          "note": "One loud show room, the rest of the pavilion is calm",
+          "noteAr": "غرفة عرض صوتها عالي، وباقي الجناح هادئ"
+        },
+        "STROLLER_ELDERLY": {
+          "status": "PARTIAL",
+          "note": "Strollers must be left at the entrance",
+          "noteAr": "لازم تترك عربة الأطفال عند المدخل"
+        }
+      },
+      "capacity": 190,
+      "avgVisitMinutes": 25
+    },
+    {
+      "name": "Jordan Pavilion",
+      "country": "Jordan",
+      "description": "Brings the desert of Wadi Rum to visitors, with real sand and Jordanian heritage and hospitality.",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Jordan_Pavilion_at_Expo_2025.jpg?width=1024",
+      "zone": "Culture",
+      "location": {
+        "x": 350,
+        "y": 794
+      },
+      "sourceExpo": "Expo 2025 Osaka",
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Jordan_Pavilion_at_Expo_2025.jpg",
+      "accessibility": {
+        "WHEELCHAIR": {
+          "status": "ACCESSIBLE",
+          "note": "Step-free entrance, wide aisles and a lift to every level",
+          "noteAr": "مدخل بدون درج وممرات واسعة ومصعد لكل الأدوار"
+        },
+        "LIMITED_MOBILITY": {
+          "status": "PARTIAL",
+          "note": "Long standing queue and about 400 m of walking inside",
+          "noteAr": "طابور وقوف طويل وحوالي 400 متر مشي داخل الجناح"
+        },
+        "VISUAL": {
+          "status": "NOT_ACCESSIBLE",
+          "note": "Dark immersive rooms with screen-only content",
+          "noteAr": "غرف مظلمة وعروض على الشاشات فقط"
+        },
+        "HEARING": {
+          "status": "NOT_ACCESSIBLE",
+          "note": "Spoken show with no captions or sign language",
+          "noteAr": "عرض صوتي بدون ترجمة نصية أو لغة إشارة"
+        },
+        "SENSORY": {
+          "status": "ACCESSIBLE",
+          "note": "Calm lighting, low sound and a quiet room",
+          "noteAr": "إضاءة هادئة وصوت منخفض وغرفة هادئة"
+        },
+        "STROLLER_ELDERLY": {
+          "status": "PARTIAL",
+          "note": "Strollers must be left at the entrance",
+          "noteAr": "لازم تترك عربة الأطفال عند المدخل"
+        }
+      },
+      "capacity": 120,
+      "avgVisitMinutes": 20
+    },
+    {
+      "name": "Uzbekistan Pavilion",
+      "country": "Uzbekistan",
+      "description": "'Garden of Knowledge' with a forest of wooden columns, presenting Uzbek heritage and Silk Road history.",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Expo_2025_Uzbekistan_Pavilion_01.JPG?width=1024",
+      "zone": "Culture",
+      "location": {
+        "x": 290,
+        "y": 760
+      },
+      "sourceExpo": "Expo 2025 Osaka",
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Expo_2025_Uzbekistan_Pavilion_01.JPG",
+      "accessibility": {
+        "WHEELCHAIR": {
+          "status": "ACCESSIBLE",
+          "note": "Step-free entrance, wide aisles and a lift to every level",
+          "noteAr": "مدخل بدون درج وممرات واسعة ومصعد لكل الأدوار"
+        },
+        "LIMITED_MOBILITY": {
+          "status": "ACCESSIBLE",
+          "note": "Short route inside with seating every few meters",
+          "noteAr": "جولة قصيرة داخل الجناح مع كراسي جلوس قريبة"
+        },
+        "VISUAL": {
+          "status": "ACCESSIBLE",
+          "note": "Audio guide, braille signs and tactile models",
+          "noteAr": "دليل صوتي ولوحات برايل ومجسمات باللمس"
+        },
+        "HEARING": {
+          "status": "PARTIAL",
+          "note": "Captions on the main show only",
+          "noteAr": "ترجمة نصية للعرض الرئيسي فقط"
+        },
+        "SENSORY": {
+          "status": "ACCESSIBLE",
+          "note": "Calm lighting, low sound and a quiet room",
+          "noteAr": "إضاءة هادئة وصوت منخفض وغرفة هادئة"
+        },
+        "STROLLER_ELDERLY": {
+          "status": "PARTIAL",
+          "note": "Strollers must be left at the entrance",
+          "noteAr": "لازم تترك عربة الأطفال عند المدخل"
+        }
+      },
+      "capacity": 110,
+      "avgVisitMinutes": 20
+    },
+    {
+      "name": "Turkiye Pavilion",
+      "country": "Turkiye",
+      "description": "Presents Turkish history, arts and culture, from ancient civilizations to today.",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Turkiye_Pavilion_at_Expo_2025.jpg?width=1024",
+      "zone": "Culture",
+      "location": {
+        "x": 230,
+        "y": 794
+      },
+      "sourceExpo": "Expo 2025 Osaka",
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Turkiye_Pavilion_at_Expo_2025.jpg",
+      "accessibility": {
+        "WHEELCHAIR": {
+          "status": "ACCESSIBLE",
+          "note": "Step-free entrance, wide aisles and a lift to every level",
+          "noteAr": "مدخل بدون درج وممرات واسعة ومصعد لكل الأدوار"
+        },
+        "LIMITED_MOBILITY": {
+          "status": "NOT_ACCESSIBLE",
+          "note": "Steep ramps and a long walk with no places to sit",
+          "noteAr": "منحدرات شديدة ومشي طويل بدون أماكن جلوس"
+        },
+        "VISUAL": {
+          "status": "PARTIAL",
+          "note": "Audio guide available, exhibits are mostly visual screens",
+          "noteAr": "فيه دليل صوتي، بس أغلب المعروضات شاشات مرئية"
+        },
+        "HEARING": {
+          "status": "PARTIAL",
+          "note": "Captions on the main show only",
+          "noteAr": "ترجمة نصية للعرض الرئيسي فقط"
+        },
+        "SENSORY": {
+          "status": "PARTIAL",
+          "note": "One loud show room, the rest of the pavilion is calm",
+          "noteAr": "غرفة عرض صوتها عالي، وباقي الجناح هادئ"
+        },
+        "STROLLER_ELDERLY": {
+          "status": "NOT_ACCESSIBLE",
+          "note": "Narrow stairs only, no lift",
+          "noteAr": "درج ضيق فقط وبدون مصعد"
+        }
+      },
+      "capacity": 150,
+      "avgVisitMinutes": 20
+    },
+    {
+      "name": "Turkmenistan Pavilion",
+      "country": "Turkmenistan",
+      "description": "Presents Turkmen culture, carpets, Akhal-Teke horses and Silk Road heritage.",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Turkmenistan_Pavilion_at_Expo_2025.jpg?width=1024",
+      "zone": "Culture",
+      "location": {
+        "x": 229,
+        "y": 725
+      },
+      "sourceExpo": "Expo 2025 Osaka",
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Turkmenistan_Pavilion_at_Expo_2025.jpg",
+      "accessibility": {
+        "WHEELCHAIR": {
+          "status": "ACCESSIBLE",
+          "note": "Step-free entrance, wide aisles and a lift to every level",
+          "noteAr": "مدخل بدون درج وممرات واسعة ومصعد لكل الأدوار"
+        },
+        "LIMITED_MOBILITY": {
+          "status": "ACCESSIBLE",
+          "note": "Short route inside with seating every few meters",
+          "noteAr": "جولة قصيرة داخل الجناح مع كراسي جلوس قريبة"
+        },
+        "VISUAL": {
+          "status": "PARTIAL",
+          "note": "Audio guide available, exhibits are mostly visual screens",
+          "noteAr": "فيه دليل صوتي، بس أغلب المعروضات شاشات مرئية"
+        },
+        "HEARING": {
+          "status": "ACCESSIBLE",
+          "note": "Captions on all shows and sign language guides",
+          "noteAr": "ترجمة نصية لكل العروض ومرشدين بلغة الإشارة"
+        },
+        "SENSORY": {
+          "status": "NOT_ACCESSIBLE",
+          "note": "Strong light and sound effects and big crowds",
+          "noteAr": "مؤثرات ضوئية وصوتية قوية وزحام كبير"
+        },
+        "STROLLER_ELDERLY": {
+          "status": "ACCESSIBLE",
+          "note": "Stroller parking, lifts and seating areas",
+          "noteAr": "مواقف عربات أطفال ومصاعد وأماكن جلوس"
+        }
+      },
+      "capacity": 80,
+      "avgVisitMinutes": 15
+    },
+    {
+      "name": "Tunisia Pavilion",
+      "country": "Tunisia",
+      "description": "Shows Tunisian heritage, crafts and Mediterranean culture.",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Tunisia_Pavilion_at_Expo_2025.jpg?width=1024",
+      "zone": "Culture",
+      "location": {
+        "x": 170,
+        "y": 690
+      },
+      "sourceExpo": "Expo 2025 Osaka",
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Tunisia_Pavilion_at_Expo_2025.jpg",
+      "accessibility": {
+        "WHEELCHAIR": {
+          "status": "PARTIAL",
+          "note": "Ground floor is step-free, the upper gallery has stairs only",
+          "noteAr": "الدور الأرضي بدون درج، والدور العلوي بدرج فقط"
+        },
+        "LIMITED_MOBILITY": {
+          "status": "PARTIAL",
+          "note": "Long standing queue and about 400 m of walking inside",
+          "noteAr": "طابور وقوف طويل وحوالي 400 متر مشي داخل الجناح"
+        },
+        "VISUAL": {
+          "status": "ACCESSIBLE",
+          "note": "Audio guide, braille signs and tactile models",
+          "noteAr": "دليل صوتي ولوحات برايل ومجسمات باللمس"
+        },
+        "HEARING": {
+          "status": "NOT_ACCESSIBLE",
+          "note": "Spoken show with no captions or sign language",
+          "noteAr": "عرض صوتي بدون ترجمة نصية أو لغة إشارة"
+        },
+        "SENSORY": {
+          "status": "NOT_ACCESSIBLE",
+          "note": "Strong light and sound effects and big crowds",
+          "noteAr": "مؤثرات ضوئية وصوتية قوية وزحام كبير"
+        },
+        "STROLLER_ELDERLY": {
+          "status": "PARTIAL",
+          "note": "Strollers must be left at the entrance",
+          "noteAr": "لازم تترك عربة الأطفال عند المدخل"
+        }
+      },
+      "capacity": 220,
+      "avgVisitMinutes": 25
+    },
+    {
+      "name": "Algeria Pavilion",
+      "country": "Algeria",
+      "description": "Presents Algeria's history, Sahara landscapes and cultural heritage.",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Algeria_Pavilion_at_Expo_2025.jpg?width=1024",
+      "zone": "Culture",
+      "location": {
+        "x": 229,
+        "y": 655
+      },
+      "sourceExpo": "Expo 2025 Osaka",
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Algeria_Pavilion_at_Expo_2025.jpg",
+      "accessibility": {
+        "WHEELCHAIR": {
+          "status": "PARTIAL",
+          "note": "Ground floor is step-free, the upper gallery has stairs only",
+          "noteAr": "الدور الأرضي بدون درج، والدور العلوي بدرج فقط"
+        },
+        "LIMITED_MOBILITY": {
+          "status": "ACCESSIBLE",
+          "note": "Short route inside with seating every few meters",
+          "noteAr": "جولة قصيرة داخل الجناح مع كراسي جلوس قريبة"
+        },
+        "VISUAL": {
+          "status": "PARTIAL",
+          "note": "Audio guide available, exhibits are mostly visual screens",
+          "noteAr": "فيه دليل صوتي، بس أغلب المعروضات شاشات مرئية"
+        },
+        "HEARING": {
+          "status": "NOT_ACCESSIBLE",
+          "note": "Spoken show with no captions or sign language",
+          "noteAr": "عرض صوتي بدون ترجمة نصية أو لغة إشارة"
+        },
+        "SENSORY": {
+          "status": "ACCESSIBLE",
+          "note": "Calm lighting, low sound and a quiet room",
+          "noteAr": "إضاءة هادئة وصوت منخفض وغرفة هادئة"
+        },
+        "STROLLER_ELDERLY": {
+          "status": "ACCESSIBLE",
+          "note": "Stroller parking, lifts and seating areas",
+          "noteAr": "مواقف عربات أطفال ومصاعد وأماكن جلوس"
+        }
+      },
+      "capacity": 160,
+      "avgVisitMinutes": 20
+    },
+    {
+      "name": "Vietnam Pavilion",
+      "country": "Vietnam",
+      "description": "Presents Vietnamese culture, crafts and traditions, and the country's growth.",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Expo_2025_Vietnam_Pavilion_01.JPG?width=1024",
+      "zone": "Culture",
+      "location": {
+        "x": 230,
+        "y": 586
+      },
+      "sourceExpo": "Expo 2025 Osaka",
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Expo_2025_Vietnam_Pavilion_01.JPG",
+      "accessibility": {
+        "WHEELCHAIR": {
+          "status": "NOT_ACCESSIBLE",
+          "note": "Entrance is on a raised platform with stairs and no ramp",
+          "noteAr": "المدخل على منصة مرتفعة بدرج وبدون منحدر"
+        },
+        "LIMITED_MOBILITY": {
+          "status": "NOT_ACCESSIBLE",
+          "note": "Steep ramps and a long walk with no places to sit",
+          "noteAr": "منحدرات شديدة ومشي طويل بدون أماكن جلوس"
+        },
+        "VISUAL": {
+          "status": "ACCESSIBLE",
+          "note": "Audio guide, braille signs and tactile models",
+          "noteAr": "دليل صوتي ولوحات برايل ومجسمات باللمس"
+        },
+        "HEARING": {
+          "status": "PARTIAL",
+          "note": "Captions on the main show only",
+          "noteAr": "ترجمة نصية للعرض الرئيسي فقط"
+        },
+        "SENSORY": {
+          "status": "PARTIAL",
+          "note": "One loud show room, the rest of the pavilion is calm",
+          "noteAr": "غرفة عرض صوتها عالي، وباقي الجناح هادئ"
+        },
+        "STROLLER_ELDERLY": {
+          "status": "ACCESSIBLE",
+          "note": "Stroller parking, lifts and seating areas",
+          "noteAr": "مواقف عربات أطفال ومصاعد وأماكن جلوس"
+        }
+      },
+      "capacity": 80,
+      "avgVisitMinutes": 15
+    },
+    {
+      "name": "Saudi Arabia Pavilion",
+      "country": "Saudi Arabia",
+      "description": "Host pavilion of Expo 2030 Riyadh. Designed by Foster + Partners as a small village of alleys and courtyards inspired by Saudi towns. Presents Saudi culture and Vision 2030.",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Saudi_Arabia_Pavilion_at_Expo_2025.jpg?width=1024",
+      "zone": "Collaboration",
+      "location": {
+        "x": 500,
+        "y": 600
+      },
+      "sourceExpo": "Expo 2025 Osaka",
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Saudi_Arabia_Pavilion_at_Expo_2025.jpg",
+      "accessibility": {
+        "WHEELCHAIR": {
+          "status": "ACCESSIBLE",
+          "note": "Step-free entrance, wide aisles and a lift to every level",
+          "noteAr": "مدخل بدون درج وممرات واسعة ومصعد لكل الأدوار"
+        },
+        "LIMITED_MOBILITY": {
+          "status": "ACCESSIBLE",
+          "note": "Short route inside with seating every few meters",
+          "noteAr": "جولة قصيرة داخل الجناح مع كراسي جلوس قريبة"
+        },
+        "VISUAL": {
+          "status": "ACCESSIBLE",
+          "note": "Audio guide, braille signs and tactile models",
+          "noteAr": "دليل صوتي ولوحات برايل ومجسمات باللمس"
+        },
+        "HEARING": {
+          "status": "ACCESSIBLE",
+          "note": "Captions on all shows and sign language guides",
+          "noteAr": "ترجمة نصية لكل العروض ومرشدين بلغة الإشارة"
+        },
+        "SENSORY": {
+          "status": "PARTIAL",
+          "note": "One loud show room, the rest of the pavilion is calm",
+          "noteAr": "غرفة عرض صوتها عالي، وباقي الجناح هادئ"
+        },
+        "STROLLER_ELDERLY": {
+          "status": "ACCESSIBLE",
+          "note": "Stroller parking, lifts and seating areas",
+          "noteAr": "مواقف عربات أطفال ومصاعد وأماكن جلوس"
+        }
+      },
+      "capacity": 420,
+      "avgVisitMinutes": 35
+    },
+    {
+      "name": "Qatar Pavilion",
+      "country": "Qatar",
+      "description": "Designed by Kengo Kuma with a white sail-like form inspired by traditional dhows, linking Qatar and Japan.",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Expo_2025_Qatar_Pavilion_01.JPG?width=1024",
+      "zone": "Collaboration",
+      "location": {
+        "x": 519,
+        "y": 423
+      },
+      "sourceExpo": "Expo 2025 Osaka",
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Expo_2025_Qatar_Pavilion_01.JPG",
+      "accessibility": {
+        "WHEELCHAIR": {
+          "status": "ACCESSIBLE",
+          "note": "Step-free entrance, wide aisles and a lift to every level",
+          "noteAr": "مدخل بدون درج وممرات واسعة ومصعد لكل الأدوار"
+        },
+        "LIMITED_MOBILITY": {
+          "status": "PARTIAL",
+          "note": "Long standing queue and about 400 m of walking inside",
+          "noteAr": "طابور وقوف طويل وحوالي 400 متر مشي داخل الجناح"
+        },
+        "VISUAL": {
+          "status": "ACCESSIBLE",
+          "note": "Audio guide, braille signs and tactile models",
+          "noteAr": "دليل صوتي ولوحات برايل ومجسمات باللمس"
+        },
+        "HEARING": {
+          "status": "PARTIAL",
+          "note": "Captions on the main show only",
+          "noteAr": "ترجمة نصية للعرض الرئيسي فقط"
+        },
+        "SENSORY": {
+          "status": "PARTIAL",
+          "note": "One loud show room, the rest of the pavilion is calm",
+          "noteAr": "غرفة عرض صوتها عالي، وباقي الجناح هادئ"
+        },
+        "STROLLER_ELDERLY": {
+          "status": "ACCESSIBLE",
+          "note": "Stroller parking, lifts and seating areas",
+          "noteAr": "مواقف عربات أطفال ومصاعد وأماكن جلوس"
+        }
+      },
+      "capacity": 220,
+      "avgVisitMinutes": 25
+    },
+    {
+      "name": "Bahrain Pavilion",
+      "country": "Bahrain",
+      "description": "Timber pavilion inspired by traditional boats and Bahrain's sea heritage.",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Expo_2025_Bahrain_Pavilion_01.JPG?width=1024",
+      "zone": "Collaboration",
+      "location": {
+        "x": 585,
+        "y": 418
+      },
+      "sourceExpo": "Expo 2025 Osaka",
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Expo_2025_Bahrain_Pavilion_01.JPG",
+      "accessibility": {
+        "WHEELCHAIR": {
+          "status": "ACCESSIBLE",
+          "note": "Step-free entrance, wide aisles and a lift to every level",
+          "noteAr": "مدخل بدون درج وممرات واسعة ومصعد لكل الأدوار"
+        },
+        "LIMITED_MOBILITY": {
+          "status": "PARTIAL",
+          "note": "Long standing queue and about 400 m of walking inside",
+          "noteAr": "طابور وقوف طويل وحوالي 400 متر مشي داخل الجناح"
+        },
+        "VISUAL": {
+          "status": "ACCESSIBLE",
+          "note": "Audio guide, braille signs and tactile models",
+          "noteAr": "دليل صوتي ولوحات برايل ومجسمات باللمس"
+        },
+        "HEARING": {
+          "status": "NOT_ACCESSIBLE",
+          "note": "Spoken show with no captions or sign language",
+          "noteAr": "عرض صوتي بدون ترجمة نصية أو لغة إشارة"
+        },
+        "SENSORY": {
+          "status": "NOT_ACCESSIBLE",
+          "note": "Strong light and sound effects and big crowds",
+          "noteAr": "مؤثرات ضوئية وصوتية قوية وزحام كبير"
+        },
+        "STROLLER_ELDERLY": {
+          "status": "ACCESSIBLE",
+          "note": "Stroller parking, lifts and seating areas",
+          "noteAr": "مواقف عربات أطفال ومصاعد وأماكن جلوس"
+        }
+      },
+      "capacity": 140,
+      "avgVisitMinutes": 20
+    },
+    {
+      "name": "The Baltics Pavilion",
+      "country": "Latvia, Lithuania",
+      "description": "Joint pavilion of Latvia and Lithuania, showing cooperation, nature and digital innovation.",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/The_Baltics_Pavilion_at_Expo_2025.jpg?width=1024",
+      "zone": "Collaboration",
+      "location": {
+        "x": 560,
+        "y": 480
+      },
+      "sourceExpo": "Expo 2025 Osaka",
+      "imageSource": "https://commons.wikimedia.org/wiki/File:The_Baltics_Pavilion_at_Expo_2025.jpg",
+      "accessibility": {
+        "WHEELCHAIR": {
+          "status": "PARTIAL",
+          "note": "Ground floor is step-free, the upper gallery has stairs only",
+          "noteAr": "الدور الأرضي بدون درج، والدور العلوي بدرج فقط"
+        },
+        "LIMITED_MOBILITY": {
+          "status": "ACCESSIBLE",
+          "note": "Short route inside with seating every few meters",
+          "noteAr": "جولة قصيرة داخل الجناح مع كراسي جلوس قريبة"
+        },
+        "VISUAL": {
+          "status": "NOT_ACCESSIBLE",
+          "note": "Dark immersive rooms with screen-only content",
+          "noteAr": "غرف مظلمة وعروض على الشاشات فقط"
+        },
+        "HEARING": {
+          "status": "ACCESSIBLE",
+          "note": "Captions on all shows and sign language guides",
+          "noteAr": "ترجمة نصية لكل العروض ومرشدين بلغة الإشارة"
+        },
+        "SENSORY": {
+          "status": "ACCESSIBLE",
+          "note": "Calm lighting, low sound and a quiet room",
+          "noteAr": "إضاءة هادئة وصوت منخفض وغرفة هادئة"
+        },
+        "STROLLER_ELDERLY": {
+          "status": "ACCESSIBLE",
+          "note": "Stroller parking, lifts and seating areas",
+          "noteAr": "مواقف عربات أطفال ومصاعد وأماكن جلوس"
+        }
+      },
+      "capacity": 150,
+      "avgVisitMinutes": 20
+    },
+    {
+      "name": "Nordic Circle Pavilion",
+      "country": "Denmark, Finland, Iceland, Norway, Sweden",
+      "description": "Joint timber pavilion of Denmark, Finland, Iceland, Norway and Sweden, focused on cooperation and sustainable living.",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Nordic_Circle_Pavilion_at_Expo_2025.jpg?width=1024",
+      "zone": "Collaboration",
+      "location": {
+        "x": 585,
+        "y": 542
+      },
+      "sourceExpo": "Expo 2025 Osaka",
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Nordic_Circle_Pavilion_at_Expo_2025.jpg",
+      "accessibility": {
+        "WHEELCHAIR": {
+          "status": "NOT_ACCESSIBLE",
+          "note": "Entrance is on a raised platform with stairs and no ramp",
+          "noteAr": "المدخل على منصة مرتفعة بدرج وبدون منحدر"
+        },
+        "LIMITED_MOBILITY": {
+          "status": "PARTIAL",
+          "note": "Long standing queue and about 400 m of walking inside",
+          "noteAr": "طابور وقوف طويل وحوالي 400 متر مشي داخل الجناح"
+        },
+        "VISUAL": {
+          "status": "ACCESSIBLE",
+          "note": "Audio guide, braille signs and tactile models",
+          "noteAr": "دليل صوتي ولوحات برايل ومجسمات باللمس"
+        },
+        "HEARING": {
+          "status": "PARTIAL",
+          "note": "Captions on the main show only",
+          "noteAr": "ترجمة نصية للعرض الرئيسي فقط"
+        },
+        "SENSORY": {
+          "status": "PARTIAL",
+          "note": "One loud show room, the rest of the pavilion is calm",
+          "noteAr": "غرفة عرض صوتها عالي، وباقي الجناح هادئ"
+        },
+        "STROLLER_ELDERLY": {
+          "status": "NOT_ACCESSIBLE",
+          "note": "Narrow stairs only, no lift",
+          "noteAr": "درج ضيق فقط وبدون مصعد"
+        }
+      },
+      "capacity": 70,
+      "avgVisitMinutes": 15
+    },
+    {
+      "name": "Azerbaijan Pavilion",
+      "country": "Azerbaijan",
+      "description": "Theme 'Seven Bridges to Sustainability', about connecting cultures, history and the future.",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Azerbaijan_Pavilion_at_Expo_2025.jpg?width=1024",
+      "zone": "Collaboration",
+      "location": {
+        "x": 519,
+        "y": 537
+      },
+      "sourceExpo": "Expo 2025 Osaka",
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Azerbaijan_Pavilion_at_Expo_2025.jpg",
+      "accessibility": {
+        "WHEELCHAIR": {
+          "status": "ACCESSIBLE",
+          "note": "Step-free entrance, wide aisles and a lift to every level",
+          "noteAr": "مدخل بدون درج وممرات واسعة ومصعد لكل الأدوار"
+        },
+        "LIMITED_MOBILITY": {
+          "status": "ACCESSIBLE",
+          "note": "Short route inside with seating every few meters",
+          "noteAr": "جولة قصيرة داخل الجناح مع كراسي جلوس قريبة"
+        },
+        "VISUAL": {
+          "status": "PARTIAL",
+          "note": "Audio guide available, exhibits are mostly visual screens",
+          "noteAr": "فيه دليل صوتي، بس أغلب المعروضات شاشات مرئية"
+        },
+        "HEARING": {
+          "status": "ACCESSIBLE",
+          "note": "Captions on all shows and sign language guides",
+          "noteAr": "ترجمة نصية لكل العروض ومرشدين بلغة الإشارة"
+        },
+        "SENSORY": {
+          "status": "ACCESSIBLE",
+          "note": "Calm lighting, low sound and a quiet room",
+          "noteAr": "إضاءة هادئة وصوت منخفض وغرفة هادئة"
+        },
+        "STROLLER_ELDERLY": {
+          "status": "ACCESSIBLE",
+          "note": "Stroller parking, lifts and seating areas",
+          "noteAr": "مواقف عربات أطفال ومصاعد وأماكن جلوس"
+        }
+      },
+      "capacity": 100,
+      "avgVisitMinutes": 20
+    },
+    {
+      "name": "Serbia Pavilion",
+      "country": "Serbia",
+      "description": "Presents Serbia's culture and future, and its role as the host of Expo 2027 in Belgrade.",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Serbia_Pavilion_at_Expo_2025.jpg?width=1024",
+      "zone": "Collaboration",
+      "location": {
+        "x": 468,
+        "y": 580
+      },
+      "sourceExpo": "Expo 2025 Osaka",
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Serbia_Pavilion_at_Expo_2025.jpg",
+      "accessibility": {
+        "WHEELCHAIR": {
+          "status": "NOT_ACCESSIBLE",
+          "note": "Entrance is on a raised platform with stairs and no ramp",
+          "noteAr": "المدخل على منصة مرتفعة بدرج وبدون منحدر"
+        },
+        "LIMITED_MOBILITY": {
+          "status": "PARTIAL",
+          "note": "Long standing queue and about 400 m of walking inside",
+          "noteAr": "طابور وقوف طويل وحوالي 400 متر مشي داخل الجناح"
+        },
+        "VISUAL": {
+          "status": "PARTIAL",
+          "note": "Audio guide available, exhibits are mostly visual screens",
+          "noteAr": "فيه دليل صوتي، بس أغلب المعروضات شاشات مرئية"
+        },
+        "HEARING": {
+          "status": "ACCESSIBLE",
+          "note": "Captions on all shows and sign language guides",
+          "noteAr": "ترجمة نصية لكل العروض ومرشدين بلغة الإشارة"
+        },
+        "SENSORY": {
+          "status": "ACCESSIBLE",
+          "note": "Calm lighting, low sound and a quiet room",
+          "noteAr": "إضاءة هادئة وصوت منخفض وغرفة هادئة"
+        },
+        "STROLLER_ELDERLY": {
+          "status": "ACCESSIBLE",
+          "note": "Stroller parking, lifts and seating areas",
+          "noteAr": "مواقف عربات أطفال ومصاعد وأماكن جلوس"
+        }
+      },
+      "capacity": 150,
+      "avgVisitMinutes": 20
+    },
+    {
+      "name": "Romania Pavilion",
+      "country": "Romania",
+      "description": "Presents Romanian nature, culture and partnerships for a sustainable future.",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Romania_Pavilion_at_Expo_2025.jpg?width=1024",
+      "zone": "Collaboration",
+      "location": {
+        "x": 451,
+        "y": 515
+      },
+      "sourceExpo": "Expo 2025 Osaka",
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Romania_Pavilion_at_Expo_2025.jpg",
+      "accessibility": {
+        "WHEELCHAIR": {
+          "status": "ACCESSIBLE",
+          "note": "Step-free entrance, wide aisles and a lift to every level",
+          "noteAr": "مدخل بدون درج وممرات واسعة ومصعد لكل الأدوار"
+        },
+        "LIMITED_MOBILITY": {
+          "status": "PARTIAL",
+          "note": "Long standing queue and about 400 m of walking inside",
+          "noteAr": "طابور وقوف طويل وحوالي 400 متر مشي داخل الجناح"
+        },
+        "VISUAL": {
+          "status": "NOT_ACCESSIBLE",
+          "note": "Dark immersive rooms with screen-only content",
+          "noteAr": "غرف مظلمة وعروض على الشاشات فقط"
+        },
+        "HEARING": {
+          "status": "PARTIAL",
+          "note": "Captions on the main show only",
+          "noteAr": "ترجمة نصية للعرض الرئيسي فقط"
+        },
+        "SENSORY": {
+          "status": "ACCESSIBLE",
+          "note": "Calm lighting, low sound and a quiet room",
+          "noteAr": "إضاءة هادئة وصوت منخفض وغرفة هادئة"
+        },
+        "STROLLER_ELDERLY": {
+          "status": "ACCESSIBLE",
+          "note": "Stroller parking, lifts and seating areas",
+          "noteAr": "مواقف عربات أطفال ومصاعد وأماكن جلوس"
+        }
+      },
+      "capacity": 130,
+      "avgVisitMinutes": 20
+    },
+    {
+      "name": "Bulgaria Pavilion",
+      "country": "Bulgaria",
+      "description": "Presents Bulgarian culture, nature and traditions.",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Expo_2025_Bulgaria_Pavilion_01.JPG?width=1024",
+      "zone": "Collaboration",
+      "location": {
+        "x": 395,
+        "y": 480
+      },
+      "sourceExpo": "Expo 2025 Osaka",
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Expo_2025_Bulgaria_Pavilion_01.JPG",
+      "accessibility": {
+        "WHEELCHAIR": {
+          "status": "ACCESSIBLE",
+          "note": "Step-free entrance, wide aisles and a lift to every level",
+          "noteAr": "مدخل بدون درج وممرات واسعة ومصعد لكل الأدوار"
+        },
+        "LIMITED_MOBILITY": {
+          "status": "PARTIAL",
+          "note": "Long standing queue and about 400 m of walking inside",
+          "noteAr": "طابور وقوف طويل وحوالي 400 متر مشي داخل الجناح"
+        },
+        "VISUAL": {
+          "status": "ACCESSIBLE",
+          "note": "Audio guide, braille signs and tactile models",
+          "noteAr": "دليل صوتي ولوحات برايل ومجسمات باللمس"
+        },
+        "HEARING": {
+          "status": "ACCESSIBLE",
+          "note": "Captions on all shows and sign language guides",
+          "noteAr": "ترجمة نصية لكل العروض ومرشدين بلغة الإشارة"
+        },
+        "SENSORY": {
+          "status": "PARTIAL",
+          "note": "One loud show room, the rest of the pavilion is calm",
+          "noteAr": "غرفة عرض صوتها عالي، وباقي الجناح هادئ"
+        },
+        "STROLLER_ELDERLY": {
+          "status": "ACCESSIBLE",
+          "note": "Stroller parking, lifts and seating areas",
+          "noteAr": "مواقف عربات أطفال ومصاعد وأماكن جلوس"
+        }
+      },
+      "capacity": 90,
+      "avgVisitMinutes": 15
+    },
+    {
+      "name": "Malta Pavilion",
+      "country": "Malta",
+      "description": "Presents Malta's Mediterranean heritage and its links with the world.",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Malta_Pavilion_at_Expo_2025.jpg?width=1024",
+      "zone": "Collaboration",
+      "location": {
+        "x": 451,
+        "y": 445
+      },
+      "sourceExpo": "Expo 2025 Osaka",
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Malta_Pavilion_at_Expo_2025.jpg",
+      "accessibility": {
+        "WHEELCHAIR": {
+          "status": "ACCESSIBLE",
+          "note": "Step-free entrance, wide aisles and a lift to every level",
+          "noteAr": "مدخل بدون درج وممرات واسعة ومصعد لكل الأدوار"
+        },
+        "LIMITED_MOBILITY": {
+          "status": "PARTIAL",
+          "note": "Long standing queue and about 400 m of walking inside",
+          "noteAr": "طابور وقوف طويل وحوالي 400 متر مشي داخل الجناح"
+        },
+        "VISUAL": {
+          "status": "NOT_ACCESSIBLE",
+          "note": "Dark immersive rooms with screen-only content",
+          "noteAr": "غرف مظلمة وعروض على الشاشات فقط"
+        },
+        "HEARING": {
+          "status": "ACCESSIBLE",
+          "note": "Captions on all shows and sign language guides",
+          "noteAr": "ترجمة نصية لكل العروض ومرشدين بلغة الإشارة"
+        },
+        "SENSORY": {
+          "status": "PARTIAL",
+          "note": "One loud show room, the rest of the pavilion is calm",
+          "noteAr": "غرفة عرض صوتها عالي، وباقي الجناح هادئ"
+        },
+        "STROLLER_ELDERLY": {
+          "status": "NOT_ACCESSIBLE",
+          "note": "Narrow stairs only, no lift",
+          "noteAr": "درج ضيق فقط وبدون مصعد"
+        }
+      },
+      "capacity": 160,
+      "avgVisitMinutes": 20
+    },
+    {
+      "name": "Monaco Pavilion",
+      "country": "Monaco",
+      "description": "Presents Monaco's focus on ocean protection and international cooperation.",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Monaco_Pavilion_at_Expo_2025.jpg?width=1024",
+      "zone": "Collaboration",
+      "location": {
+        "x": 468,
+        "y": 380
+      },
+      "sourceExpo": "Expo 2025 Osaka",
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Monaco_Pavilion_at_Expo_2025.jpg",
+      "accessibility": {
+        "WHEELCHAIR": {
+          "status": "PARTIAL",
+          "note": "Ground floor is step-free, the upper gallery has stairs only",
+          "noteAr": "الدور الأرضي بدون درج، والدور العلوي بدرج فقط"
+        },
+        "LIMITED_MOBILITY": {
+          "status": "ACCESSIBLE",
+          "note": "Short route inside with seating every few meters",
+          "noteAr": "جولة قصيرة داخل الجناح مع كراسي جلوس قريبة"
+        },
+        "VISUAL": {
+          "status": "NOT_ACCESSIBLE",
+          "note": "Dark immersive rooms with screen-only content",
+          "noteAr": "غرف مظلمة وعروض على الشاشات فقط"
+        },
+        "HEARING": {
+          "status": "NOT_ACCESSIBLE",
+          "note": "Spoken show with no captions or sign language",
+          "noteAr": "عرض صوتي بدون ترجمة نصية أو لغة إشارة"
+        },
+        "SENSORY": {
+          "status": "PARTIAL",
+          "note": "One loud show room, the rest of the pavilion is calm",
+          "noteAr": "غرفة عرض صوتها عالي، وباقي الجناح هادئ"
+        },
+        "STROLLER_ELDERLY": {
+          "status": "ACCESSIBLE",
+          "note": "Stroller parking, lifts and seating areas",
+          "noteAr": "مواقف عربات أطفال ومصاعد وأماكن جلوس"
+        }
+      },
+      "capacity": 170,
+      "avgVisitMinutes": 20
+    }
+  ],
+  "paths": [
+    {
+      "from": "ENTRANCE:East Gate",
+      "to": "PAVILION:Spain Pavilion",
+      "stepFree": true,
+      "shaded": true
+    },
+    {
+      "from": "ENTRANCE:East Gate",
+      "to": "ZONE:Humanity",
+      "stepFree": true,
+      "shaded": false
+    },
+    {
+      "from": "ENTRANCE:East Gate",
+      "to": "ZONE:Planet",
+      "stepFree": true,
+      "shaded": true
+    },
+    {
+      "from": "ENTRANCE:North Gate",
+      "to": "PAVILION:United States Pavilion",
+      "stepFree": true,
+      "shaded": true
+    },
+    {
+      "from": "ENTRANCE:North Gate",
+      "to": "ZONE:Planet",
+      "stepFree": false,
+      "shaded": true
+    },
+    {
+      "from": "ENTRANCE:North Gate",
+      "to": "ZONE:Technology",
+      "stepFree": true,
+      "shaded": true
+    },
+    {
+      "from": "ENTRANCE:South Main Gate",
+      "to": "PAVILION:Jordan Pavilion",
+      "stepFree": true,
+      "shaded": true
+    },
+    {
+      "from": "ENTRANCE:South Main Gate",
+      "to": "ZONE:Culture",
+      "stepFree": true,
+      "shaded": false
+    },
+    {
+      "from": "ENTRANCE:South Main Gate",
+      "to": "ZONE:Humanity",
+      "stepFree": true,
+      "shaded": true
+    },
+    {
+      "from": "ENTRANCE:West Gate",
+      "to": "PAVILION:Luxembourg Pavilion",
+      "stepFree": true,
+      "shaded": false
+    },
+    {
+      "from": "ENTRANCE:West Gate",
+      "to": "ZONE:Culture",
+      "stepFree": true,
+      "shaded": false
+    },
+    {
+      "from": "ENTRANCE:West Gate",
+      "to": "ZONE:Technology",
+      "stepFree": true,
+      "shaded": false
+    },
+    {
+      "from": "PAVILION:Algeria Pavilion",
+      "to": "PAVILION:Tunisia Pavilion",
+      "stepFree": true,
+      "shaded": false
+    },
+    {
+      "from": "PAVILION:Algeria Pavilion",
+      "to": "PAVILION:Vietnam Pavilion",
+      "stepFree": true,
+      "shaded": true
+    },
+    {
+      "from": "PAVILION:Algeria Pavilion",
+      "to": "ZONE:Culture",
+      "stepFree": true,
+      "shaded": true
+    },
+    {
+      "from": "PAVILION:Angola Pavilion",
+      "to": "PAVILION:Bangladesh Pavilion",
+      "stepFree": true,
+      "shaded": false
+    },
+    {
+      "from": "PAVILION:Angola Pavilion",
+      "to": "PAVILION:Senegal Pavilion",
+      "stepFree": true,
+      "shaded": true
+    },
+    {
+      "from": "PAVILION:Angola Pavilion",
+      "to": "ZONE:Humanity",
+      "stepFree": true,
+      "shaded": false
+    },
+    {
+      "from": "PAVILION:Australia Pavilion",
+      "to": "PAVILION:Canada Pavilion",
+      "stepFree": true,
+      "shaded": false
+    },
+    {
+      "from": "PAVILION:Australia Pavilion",
+      "to": "PAVILION:Netherlands Pavilion",
+      "stepFree": false,
+      "shaded": false
+    },
+    {
+      "from": "PAVILION:Australia Pavilion",
+      "to": "ZONE:Planet",
+      "stepFree": false,
+      "shaded": false
+    },
+    {
+      "from": "PAVILION:Austria Pavilion",
+      "to": "PAVILION:France Pavilion",
+      "stepFree": false,
+      "shaded": false
+    },
+    {
+      "from": "PAVILION:Austria Pavilion",
+      "to": "PAVILION:Hungary Pavilion",
+      "stepFree": true,
+      "shaded": true
+    },
+    {
+      "from": "PAVILION:Austria Pavilion",
+      "to": "ZONE:Culture",
+      "stepFree": true,
+      "shaded": false
+    },
+    {
+      "from": "PAVILION:Azerbaijan Pavilion",
+      "to": "PAVILION:Nordic Circle Pavilion",
+      "stepFree": true,
+      "shaded": false
+    },
+    {
+      "from": "PAVILION:Azerbaijan Pavilion",
+      "to": "PAVILION:Saudi Arabia Pavilion",
+      "stepFree": true,
+      "shaded": true
+    },
+    {
+      "from": "PAVILION:Azerbaijan Pavilion",
+      "to": "PAVILION:Serbia Pavilion",
+      "stepFree": true,
+      "shaded": false
+    },
+    {
+      "from": "PAVILION:Azerbaijan Pavilion",
+      "to": "ZONE:Collaboration",
+      "stepFree": true,
+      "shaded": false
+    },
+    {
+      "from": "PAVILION:Bahrain Pavilion",
+      "to": "PAVILION:Qatar Pavilion",
+      "stepFree": true,
+      "shaded": true
+    },
+    {
+      "from": "PAVILION:Bahrain Pavilion",
+      "to": "PAVILION:The Baltics Pavilion",
+      "stepFree": true,
+      "shaded": true
+    },
+    {
+      "from": "PAVILION:Bahrain Pavilion",
+      "to": "ZONE:Collaboration",
+      "stepFree": true,
+      "shaded": true
+    },
+    {
+      "from": "PAVILION:Bangladesh Pavilion",
+      "to": "PAVILION:Philippines Pavilion",
+      "stepFree": true,
+      "shaded": true
+    },
+    {
+      "from": "PAVILION:Bangladesh Pavilion",
+      "to": "ZONE:Humanity",
+      "stepFree": true,
+      "shaded": true
+    },
+    {
+      "from": "PAVILION:Belgium Pavilion",
+      "to": "PAVILION:Philippines Pavilion",
+      "stepFree": true,
+      "shaded": false
+    },
+    {
+      "from": "PAVILION:Belgium Pavilion",
+      "to": "PAVILION:Thailand Pavilion",
+      "stepFree": true,
+      "shaded": true
+    },
+    {
+      "from": "PAVILION:Belgium Pavilion",
+      "to": "ZONE:Humanity",
+      "stepFree": true,
+      "shaded": true
+    },
+    {
+      "from": "PAVILION:Brazil Pavilion",
+      "to": "PAVILION:Colombia Pavilion",
+      "stepFree": true,
+      "shaded": true
+    },
+    {
+      "from": "PAVILION:Brazil Pavilion",
+      "to": "PAVILION:Malaysia Pavilion",
+      "stepFree": true,
+      "shaded": false
+    },
+    {
+      "from": "PAVILION:Brazil Pavilion",
+      "to": "ZONE:Planet",
+      "stepFree": true,
+      "shaded": true
+    },
+    {
+      "from": "PAVILION:Bulgaria Pavilion",
+      "to": "PAVILION:Malta Pavilion",
+      "stepFree": true,
+      "shaded": false
+    },
+    {
+      "from": "PAVILION:Bulgaria Pavilion",
+      "to": "PAVILION:Romania Pavilion",
+      "stepFree": true,
+      "shaded": true
+    },
+    {
+      "from": "PAVILION:Bulgaria Pavilion",
+      "to": "ZONE:Collaboration",
+      "stepFree": true,
+      "shaded": false
+    },
+    {
+      "from": "PAVILION:Cambodia Pavilion",
+      "to": "PAVILION:Nepal Pavilion",
+      "stepFree": true,
+      "shaded": true
+    },
+    {
+      "from": "PAVILION:Cambodia Pavilion",
+      "to": "PAVILION:Peru Pavilion",
+      "stepFree": true,
+      "shaded": true
+    },
+    {
+      "from": "PAVILION:Cambodia Pavilion",
+      "to": "ZONE:Humanity",
+      "stepFree": true,
+      "shaded": true
+    },
+    {
+      "from": "PAVILION:Canada Pavilion",
+      "to": "PAVILION:Portugal Pavilion",
+      "stepFree": true,
+      "shaded": true
+    },
+    {
+      "from": "PAVILION:Canada Pavilion",
+      "to": "ZONE:Planet",
+      "stepFree": true,
+      "shaded": false
+    },
+    {
+      "from": "PAVILION:Chile Pavilion",
+      "to": "PAVILION:Germany Pavilion",
+      "stepFree": true,
+      "shaded": true
+    },
+    {
+      "from": "PAVILION:Chile Pavilion",
+      "to": "PAVILION:Oman Pavilion",
+      "stepFree": true,
+      "shaded": true
+    },
+    {
+      "from": "PAVILION:Chile Pavilion",
+      "to": "ZONE:Planet",
+      "stepFree": true,
+      "shaded": true
+    },
+    {
+      "from": "PAVILION:China Pavilion",
+      "to": "PAVILION:South Korea Pavilion",
+      "stepFree": true,
+      "shaded": true
+    },
+    {
+      "from": "PAVILION:China Pavilion",
+      "to": "PAVILION:United States Pavilion",
+      "stepFree": true,
+      "shaded": true
+    },
+    {
+      "from": "PAVILION:China Pavilion",
+      "to": "ZONE:Technology",
+      "stepFree": true,
+      "shaded": false
+    },
+    {
+      "from": "PAVILION:Colombia Pavilion",
+      "to": "PAVILION:Oman Pavilion",
+      "stepFree": true,
+      "shaded": true
+    },
+    {
+      "from": "PAVILION:Colombia Pavilion",
+      "to": "ZONE:Planet",
+      "stepFree": true,
+      "shaded": false
+    },
+    {
+      "from": "PAVILION:Czech Republic Pavilion",
+      "to": "PAVILION:India Pavilion",
+      "stepFree": true,
+      "shaded": false
+    },
+    {
+      "from": "PAVILION:Czech Republic Pavilion",
+      "to": "PAVILION:Luxembourg Pavilion",
+      "stepFree": true,
+      "shaded": false
+    },
+    {
+      "from": "PAVILION:Czech Republic Pavilion",
+      "to": "ZONE:Technology",
+      "stepFree": true,
+      "shaded": false
+    },
+    {
+      "from": "PAVILION:Egypt Pavilion",
+      "to": "PAVILION:Hungary Pavilion",
+      "stepFree": false,
+      "shaded": false
+    },
+    {
+      "from": "PAVILION:Egypt Pavilion",
+      "to": "PAVILION:Jordan Pavilion",
+      "stepFree": false,
+      "shaded": false
+    },
+    {
+      "from": "PAVILION:Egypt Pavilion",
+      "to": "ZONE:Culture",
+      "stepFree": true,
+      "shaded": false
+    },
+    {
+      "from": "PAVILION:France Pavilion",
+      "to": "PAVILION:Italy Pavilion",
+      "stepFree": true,
+      "shaded": false
+    },
+    {
+      "from": "PAVILION:France Pavilion",
+      "to": "ZONE:Culture",
+      "stepFree": true,
+      "shaded": true
+    },
+    {
+      "from": "PAVILION:Germany Pavilion",
+      "to": "PAVILION:Netherlands Pavilion",
+      "stepFree": true,
+      "shaded": true
+    },
+    {
+      "from": "PAVILION:Germany Pavilion",
+      "to": "ZONE:Planet",
+      "stepFree": true,
+      "shaded": false
+    },
+    {
+      "from": "PAVILION:Hungary Pavilion",
+      "to": "ZONE:Culture",
+      "stepFree": true,
+      "shaded": true
+    },
+    {
+      "from": "PAVILION:India Pavilion",
+      "to": "PAVILION:Kuwait Pavilion",
+      "stepFree": true,
+      "shaded": true
+    },
+    {
+      "from": "PAVILION:India Pavilion",
+      "to": "ZONE:Technology",
+      "stepFree": true,
+      "shaded": true
+    },
+    {
+      "from": "PAVILION:Indonesia Pavilion",
+      "to": "PAVILION:Malaysia Pavilion",
+      "stepFree": false,
+      "shaded": true
+    },
+    {
+      "from": "PAVILION:Indonesia Pavilion",
+      "to": "PAVILION:Spain Pavilion",
+      "stepFree": true,
+      "shaded": true
+    },
+    {
+      "from": "PAVILION:Indonesia Pavilion",
+      "to": "ZONE:Planet",
+      "stepFree": false,
+      "shaded": false
+    },
+    {
+      "from": "PAVILION:Ireland Pavilion",
+      "to": "PAVILION:Poland Pavilion",
+      "stepFree": true,
+      "shaded": true
+    },
+    {
+      "from": "PAVILION:Ireland Pavilion",
+      "to": "PAVILION:Thailand Pavilion",
+      "stepFree": true,
+      "shaded": false
+    },
+    {
+      "from": "PAVILION:Ireland Pavilion",
+      "to": "ZONE:Humanity",
+      "stepFree": true,
+      "shaded": true
+    },
+    {
+      "from": "PAVILION:Italy Pavilion",
+      "to": "PAVILION:Vietnam Pavilion",
+      "stepFree": true,
+      "shaded": false
+    },
+    {
+      "from": "PAVILION:Italy Pavilion",
+      "to": "ZONE:Culture",
+      "stepFree": true,
+      "shaded": true
+    },
+    {
+      "from": "PAVILION:Japan Pavilion",
+      "to": "PAVILION:Switzerland Pavilion",
+      "stepFree": true,
+      "shaded": true
+    },
+    {
+      "from": "PAVILION:Japan Pavilion",
+      "to": "PAVILION:United States Pavilion",
+      "stepFree": true,
+      "shaded": true
+    },
+    {
+      "from": "PAVILION:Japan Pavilion",
+      "to": "ZONE:Technology",
+      "stepFree": true,
+      "shaded": true
+    },
+    {
+      "from": "PAVILION:Jordan Pavilion",
+      "to": "PAVILION:Uzbekistan Pavilion",
+      "stepFree": true,
+      "shaded": false
+    },
+    {
+      "from": "PAVILION:Jordan Pavilion",
+      "to": "ZONE:Culture",
+      "stepFree": true,
+      "shaded": true
+    },
+    {
+      "from": "PAVILION:Kuwait Pavilion",
+      "to": "PAVILION:Switzerland Pavilion",
+      "stepFree": false,
+      "shaded": false
+    },
+    {
+      "from": "PAVILION:Kuwait Pavilion",
+      "to": "ZONE:Technology",
+      "stepFree": false,
+      "shaded": false
+    },
+    {
+      "from": "PAVILION:Luxembourg Pavilion",
+      "to": "PAVILION:United Kingdom Pavilion",
+      "stepFree": true,
+      "shaded": false
+    },
+    {
+      "from": "PAVILION:Luxembourg Pavilion",
+      "to": "ZONE:Technology",
+      "stepFree": true,
+      "shaded": false
+    },
+    {
+      "from": "PAVILION:Malaysia Pavilion",
+      "to": "ZONE:Planet",
+      "stepFree": true,
+      "shaded": false
+    },
+    {
+      "from": "PAVILION:Malta Pavilion",
+      "to": "PAVILION:Monaco Pavilion",
+      "stepFree": true,
+      "shaded": true
+    },
+    {
+      "from": "PAVILION:Malta Pavilion",
+      "to": "ZONE:Collaboration",
+      "stepFree": true,
+      "shaded": false
+    },
+    {
+      "from": "PAVILION:Monaco Pavilion",
+      "to": "PAVILION:Qatar Pavilion",
+      "stepFree": true,
+      "shaded": true
+    },
+    {
+      "from": "PAVILION:Monaco Pavilion",
+      "to": "ZONE:Collaboration",
+      "stepFree": true,
+      "shaded": true
+    },
+    {
+      "from": "PAVILION:Nepal Pavilion",
+      "to": "PAVILION:Senegal Pavilion",
+      "stepFree": false,
+      "shaded": true
+    },
+    {
+      "from": "PAVILION:Nepal Pavilion",
+      "to": "ZONE:Humanity",
+      "stepFree": false,
+      "shaded": false
+    },
+    {
+      "from": "PAVILION:Netherlands Pavilion",
+      "to": "ZONE:Planet",
+      "stepFree": false,
+      "shaded": false
+    },
+    {
+      "from": "PAVILION:Nordic Circle Pavilion",
+      "to": "PAVILION:The Baltics Pavilion",
+      "stepFree": true,
+      "shaded": false
+    },
+    {
+      "from": "PAVILION:Nordic Circle Pavilion",
+      "to": "ZONE:Collaboration",
+      "stepFree": false,
+      "shaded": true
+    },
+    {
+      "from": "PAVILION:Oman Pavilion",
+      "to": "ZONE:Planet",
+      "stepFree": true,
+      "shaded": false
+    },
+    {
+      "from": "PAVILION:Peru Pavilion",
+      "to": "PAVILION:Poland Pavilion",
+      "stepFree": true,
+      "shaded": false
+    },
+    {
+      "from": "PAVILION:Peru Pavilion",
+      "to": "ZONE:Humanity",
+      "stepFree": true,
+      "shaded": false
+    },
+    {
+      "from": "PAVILION:Philippines Pavilion",
+      "to": "ZONE:Humanity",
+      "stepFree": true,
+      "shaded": false
+    },
+    {
+      "from": "PAVILION:Poland Pavilion",
+      "to": "ZONE:Humanity",
+      "stepFree": true,
+      "shaded": false
+    },
+    {
+      "from": "PAVILION:Portugal Pavilion",
+      "to": "PAVILION:Spain Pavilion",
+      "stepFree": true,
+      "shaded": true
+    },
+    {
+      "from": "PAVILION:Portugal Pavilion",
+      "to": "ZONE:Planet",
+      "stepFree": true,
+      "shaded": false
+    },
+    {
+      "from": "PAVILION:Qatar Pavilion",
+      "to": "ZONE:Collaboration",
+      "stepFree": true,
+      "shaded": false
+    },
+    {
+      "from": "PAVILION:Romania Pavilion",
+      "to": "PAVILION:Serbia Pavilion",
+      "stepFree": true,
+      "shaded": true
+    },
+    {
+      "from": "PAVILION:Romania Pavilion",
+      "to": "ZONE:Collaboration",
+      "stepFree": true,
+      "shaded": false
+    },
+    {
+      "from": "PAVILION:Saudi Arabia Pavilion",
+      "to": "PAVILION:Serbia Pavilion",
+      "stepFree": true,
+      "shaded": true
+    },
+    {
+      "from": "PAVILION:Saudi Arabia Pavilion",
+      "to": "ZONE:Collaboration",
+      "stepFree": true,
+      "shaded": true
+    },
+    {
+      "from": "PAVILION:Senegal Pavilion",
+      "to": "ZONE:Humanity",
+      "stepFree": true,
+      "shaded": true
+    },
+    {
+      "from": "PAVILION:Serbia Pavilion",
+      "to": "ZONE:Collaboration",
+      "stepFree": true,
+      "shaded": true
+    },
+    {
+      "from": "PAVILION:Singapore Pavilion",
+      "to": "PAVILION:South Korea Pavilion",
+      "stepFree": true,
+      "shaded": true
+    },
+    {
+      "from": "PAVILION:Singapore Pavilion",
+      "to": "PAVILION:United Arab Emirates Pavilion",
+      "stepFree": true,
+      "shaded": false
+    },
+    {
+      "from": "PAVILION:Singapore Pavilion",
+      "to": "ZONE:Technology",
+      "stepFree": true,
+      "shaded": false
+    },
+    {
+      "from": "PAVILION:South Korea Pavilion",
+      "to": "ZONE:Technology",
+      "stepFree": true,
+      "shaded": true
+    },
+    {
+      "from": "PAVILION:Spain Pavilion",
+      "to": "ZONE:Planet",
+      "stepFree": true,
+      "shaded": false
+    },
+    {
+      "from": "PAVILION:Switzerland Pavilion",
+      "to": "ZONE:Technology",
+      "stepFree": false,
+      "shaded": false
+    },
+    {
+      "from": "PAVILION:Thailand Pavilion",
+      "to": "ZONE:Humanity",
+      "stepFree": true,
+      "shaded": true
+    },
+    {
+      "from": "PAVILION:The Baltics Pavilion",
+      "to": "ZONE:Collaboration",
+      "stepFree": true,
+      "shaded": false
+    },
+    {
+      "from": "PAVILION:Tunisia Pavilion",
+      "to": "PAVILION:Turkmenistan Pavilion",
+      "stepFree": true,
+      "shaded": true
+    },
+    {
+      "from": "PAVILION:Tunisia Pavilion",
+      "to": "ZONE:Culture",
+      "stepFree": true,
+      "shaded": true
+    },
+    {
+      "from": "PAVILION:Turkiye Pavilion",
+      "to": "PAVILION:Turkmenistan Pavilion",
+      "stepFree": true,
+      "shaded": true
+    },
+    {
+      "from": "PAVILION:Turkiye Pavilion",
+      "to": "PAVILION:Uzbekistan Pavilion",
+      "stepFree": true,
+      "shaded": false
+    },
+    {
+      "from": "PAVILION:Turkiye Pavilion",
+      "to": "ZONE:Culture",
+      "stepFree": true,
+      "shaded": false
+    },
+    {
+      "from": "PAVILION:Turkmenistan Pavilion",
+      "to": "ZONE:Culture",
+      "stepFree": true,
+      "shaded": false
+    },
+    {
+      "from": "PAVILION:United Arab Emirates Pavilion",
+      "to": "PAVILION:United Kingdom Pavilion",
+      "stepFree": true,
+      "shaded": true
+    },
+    {
+      "from": "PAVILION:United Arab Emirates Pavilion",
+      "to": "ZONE:Technology",
+      "stepFree": true,
+      "shaded": true
+    },
+    {
+      "from": "PAVILION:United Kingdom Pavilion",
+      "to": "ZONE:Technology",
+      "stepFree": false,
+      "shaded": false
+    },
+    {
+      "from": "PAVILION:United States Pavilion",
+      "to": "ZONE:Technology",
+      "stepFree": true,
+      "shaded": false
+    },
+    {
+      "from": "PAVILION:Uzbekistan Pavilion",
+      "to": "ZONE:Culture",
+      "stepFree": true,
+      "shaded": false
+    },
+    {
+      "from": "PAVILION:Vietnam Pavilion",
+      "to": "ZONE:Culture",
+      "stepFree": false,
+      "shaded": true
+    },
+    {
+      "from": "ZONE:Collaboration",
+      "to": "ZONE:Culture",
+      "stepFree": true,
+      "shaded": false
+    },
+    {
+      "from": "ZONE:Collaboration",
+      "to": "ZONE:Humanity",
+      "stepFree": true,
+      "shaded": true
+    },
+    {
+      "from": "ZONE:Collaboration",
+      "to": "ZONE:Planet",
+      "stepFree": true,
+      "shaded": false
+    },
+    {
+      "from": "ZONE:Collaboration",
+      "to": "ZONE:Technology",
+      "stepFree": false,
+      "shaded": true
+    },
+    {
+      "from": "ZONE:Culture",
+      "to": "ZONE:Humanity",
+      "stepFree": true,
+      "shaded": false
+    },
+    {
+      "from": "ZONE:Culture",
+      "to": "ZONE:Technology",
+      "stepFree": true,
+      "shaded": true
+    },
+    {
+      "from": "ZONE:Humanity",
+      "to": "ZONE:Planet",
+      "stepFree": true,
+      "shaded": true
+    },
+    {
+      "from": "ZONE:Planet",
+      "to": "ZONE:Technology",
+      "stepFree": false,
+      "shaded": false
+    }
+  ]
+}

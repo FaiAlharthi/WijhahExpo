@@ -1,0 +1,2316 @@
+{
+  "meta": {
+    "description": "Knowledge file for the Expo 2030 Riyadh visitor chatbot (RAG). Every text has an English (en) and Arabic (ar) version.",
+    "languages": [
+      "en",
+      "ar"
+    ],
+    "pavilionNames": "Pavilion names match data/expo-data.json, so each entry links to a pavilion in the database.",
+    "note": "Pavilion details come from Expo 2025 Osaka and earlier World Expos. Smaller pavilions have shorter entries because less public information is available."
+  },
+  "faq": [
+    {
+      "id": "dates",
+      "question": {
+        "ar": "متى يبدأ إكسبو 2030 ومتى ينتهي؟",
+        "en": "When does Expo 2030 start and end?"
+      },
+      "answer": {
+        "ar": "يبدأ إكسبو 2030 الرياض في 1 أكتوبر 2030 ويستمر ستة أشهر حتى 31 مارس 2031.",
+        "en": "Expo 2030 Riyadh starts on 1 October 2030 and runs for six months until 31 March 2031."
+      }
+    },
+    {
+      "id": "location",
+      "question": {
+        "ar": "وين يقام إكسبو 2030؟",
+        "en": "Where is Expo 2030 held?"
+      },
+      "answer": {
+        "ar": "يقام إكسبو 2030 في مدينة الرياض قرب مطار الملك خالد الدولي، على امتداد وادي السلي، بمساحة تقارب 6 كم².",
+        "en": "Expo 2030 is held in Riyadh, near King Khalid International Airport along Wadi Al Sulai, on a site of about 6 km2."
+      }
+    },
+    {
+      "id": "tickets",
+      "question": {
+        "ar": "كم سعر التذكرة؟",
+        "en": "How much is the ticket?"
+      },
+      "answer": {
+        "ar": "لم تُعلن أسعار تذاكر إكسبو 2030 الرياض حتى الآن. تابع الموقع الرسمي للإكسبو لمعرفة الأسعار وطريقة الحجز عند إعلانها.",
+        "en": "Ticket prices for Expo 2030 Riyadh have not been announced yet. Follow the official Expo website for prices and booking when they are announced."
+      }
+    },
+    {
+      "id": "areas",
+      "question": {
+        "ar": "وش المناطق الموجودة في الإكسبو؟",
+        "en": "What areas are in the Expo?"
+      },
+      "answer": {
+        "ar": "الأجنحة في التطبيق مقسمة إلى خمس مناطق:\n- التعاون: المنطقة الوسطى، وفيها الجناح السعودي المستضيف والأجنحة المشتركة بين الدول.\n- التقنية: الذكاء الاصطناعي والروبوتات والفضاء والابتكار.\n- الكوكب: الطاقة النظيفة والمياه والمحيطات والاستدامة.\n- الثقافة: التراث والفنون وهوية الشعوب.\n- الإنسانية: الصحة وجودة الحياة والتعليم.",
+        "en": "Pavilions in the app are grouped into five areas:\n- Collaboration: the central area, with the host Saudi pavilion and joint pavilions.\n- Technology: AI, robotics, space and innovation.\n- Planet: clean energy, water, oceans and sustainability.\n- Culture: heritage, arts and national identity.\n- Humanity: health, wellbeing and education."
+      }
+    },
+    {
+      "id": "plan",
+      "question": {
+        "ar": "كيف أسوي خطة زيارة؟",
+        "en": "How do I make a visit plan?"
+      },
+      "answer": {
+        "ar": "بثلاث خطوات بسيطة:\n1. اختر اهتماماتك (3 على الأقل).\n2. جاوب على أسئلة سريعة: يوم الزيارة، ووقت الوصول والمغادرة، ومع من بتجي، ونوع التجربة اللي تحبها، والاستراحات اللي تحتاجها، وبوابة الدخول.\n3. تطلع لك خطة جاهزة لليوم بأجنحة تناسبك، مرتبة بأقصر طريق على الخريطة.\n\nوبعدها تقدر:\n- تضيف أجنحة أو تحذفها أو تغيّر ترتيبها بنفسك.\n- تسجّل زيارتك لكل جناح عشان تنختم في جوازك.\n- تقيّم الأجنحة اللي زرتها.\n- تجدد باقي محطاتك متى ما حبيت، حسب تقييماتك للأجنحة اللي زرتها ذاك اليوم.",
+        "en": "In three simple steps:\n1. Choose your interests (at least 3).\n2. Answer a few quick questions: visit day, arrival and departure time, who you are coming with, the experiences you like, the breaks you need, and your entrance gate.\n3. Get a ready plan for the day with pavilions that suit you, ordered by the shortest route on the map.\n\nThen you can:\n- Add, remove or reorder pavilions yourself.\n- Check in at each pavilion to get a stamp in your passport.\n- Review the pavilions you visited.\n- Refresh the rest of your stops any time, based on your reviews of the pavilions you visited that day."
+      }
+    }
+  ],
+  "general": [
+    {
+      "id": "expo2030",
+      "title": {
+        "en": "About Expo 2030 Riyadh",
+        "ar": "عن إكسبو 2030 الرياض"
+      },
+      "content": {
+        "en": "Expo 2030 Riyadh is a World Expo hosted by Saudi Arabia in its capital, Riyadh, from 1 October 2030 to 31 March 2031. Its theme is 'Foresight for Tomorrow', with three official sub-themes: Transformational Technology, Sustainable Solutions and Prosperous People. Saudi Arabia was elected host in November 2023 and the Expo was registered by the BIE in June 2025. The site is about 6 km2 near King Khalid International Airport, following the Wadi Al Sulai, and around 197 countries and over 40 million visits are expected.",
+        "ar": "إكسبو 2030 الرياض معرض دولي تستضيفه المملكة العربية السعودية في عاصمتها الرياض من 1 أكتوبر 2030 إلى 31 مارس 2031. شعاره «استشراف المستقبل»، وله ثلاثة محاور رسمية: التقنية التحويلية، والحلول المستدامة، والإنسان المزدهر. فازت المملكة بالاستضافة في نوفمبر 2023، وسجّل المكتب الدولي للمعارض الإكسبو رسميًا في يونيو 2025. تبلغ مساحة الموقع نحو 6 كم² قرب مطار الملك خالد الدولي على امتداد وادي السلي، ويُتوقع مشاركة نحو 197 دولة وأكثر من 40 مليون زيارة."
+      },
+      "sources": [
+        "https://www.bie-paris.org/site/en/news-announcements/world-expo/bie-general-assembly-grants-registration-to-world-expo-2030-riyadh"
+      ]
+    },
+    {
+      "id": "zones",
+      "title": {
+        "en": "The five zones in the app",
+        "ar": "الزونات الخمس في التطبيق"
+      },
+      "content": {
+        "en": "The app groups pavilions into five zones. Collaboration is the central district with the host Saudi pavilion and joint multi-country pavilions. Technology covers AI, robotics, mobility, space and digital innovation. Planet covers climate action, clean energy, water, oceans, forests and the circular economy. Culture covers heritage, arts and how nations express their identity. Humanity covers health, wellbeing, education and better lives for communities. Note: these five zones are the app's own grouping, while the official Expo 2030 sub-themes are three.",
+        "ar": "يقسم التطبيق الأجنحة إلى خمس زونات. زون التعاون هو المنطقة الوسطى وفيه الجناح السعودي المستضيف والأجنحة المشتركة بين عدة دول. زون التقنية يشمل الذكاء الاصطناعي والروبوتات والتنقل والفضاء والابتكار الرقمي. زون الكوكب يشمل العمل المناخي والطاقة النظيفة والمياه والمحيطات والغابات والاقتصاد الدائري. زون الثقافة يشمل التراث والفنون وطريقة تعبير الدول عن هويتها. زون الإنسانية يشمل الصحة وجودة الحياة والتعليم وحياة أفضل للمجتمعات. ملاحظة: هذه الزونات الخمس تقسيم خاص بالتطبيق، أما محاور إكسبو 2030 الرسمية فهي ثلاثة."
+      },
+      "sources": []
+    },
+    {
+      "id": "gates",
+      "title": {
+        "en": "Entrances",
+        "ar": "البوابات"
+      },
+      "content": {
+        "en": "The site in the app has four entrances: the South Main Gate, the North Gate, the East Gate and the West Gate. The visitor chooses the entrance when generating a roadmap, and the route starts from it. At the end of the day the app suggests the nearest gate to exit.",
+        "ar": "للموقع في التطبيق أربع بوابات: البوابة الجنوبية الرئيسية، والبوابة الشمالية، والبوابة الشرقية، والبوابة الغربية. يختار الزائر بوابة الدخول عند توليد الخطة ويبدأ المسار منها، وفي نهاية اليوم يقترح التطبيق أقرب بوابة للخروج."
+      },
+      "sources": []
+    },
+    {
+      "id": "app_features",
+      "title": {
+        "en": "How the app works",
+        "ar": "كيف يعمل التطبيق"
+      },
+      "content": {
+        "en": "The visitor answers a short survey (date, arrival and departure time, who they come with, preferred experiences, pace and breaks) and gets a daily roadmap. The AI chooses pavilions that match the visitor's interests and the shortest walking route orders them. Every day has one roadmap. The visitor can add, remove or reorder pavilions, and can refresh it any time: the visited pavilions stay and the rest are regenerated based on the visitor's reviews of that day. Each visit is recorded as a stamp in the Expo passport. Visitors can review a pavilion only after visiting it.",
+        "ar": "يجيب الزائر على استبيان قصير (التاريخ، ووقت الوصول والمغادرة، ومع من سيأتي، ونوع التجربة، والإيقاع، والاستراحات) ويحصل على خطة لليوم. يختار الذكاء الاصطناعي الأجنحة المناسبة لاهتماماته، ويرتبها التطبيق بأقصر طريق مشي. لكل يوم خطة واحدة، ويستطيع الزائر إضافة أجنحة أو حذفها أو تغيير ترتيبها، أو تجديدها متى شاء: تبقى الأجنحة التي زارها ويُعاد توليد الباقي بناءً على تقييماته في ذلك اليوم. تُسجَّل كل زيارة كختم في جواز الإكسبو. لا يمكن تقييم جناح إلا بعد زيارته."
+      },
+      "sources": []
+    },
+    {
+      "id": "pavilion_data",
+      "title": {
+        "en": "About the pavilions in the app",
+        "ar": "عن الأجنحة في التطبيق"
+      },
+      "content": {
+        "en": "The country pavilions in the app are based on the real national pavilions of Expo 2025 Osaka, placed on the app's own Expo 2030 map. The final pavilions of Expo 2030 Riyadh have not been announced yet, so details may differ at the real event.",
+        "ar": "أجنحة الدول في التطبيق مبنية على الأجنحة الوطنية الحقيقية في إكسبو 2025 أوساكا، ومرتبة على خريطة التطبيق الخاصة بإكسبو 2030. لم تُعلن أجنحة إكسبو 2030 الرياض النهائية بعد، لذلك قد تختلف التفاصيل في الحدث الفعلي."
+      },
+      "sources": [
+        "https://en.wikipedia.org/wiki/Expo_2025"
+      ]
+    },
+    {
+      "id": "expo2025",
+      "title": {
+        "en": "Expo 2025 Osaka",
+        "ar": "إكسبو 2025 أوساكا"
+      },
+      "content": {
+        "en": "Expo 2025 Osaka, Kansai was held on Yumeshima island in Osaka Bay, Japan, from 13 April to 13 October 2025, under the theme 'Designing Future Society for Our Lives'. It welcomed about 29 million visitors. Its symbol was the Grand Ring by architect Sou Fujimoto, recognized by Guinness as the world's largest wooden architectural structure.",
+        "ar": "أُقيم إكسبو 2025 أوساكا كانساي على جزيرة يوميشيما في خليج أوساكا باليابان من 13 أبريل إلى 13 أكتوبر 2025 تحت شعار «تصميم مجتمع المستقبل لحياتنا»، واستقبل نحو 29 مليون زائر. رمزه «الحلقة الكبرى» للمعماري سو فوجيموتو، التي سجلتها موسوعة غينيس كأكبر مبنى خشبي في العالم."
+      },
+      "sources": [
+        "https://en.wikipedia.org/wiki/Expo_2025"
+      ]
+    },
+    {
+      "id": "expo_history",
+      "title": {
+        "en": "A short history of World Expos",
+        "ar": "نبذة عن تاريخ المعارض الدولية"
+      },
+      "content": {
+        "en": "The first World Expo was the Great Exhibition in London in 1851, held in the Crystal Palace. Famous expos include Paris 1889 (the Eiffel Tower was built for it), Brussels 1958 (the Atomium), Montreal 1967, Osaka 1970, Seville 1992, Lisbon 1998, Hanover 2000, Shanghai 2010 (the largest by visitors, about 73 million), Milan 2015 and Expo 2020 Dubai, the first World Expo in the Middle East. World Expos are organized under the Bureau International des Expositions (BIE) in Paris.",
+        "ar": "أول معرض دولي كان المعرض الكبير في لندن عام 1851 داخل القصر البلوري. ومن أشهر المعارض: باريس 1889 (بُني برج إيفل من أجله)، وبروكسل 1958 (الأتوميوم)، ومونتريال 1967، وأوساكا 1970، وإشبيلية 1992، ولشبونة 1998، وهانوفر 2000، وشنغهاي 2010 (الأكبر من حيث الزوار بنحو 73 مليون زائر)، وميلانو 2015، وإكسبو 2020 دبي أول معرض دولي في الشرق الأوسط. تُنظَّم المعارض الدولية تحت إشراف المكتب الدولي للمعارض (BIE) في باريس."
+      },
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_world_expositions"
+      ]
+    }
+  ],
+  "pavilions": [
+    {
+      "name": "Japan Pavilion",
+      "country": "Japan",
+      "zone": "Technology",
+      "experienceTypes": [
+        "EDUCATIONAL",
+        "CULTURAL"
+      ],
+      "overview": {
+        "en": "Japan's pavilion, themed 'Between Lives', is a ring-shaped building made of cross-laminated timber designed by Nikken Sekkei. It explores circulation and regeneration: how waste, water and materials flow back into life.",
+        "ar": "جناح اليابان بعنوان «بين الحيوات»، مبنى دائري من الخشب الرقائقي المتقاطع صممته شركة نيكن سيكي. يستكشف فكرة الدورة والتجدد: كيف تعود النفايات والمياه والمواد إلى الحياة من جديد."
+      },
+      "highlights": {
+        "en": [
+          "One of the largest pieces of Mars rock in the world on display",
+          "3D projections in a mist-filled space and infinity mirror rooms",
+          "An on-site biogas plant that turns waste into energy"
+        ],
+        "ar": [
+          "قطعة من أكبر صخور المريخ في العالم معروضة",
+          "عروض ثلاثية الأبعاد داخل مساحة مليئة بالضباب وغرف مرايا لا نهائية",
+          "محطة غاز حيوي داخل الجناح تحوّل النفايات إلى طاقة"
+        ]
+      },
+      "expoHistory": {
+        "en": "Japan hosted Expo '70 in Osaka, Expo 2005 in Aichi and Expo 2025 in Osaka.",
+        "ar": "استضافت اليابان إكسبو 1970 في أوساكا، وإكسبو 2005 في آيتشي، وإكسبو 2025 في أوساكا."
+      },
+      "goodFor": {
+        "en": [
+          "Science lovers",
+          "Families",
+          "Sustainability fans"
+        ],
+        "ar": [
+          "محبو العلوم",
+          "العائلات",
+          "المهتمون بالاستدامة"
+        ]
+      },
+      "sources": [
+        "https://architizer.com/blog/?p=201307",
+        "https://blooloop.com/museum/in-depth/best-country-pavilions-expo-2025/",
+        "https://english.adnkronos.com/2025/10/13/osaka-expo-attracts-visitors-with-authentic-hands-on-exhibits/"
+      ]
+    },
+    {
+      "name": "United States Pavilion",
+      "country": "United States",
+      "zone": "Technology",
+      "experienceTypes": [
+        "EDUCATIONAL",
+        "ENTERTAINMENT"
+      ],
+      "overview": {
+        "en": "The USA pavilion, themed 'Imagine What We Can Create Together', was designed by Trahan Architects as two angled buildings with a floating cube between them. It presents American landscapes, cities and space exploration on large LED screens.",
+        "ar": "جناح الولايات المتحدة بعنوان «تخيّل ما يمكننا صنعه معًا»، صممه مكتب تراهان للعمارة على شكل مبنيين مائلين بينهما مكعب معلّق. يعرض المناظر الطبيعية والمدن الأمريكية واستكشاف الفضاء على شاشات LED ضخمة."
+      },
+      "highlights": {
+        "en": [
+          "A real moon rock collected by the Apollo 17 mission in 1972",
+          "Five exhibits on space, technology, education and innovation, guided by a virtual mascot called Spark",
+          "A digital tour across the country"
+        ],
+        "ar": [
+          "صخرة قمرية حقيقية جمعتها مهمة أبولو 17 عام 1972",
+          "خمسة معارض عن الفضاء والتقنية والتعليم والابتكار بمرافقة شخصية افتراضية اسمها سبارك",
+          "جولة رقمية عبر أنحاء البلاد"
+        ]
+      },
+      "expoHistory": {
+        "en": "The US has hosted many expos, including St. Louis 1904 and New York 1939 and 1964. It also showed a moon rock at Expo '70 Osaka.",
+        "ar": "استضافت الولايات المتحدة عدة معارض منها سانت لويس 1904 ونيويورك 1939 و1964، وعرضت صخرة قمرية أيضًا في إكسبو 1970 أوساكا."
+      },
+      "goodFor": {
+        "en": [
+          "Space fans",
+          "Families",
+          "Technology lovers"
+        ],
+        "ar": [
+          "محبو الفضاء",
+          "العائلات",
+          "محبو التقنية"
+        ]
+      },
+      "sources": [
+        "https://www.dezeen.com/2024/06/19/expo-2025-osaka-national-pavilions/",
+        "https://architizer.com/blog/?p=201307",
+        "https://blooloop.com/museum/in-depth/best-country-pavilions-expo-2025/",
+        "https://english.adnkronos.com/2025/10/13/osaka-expo-attracts-visitors-with-authentic-hands-on-exhibits/"
+      ]
+    },
+    {
+      "name": "China Pavilion",
+      "country": "China",
+      "zone": "Technology",
+      "experienceTypes": [
+        "CULTURAL",
+        "EDUCATIONAL"
+      ],
+      "overview": {
+        "en": "China's pavilion has a facade inspired by bamboo scrolls and the theme 'Building a Community of Life for Man and Nature, Future Society of Green Development'. Designed by China Architecture Design Group, it covers about 3,500 m2 and mixes cultural heritage with modern technology.",
+        "ar": "واجهة جناح الصين مستوحاة من لفائف الخيزران، وموضوعه «بناء مجتمع حياة مشترك بين الإنسان والطبيعة، مجتمع مستقبلي للتنمية الخضراء». صممته مجموعة الصين للتصميم المعماري على مساحة نحو 3500 م²، ويمزج التراث الثقافي بالتقنية الحديثة."
+      },
+      "highlights": {
+        "en": [
+          "Traditional Chinese culture shown next to space and green technology",
+          "A facade designed like rows of bamboo slips, an ancient Chinese writing material"
+        ],
+        "ar": [
+          "الثقافة الصينية التقليدية بجانب تقنيات الفضاء والتقنية الخضراء",
+          "واجهة مصممة كصفوف من شرائح الخيزران، وهي مادة كتابة صينية قديمة"
+        ]
+      },
+      "expoHistory": {
+        "en": "China hosted Expo 2010 Shanghai, which had about 73 million visits, the most in Expo history.",
+        "ar": "استضافت الصين إكسبو 2010 شنغهاي الذي سجّل نحو 73 مليون زيارة، وهو الرقم الأعلى في تاريخ الإكسبو."
+      },
+      "goodFor": {
+        "en": [
+          "History lovers",
+          "Technology lovers"
+        ],
+        "ar": [
+          "محبو التاريخ",
+          "محبو التقنية"
+        ]
+      },
+      "sources": [
+        "https://blooloop.com/museum/in-depth/best-country-pavilions-expo-2025/"
+      ]
+    },
+    {
+      "name": "South Korea Pavilion",
+      "country": "South Korea",
+      "zone": "Technology",
+      "experienceTypes": [
+        "ENTERTAINMENT",
+        "EDUCATIONAL"
+      ],
+      "overview": {
+        "en": "South Korea's pavilion is known for its large media facade and immersive digital shows about Korean technology, clean energy and culture.",
+        "ar": "يشتهر جناح كوريا الجنوبية بواجهته الإعلامية الضخمة وعروضه الرقمية الغامرة عن التقنية الكورية والطاقة النظيفة والثقافة."
+      },
+      "highlights": {
+        "en": [
+          "A giant digital media facade",
+          "Immersive shows mixing technology and K-culture"
+        ],
+        "ar": [
+          "واجهة رقمية عملاقة",
+          "عروض غامرة تمزج التقنية بالثقافة الكورية"
+        ]
+      },
+      "expoHistory": {
+        "en": "South Korea hosted specialized expos in Daejeon (1993) and Yeosu (2012).",
+        "ar": "استضافت كوريا الجنوبية معرضين متخصصين في دايجون (1993) ويوسو (2012)."
+      },
+      "goodFor": {
+        "en": [
+          "Families",
+          "Young visitors",
+          "Technology lovers"
+        ],
+        "ar": [
+          "العائلات",
+          "الشباب",
+          "محبو التقنية"
+        ]
+      },
+      "sources": []
+    },
+    {
+      "name": "Singapore Pavilion",
+      "country": "Singapore",
+      "zone": "Technology",
+      "experienceTypes": [
+        "ENTERTAINMENT",
+        "CULTURAL"
+      ],
+      "overview": {
+        "en": "Singapore's pavilion is a bright red globe called 'The Dream Sphere', designed by DP Architects. It presents Singapore as a smart, green city through the dreams of its people.",
+        "ar": "جناح سنغافورة كرة حمراء لامعة اسمها «كرة الأحلام» صممها مكتب DP للعمارة، ويقدّم سنغافورة كمدينة ذكية وخضراء من خلال أحلام شعبها."
+      },
+      "highlights": {
+        "en": [
+          "Three levels of multimedia art by Singaporean artists",
+          "Displays about Singapore's food, culture and innovation"
+        ],
+        "ar": [
+          "ثلاثة طوابق من الفن متعدد الوسائط لفنانين سنغافوريين",
+          "عروض عن أكل سنغافورة وثقافتها وابتكارها"
+        ]
+      },
+      "expoHistory": null,
+      "goodFor": {
+        "en": [
+          "Families",
+          "Art lovers",
+          "Photo lovers"
+        ],
+        "ar": [
+          "العائلات",
+          "محبو الفن",
+          "محبو التصوير"
+        ]
+      },
+      "sources": [
+        "https://www.dezeen.com/2024/06/19/expo-2025-osaka-national-pavilions/",
+        "https://blooloop.com/museum/in-depth/best-country-pavilions-expo-2025/"
+      ]
+    },
+    {
+      "name": "United Arab Emirates Pavilion",
+      "country": "United Arab Emirates",
+      "zone": "Technology",
+      "experienceTypes": [
+        "CULTURAL",
+        "EDUCATIONAL"
+      ],
+      "overview": {
+        "en": "The UAE pavilion, themed 'Earth to Ether', is built with tall columns made from date palm ribs. It tells the UAE story from its desert and sea heritage to its ambitions in science and space.",
+        "ar": "جناح الإمارات بعنوان «من الأرض إلى الأثير»، مبني بأعمدة طويلة من جريد النخل. يروي قصة الإمارات من تراث الصحراء والبحر إلى طموحاتها في العلوم والفضاء."
+      },
+      "highlights": {
+        "en": [
+          "A forest of columns made from date palm ribs",
+          "Interactive exhibits and workshops on UAE innovation and education"
+        ],
+        "ar": [
+          "غابة من الأعمدة المصنوعة من جريد النخل",
+          "معارض تفاعلية وورش عمل عن الابتكار والتعليم في الإمارات"
+        ]
+      },
+      "expoHistory": {
+        "en": "The UAE hosted Expo 2020 Dubai (held 2021–2022), the first World Expo in the Middle East.",
+        "ar": "استضافت الإمارات إكسبو 2020 دبي (أُقيم 2021–2022)، أول معرض دولي في الشرق الأوسط."
+      },
+      "goodFor": {
+        "en": [
+          "Families",
+          "Space fans",
+          "Heritage lovers"
+        ],
+        "ar": [
+          "العائلات",
+          "محبو الفضاء",
+          "محبو التراث"
+        ]
+      },
+      "sources": [
+        "https://happyell.co.jp/world/osaka/expo2025-abroad/"
+      ]
+    },
+    {
+      "name": "United Kingdom Pavilion",
+      "country": "United Kingdom",
+      "zone": "Technology",
+      "experienceTypes": [
+        "EDUCATIONAL",
+        "ENTERTAINMENT"
+      ],
+      "overview": {
+        "en": "The UK pavilion, themed 'Come Build The Future', was designed by Woo Architects as a modular 10 by 10 metre grid that can be taken apart and moved. It is built around the idea of building blocks and British innovation.",
+        "ar": "جناح المملكة المتحدة بعنوان «تعال لنبني المستقبل»، صممه مكتب وو للعمارة كشبكة وحدات بقياس 10×10 أمتار يمكن تفكيكها ونقلها، وفكرته قائمة على مكعبات البناء والابتكار البريطاني."
+      },
+      "highlights": {
+        "en": [
+          "A reusable building made of modular blocks",
+          "Exhibits on British science and creativity"
+        ],
+        "ar": [
+          "مبنى قابل لإعادة الاستخدام من وحدات مركبة",
+          "معارض عن العلوم والإبداع البريطاني"
+        ]
+      },
+      "expoHistory": {
+        "en": "The UK hosted the first World Expo, the Great Exhibition of 1851 in London.",
+        "ar": "استضافت المملكة المتحدة أول معرض دولي، المعرض الكبير عام 1851 في لندن."
+      },
+      "goodFor": {
+        "en": [
+          "Families",
+          "Kids",
+          "Innovation fans"
+        ],
+        "ar": [
+          "العائلات",
+          "الأطفال",
+          "محبو الابتكار"
+        ]
+      },
+      "sources": [
+        "https://www.dezeen.com/2024/06/19/expo-2025-osaka-national-pavilions/",
+        "https://blooloop.com/museum/in-depth/best-country-pavilions-expo-2025/"
+      ]
+    },
+    {
+      "name": "Luxembourg Pavilion",
+      "country": "Luxembourg",
+      "zone": "Technology",
+      "experienceTypes": [
+        "CULTURAL",
+        "RELAXATION"
+      ],
+      "overview": {
+        "en": "Luxembourg's pavilion, 'Doki Doki – The Luxembourg Heartbeat', was designed by STDM architects with sculpted volumes under a light-responsive canvas roof. It presents a small, multicultural country and its innovation.",
+        "ar": "جناح لوكسمبورغ بعنوان «دوكي دوكي – نبض لوكسمبورغ»، صممه مكتب STDM بكتل منحوتة تحت سقف من القماش يتفاعل مع الضوء. يقدّم دولة صغيرة متعددة الثقافات وابتكاراتها."
+      },
+      "highlights": {
+        "en": [
+          "A soundscape by Claude Zeimes",
+          "Furniture by local designers",
+          "A fully reusable steel and canvas structure"
+        ],
+        "ar": [
+          "مشهد صوتي من تأليف كلود زايمس",
+          "أثاث من مصممين محليين",
+          "هيكل من الحديد والقماش قابل لإعادة الاستخدام بالكامل"
+        ]
+      },
+      "expoHistory": null,
+      "goodFor": {
+        "en": [
+          "Design lovers",
+          "A calm visit"
+        ],
+        "ar": [
+          "محبو التصميم",
+          "زيارة هادئة"
+        ]
+      },
+      "sources": [
+        "https://architizer.com/blog/?p=201307",
+        "https://blooloop.com/museum/in-depth/best-country-pavilions-expo-2025/"
+      ]
+    },
+    {
+      "name": "Czech Republic Pavilion",
+      "country": "Czech Republic",
+      "zone": "Technology",
+      "experienceTypes": [
+        "CULTURAL",
+        "CULINARY"
+      ],
+      "overview": {
+        "en": "Czechia's pavilion, 'Talent and Creativity for Life', was designed by Apropos Architects as a spiralling timber structure wrapped in artistic glass, a nod to Czech glassmaking.",
+        "ar": "جناح التشيك بعنوان «الموهبة والإبداع من أجل الحياة»، صممه مكتب أبروبوس كهيكل خشبي حلزوني مغلّف بزجاج فني، تحيةً لصناعة الزجاج التشيكية."
+      },
+      "highlights": {
+        "en": [
+          "A spiral ramp around a skylit atrium",
+          "A rooftop with a restaurant and bar",
+          "A glass facade and a central auditorium"
+        ],
+        "ar": [
+          "منحدر حلزوني حول فناء مضاء من الأعلى",
+          "سطح فيه مطعم ومقهى",
+          "واجهة زجاجية وقاعة مركزية"
+        ]
+      },
+      "expoHistory": null,
+      "goodFor": {
+        "en": [
+          "Art and glass lovers",
+          "Food lovers"
+        ],
+        "ar": [
+          "محبو الفن والزجاج",
+          "محبو الأكل"
+        ]
+      },
+      "sources": [
+        "https://www.dezeen.com/2024/06/19/expo-2025-osaka-national-pavilions/",
+        "https://blooloop.com/museum/in-depth/best-country-pavilions-expo-2025/"
+      ]
+    },
+    {
+      "name": "India Pavilion",
+      "country": "India",
+      "zone": "Technology",
+      "experienceTypes": [
+        "CULTURAL",
+        "EDUCATIONAL"
+      ],
+      "overview": {
+        "en": "The Bharat pavilion is inspired by the lotus flower. It presents India's technology, space missions and rich cultural heritage.",
+        "ar": "جناح «بهارات» مستوحى من زهرة اللوتس، ويعرض تقنيات الهند ومهماتها الفضائية وتراثها الثقافي الغني."
+      },
+      "highlights": {
+        "en": [
+          "India's space missions",
+          "A design inspired by the lotus"
+        ],
+        "ar": [
+          "المهمات الفضائية الهندية",
+          "تصميم مستوحى من زهرة اللوتس"
+        ]
+      },
+      "expoHistory": null,
+      "goodFor": {
+        "en": [
+          "Space fans",
+          "Culture lovers"
+        ],
+        "ar": [
+          "محبو الفضاء",
+          "محبو الثقافة"
+        ]
+      },
+      "sources": []
+    },
+    {
+      "name": "Kuwait Pavilion",
+      "country": "Kuwait",
+      "zone": "Technology",
+      "experienceTypes": [
+        "CULTURAL",
+        "EDUCATIONAL"
+      ],
+      "overview": {
+        "en": "Kuwait's pavilion, 'Visionary Lighthouse', was designed by LAVA with a sweeping wing-like roof at the entrance. It moves from Kuwait's desert and sea heritage to its vision for the future.",
+        "ar": "جناح الكويت بعنوان «المنارة الرؤيوية»، صممه مكتب LAVA بسقف منحنٍ يشبه الجناح عند المدخل. ينتقل من تراث الكويت الصحراوي والبحري إلى رؤيتها للمستقبل."
+      },
+      "highlights": {
+        "en": [
+          "Rooms on Kuwait's trading history and culture",
+          "Interactive displays about notable Kuwaitis",
+          "A dome projection where visitors share their dreams"
+        ],
+        "ar": [
+          "قاعات عن تاريخ الكويت التجاري وثقافتها",
+          "عروض تفاعلية عن شخصيات كويتية بارزة",
+          "قبة عرض يشارك فيها الزوار أحلامهم للمستقبل"
+        ]
+      },
+      "expoHistory": null,
+      "goodFor": {
+        "en": [
+          "Families",
+          "Heritage lovers"
+        ],
+        "ar": [
+          "العائلات",
+          "محبو التراث"
+        ]
+      },
+      "sources": [
+        "https://www.dezeen.com/2024/06/19/expo-2025-osaka-national-pavilions/",
+        "https://blooloop.com/museum/in-depth/best-country-pavilions-expo-2025/"
+      ]
+    },
+    {
+      "name": "Switzerland Pavilion",
+      "country": "Switzerland",
+      "zone": "Technology",
+      "experienceTypes": [
+        "EDUCATIONAL",
+        "RELAXATION"
+      ],
+      "overview": {
+        "en": "Switzerland's pavilion, 'From Heidi to High-Tech', is a cluster of light, plant-covered membrane spheres designed by Manuel Herz Architekten. It moves from Alpine traditions to Swiss science and innovation.",
+        "ar": "جناح سويسرا بعنوان «من هايدي إلى التقنية العالية»، مجموعة كرات خفيفة من الأغشية تغطيها النباتات، صممها مكتب مانويل هيرتس. ينتقل من تقاليد جبال الألب إلى العلوم والابتكار السويسري."
+      },
+      "highlights": {
+        "en": [
+          "Spheres on life, the planet and the augmented human",
+          "Future science such as edible robotics and soft machines",
+          "A rooftop café with bay views"
+        ],
+        "ar": [
+          "كرات عن الحياة والكوكب والإنسان المعزّز",
+          "علوم المستقبل مثل الروبوتات القابلة للأكل والآلات اللينة",
+          "مقهى على السطح بإطلالة على الخليج"
+        ]
+      },
+      "expoHistory": null,
+      "goodFor": {
+        "en": [
+          "Science lovers",
+          "A relaxing break"
+        ],
+        "ar": [
+          "محبو العلوم",
+          "استراحة هادئة"
+        ]
+      },
+      "sources": [
+        "https://www.dezeen.com/2024/06/19/expo-2025-osaka-national-pavilions/",
+        "https://architizer.com/blog/?p=201307",
+        "https://blooloop.com/museum/in-depth/best-country-pavilions-expo-2025/"
+      ]
+    },
+    {
+      "name": "Germany Pavilion",
+      "country": "Germany",
+      "zone": "Planet",
+      "experienceTypes": [
+        "EDUCATIONAL",
+        "CULINARY"
+      ],
+      "overview": {
+        "en": "Germany's pavilion, 'WA! Germany', is a group of round timber buildings by LAVA and partners about the circular economy: how materials are reused instead of thrown away.",
+        "ar": "جناح ألمانيا بعنوان «وا! ألمانيا»، مجموعة مبانٍ خشبية دائرية من تصميم LAVA وشركائه عن الاقتصاد الدائري: كيف يُعاد استخدام المواد بدل رميها."
+      },
+      "highlights": {
+        "en": [
+          "A sensory journey through a circular society",
+          "A green roof garden",
+          "A restaurant with German dishes such as currywurst"
+        ],
+        "ar": [
+          "رحلة حسية داخل مجتمع دائري",
+          "حديقة خضراء على السطح",
+          "مطعم بأطباق ألمانية مثل الكاري فورست"
+        ]
+      },
+      "expoHistory": {
+        "en": "Germany hosted Expo 2000 in Hanover.",
+        "ar": "استضافت ألمانيا إكسبو 2000 في هانوفر."
+      },
+      "goodFor": {
+        "en": [
+          "Sustainability fans",
+          "Families",
+          "Food lovers"
+        ],
+        "ar": [
+          "المهتمون بالاستدامة",
+          "العائلات",
+          "محبو الأكل"
+        ]
+      },
+      "sources": [
+        "https://blooloop.com/museum/in-depth/best-country-pavilions-expo-2025/",
+        "https://happyell.co.jp/world/osaka/expo2025-abroad/"
+      ]
+    },
+    {
+      "name": "Netherlands Pavilion",
+      "country": "Netherlands",
+      "zone": "Planet",
+      "experienceTypes": [
+        "EDUCATIONAL",
+        "ENTERTAINMENT"
+      ],
+      "overview": {
+        "en": "The Netherlands pavilion, 'Common Ground', was designed by RAU Architects around a glowing sphere, a 'man-made sun' representing clean energy. It shows how the Dutch work together to live with water.",
+        "ar": "جناح هولندا بعنوان «أرض مشتركة»، صممه مكتب RAU حول كرة مضيئة تمثل «شمسًا من صنع الإنسان» ترمز للطاقة النظيفة. يوضح كيف يتعاون الهولنديون للعيش مع الماء."
+      },
+      "highlights": {
+        "en": [
+          "A personal device called the Orb that activates the exhibits",
+          "Technologies that make energy from water",
+          "A building designed to be taken apart and reused"
+        ],
+        "ar": [
+          "جهاز شخصي اسمه «الأورب» يشغّل أجزاء المعرض",
+          "تقنيات لإنتاج الطاقة من الماء",
+          "مبنى مصمم للتفكيك وإعادة الاستخدام"
+        ]
+      },
+      "expoHistory": {
+        "en": "At Expo 2000 Hanover, the Dutch pavilion by MVRDV became famous for its stacked landscapes.",
+        "ar": "في إكسبو 2000 هانوفر اشتهر الجناح الهولندي من تصميم MVRDV بطوابقه التي تحمل مناظر طبيعية فوق بعضها."
+      },
+      "goodFor": {
+        "en": [
+          "Families",
+          "Kids",
+          "Clean energy fans"
+        ],
+        "ar": [
+          "العائلات",
+          "الأطفال",
+          "المهتمون بالطاقة النظيفة"
+        ]
+      },
+      "sources": [
+        "https://www.dezeen.com/2024/06/19/expo-2025-osaka-national-pavilions/",
+        "https://architizer.com/blog/?p=201307",
+        "https://blooloop.com/museum/in-depth/best-country-pavilions-expo-2025/"
+      ]
+    },
+    {
+      "name": "Australia Pavilion",
+      "country": "Australia",
+      "zone": "Planet",
+      "experienceTypes": [
+        "ENTERTAINMENT",
+        "CULTURAL"
+      ],
+      "overview": {
+        "en": "Australia's pavilion, 'Chasing the Sun', was designed by Buchan with a curving form inspired by the gumnut of the eucalyptus tree. It presents Australian landscapes, nature and Indigenous connection to the land.",
+        "ar": "جناح أستراليا بعنوان «مطاردة الشمس»، صممه مكتب بوكان بشكل منحنٍ مستوحى من ثمرة شجرة الكينا. يعرض المناظر الطبيعية الأسترالية والحياة البرية وارتباط السكان الأصليين بالأرض."
+      },
+      "highlights": {
+        "en": [
+          "An immersive journey from day to night",
+          "Eucalyptus scents, animal sounds and a night sky",
+          "Shows on an outdoor stage"
+        ],
+        "ar": [
+          "رحلة غامرة من النهار إلى الليل",
+          "روائح الكينا وأصوات الحيوانات وسماء الليل",
+          "عروض على مسرح خارجي"
+        ]
+      },
+      "expoHistory": {
+        "en": "Australia hosted Expo 88 in Brisbane.",
+        "ar": "استضافت أستراليا إكسبو 88 في بريزبن."
+      },
+      "goodFor": {
+        "en": [
+          "Families",
+          "Nature lovers"
+        ],
+        "ar": [
+          "العائلات",
+          "محبو الطبيعة"
+        ]
+      },
+      "sources": [
+        "https://www.dezeen.com/2024/06/19/expo-2025-osaka-national-pavilions/",
+        "https://blooloop.com/museum/in-depth/best-country-pavilions-expo-2025/",
+        "https://happyell.co.jp/world/osaka/expo2025-abroad/"
+      ]
+    },
+    {
+      "name": "Canada Pavilion",
+      "country": "Canada",
+      "zone": "Planet",
+      "experienceTypes": [
+        "CULTURAL",
+        "EDUCATIONAL"
+      ],
+      "overview": {
+        "en": "Canada's pavilion, themed 'Regeneration', has an icy exterior inspired by spring ice break-up and a warm interior. It was designed by Rayside Labossière and Guillaume Pelletier, with creative advice from Robert Lepage.",
+        "ar": "جناح كندا بعنوان «التجدد»، واجهته الخارجية مستوحاة من تكسّر الجليد في الربيع وداخله دافئ. صممه رايسايد لابوسيير وغيوم بيليتييه بإشراف إبداعي من روبير لوباج."
+      },
+      "highlights": {
+        "en": [
+          "Immersive displays on nature renewing itself",
+          "More than half of the structure designed for reuse or rental"
+        ],
+        "ar": [
+          "عروض غامرة عن تجدد الطبيعة",
+          "أكثر من نصف الهيكل مصمم لإعادة الاستخدام أو التأجير"
+        ]
+      },
+      "expoHistory": {
+        "en": "Canada hosted Expo 67 in Montreal and Expo 86 in Vancouver.",
+        "ar": "استضافت كندا إكسبو 67 في مونتريال وإكسبو 86 في فانكوفر."
+      },
+      "goodFor": {
+        "en": [
+          "Nature lovers",
+          "Families"
+        ],
+        "ar": [
+          "محبو الطبيعة",
+          "العائلات"
+        ]
+      },
+      "sources": [
+        "https://blooloop.com/museum/in-depth/best-country-pavilions-expo-2025/"
+      ]
+    },
+    {
+      "name": "Portugal Pavilion",
+      "country": "Portugal",
+      "zone": "Planet",
+      "experienceTypes": [
+        "EDUCATIONAL",
+        "CULINARY"
+      ],
+      "overview": {
+        "en": "Portugal's pavilion, 'Ocean, the Blue Dialogue', was designed by Kengo Kuma with thousands of hanging ropes and nets that move like waves. It links Portugal's sea history with its first arrival in Japan and future ocean science.",
+        "ar": "جناح البرتغال بعنوان «المحيط، الحوار الأزرق»، صممه كينغو كوما بآلاف الحبال والشباك المعلّقة التي تتحرك كالأمواج. يربط تاريخ البرتغال البحري بوصولها الأول إلى اليابان وعلوم المحيط في المستقبل."
+      },
+      "highlights": {
+        "en": [
+          "A facade of hanging ropes and recycled nets",
+          "Marine biotechnology, renewable energy and ocean robots",
+          "A restaurant serving Portuguese food"
+        ],
+        "ar": [
+          "واجهة من الحبال والشباك المعاد تدويرها",
+          "التقنية الحيوية البحرية والطاقة المتجددة وروبوتات المحيط",
+          "مطعم يقدم الأكل البرتغالي"
+        ]
+      },
+      "expoHistory": {
+        "en": "Portugal hosted Expo '98 in Lisbon, themed 'The Oceans, a Heritage for the Future'.",
+        "ar": "استضافت البرتغال إكسبو 98 في لشبونة بشعار «المحيطات، إرث للمستقبل»."
+      },
+      "goodFor": {
+        "en": [
+          "Ocean lovers",
+          "Food lovers",
+          "Photo lovers"
+        ],
+        "ar": [
+          "محبو البحر",
+          "محبو الأكل",
+          "محبو التصوير"
+        ]
+      },
+      "sources": [
+        "https://happyell.co.jp/world/osaka/expo2025-abroad/"
+      ]
+    },
+    {
+      "name": "Spain Pavilion",
+      "country": "Spain",
+      "zone": "Planet",
+      "experienceTypes": [
+        "CULTURAL",
+        "EDUCATIONAL"
+      ],
+      "overview": {
+        "en": "Spain's pavilion focuses on the sea and the sun, and on the shared history of Spain and Japan, connected by the Kuroshio ocean current.",
+        "ar": "يركز جناح إسبانيا على البحر والشمس وعلى التاريخ المشترك بين إسبانيا واليابان، اللتين يربطهما تيار كوروشيو البحري."
+      },
+      "highlights": {
+        "en": [
+          "Sea and sun imagery",
+          "Stories of early links between Spain and Japan"
+        ],
+        "ar": [
+          "صور البحر والشمس",
+          "قصص الروابط الأولى بين إسبانيا واليابان"
+        ]
+      },
+      "expoHistory": {
+        "en": "Spain hosted Expo '92 in Seville and Expo 2008 in Zaragoza.",
+        "ar": "استضافت إسبانيا إكسبو 92 في إشبيلية وإكسبو 2008 في سرقسطة."
+      },
+      "goodFor": {
+        "en": [
+          "Culture lovers",
+          "Ocean lovers"
+        ],
+        "ar": [
+          "محبو الثقافة",
+          "محبو البحر"
+        ]
+      },
+      "sources": [
+        "https://happyell.co.jp/world/osaka/expo2025-abroad/"
+      ]
+    },
+    {
+      "name": "Indonesia Pavilion",
+      "country": "Indonesia",
+      "zone": "Planet",
+      "experienceTypes": [
+        "CULTURAL",
+        "ENTERTAINMENT"
+      ],
+      "overview": {
+        "en": "Indonesia's ship-shaped pavilion takes visitors on a journey through the country's rainforests, oceans and future cities.",
+        "ar": "جناح إندونيسيا على شكل سفينة، يأخذ الزوار في رحلة عبر غابات البلاد المطيرة ومحيطاتها ومدنها المستقبلية."
+      },
+      "highlights": {
+        "en": [
+          "A journey from rainforest to ocean to future city"
+        ],
+        "ar": [
+          "رحلة من الغابة المطيرة إلى المحيط إلى مدينة المستقبل"
+        ]
+      },
+      "expoHistory": null,
+      "goodFor": {
+        "en": [
+          "Families",
+          "Nature lovers"
+        ],
+        "ar": [
+          "العائلات",
+          "محبو الطبيعة"
+        ]
+      },
+      "sources": []
+    },
+    {
+      "name": "Malaysia Pavilion",
+      "country": "Malaysia",
+      "zone": "Planet",
+      "experienceTypes": [
+        "CULTURAL",
+        "RELAXATION"
+      ],
+      "overview": {
+        "en": "Malaysia's pavilion was designed by Kengo Kuma with a woven-style timber facade inspired by traditional crafts. Its theme is harmony between people, nature and technology.",
+        "ar": "صمم كينغو كوما جناح ماليزيا بواجهة خشبية تشبه النسيج مستوحاة من الحرف التقليدية، وموضوعه الانسجام بين الإنسان والطبيعة والتقنية."
+      },
+      "highlights": {
+        "en": [
+          "A woven timber facade",
+          "Malaysian crafts and culture"
+        ],
+        "ar": [
+          "واجهة خشبية منسوجة",
+          "الحرف والثقافة الماليزية"
+        ]
+      },
+      "expoHistory": null,
+      "goodFor": {
+        "en": [
+          "Design lovers",
+          "Culture lovers"
+        ],
+        "ar": [
+          "محبو التصميم",
+          "محبو الثقافة"
+        ]
+      },
+      "sources": []
+    },
+    {
+      "name": "Brazil Pavilion",
+      "country": "Brazil",
+      "zone": "Planet",
+      "experienceTypes": [
+        "EDUCATIONAL",
+        "ENTERTAINMENT"
+      ],
+      "overview": {
+        "en": "Brazil's pavilion, 'Flying Rivers', was designed by Studio MK27 with rented modular metal parts. It is about water as the source of life and a world where people, animals and forests live together.",
+        "ar": "جناح البرازيل بعنوان «الأنهار الطائرة»، صممه ستوديو MK27 بقطع معدنية مستأجرة قابلة للتفكيك. يتحدث عن الماء كمصدر للحياة وعن عالم يعيش فيه الإنسان والحيوان والغابة معًا."
+      },
+      "highlights": {
+        "en": [
+          "A misty interior full of vapour",
+          "A slow ramp leading to a rooftop artificial river",
+          "Live performances"
+        ],
+        "ar": [
+          "مساحة داخلية مليئة بالبخار",
+          "منحدر هادئ يصل إلى نهر صناعي على السطح",
+          "عروض حية"
+        ]
+      },
+      "expoHistory": null,
+      "goodFor": {
+        "en": [
+          "Nature lovers",
+          "Families"
+        ],
+        "ar": [
+          "محبو الطبيعة",
+          "العائلات"
+        ]
+      },
+      "sources": [
+        "https://architizer.com/blog/?p=201307",
+        "https://happyell.co.jp/world/osaka/expo2025-abroad/"
+      ]
+    },
+    {
+      "name": "Colombia Pavilion",
+      "country": "Colombia",
+      "zone": "Planet",
+      "experienceTypes": [
+        "CULTURAL",
+        "ENTERTAINMENT"
+      ],
+      "overview": {
+        "en": "Colombia's pavilion is inspired by magical realism and yellow butterflies, celebrating the country's biodiversity and culture.",
+        "ar": "جناح كولومبيا مستوحى من الواقعية السحرية والفراشات الصفراء، ويحتفي بالتنوع الحيوي والثقافة في البلاد."
+      },
+      "highlights": {
+        "en": [
+          "Yellow butterflies inspired by magical realism",
+          "Colombian nature and biodiversity"
+        ],
+        "ar": [
+          "فراشات صفراء مستوحاة من الواقعية السحرية",
+          "الطبيعة والتنوع الحيوي في كولومبيا"
+        ]
+      },
+      "expoHistory": null,
+      "goodFor": {
+        "en": [
+          "Nature lovers",
+          "Art lovers"
+        ],
+        "ar": [
+          "محبو الطبيعة",
+          "محبو الفن"
+        ]
+      },
+      "sources": []
+    },
+    {
+      "name": "Oman Pavilion",
+      "country": "Oman",
+      "zone": "Planet",
+      "experienceTypes": [
+        "CULTURAL",
+        "EDUCATIONAL"
+      ],
+      "overview": {
+        "en": "Oman's pavilion focuses on water and the falaj, Oman's ancient irrigation channels, along with its frankincense heritage.",
+        "ar": "يركز جناح عُمان على الماء وعلى الأفلاج، قنوات الري العمانية القديمة، إلى جانب تراث اللبان."
+      },
+      "highlights": {
+        "en": [
+          "The falaj irrigation system, a UNESCO World Heritage site in Oman",
+          "Frankincense heritage"
+        ],
+        "ar": [
+          "نظام الأفلاج للري، المسجل في قائمة التراث العالمي لليونسكو",
+          "تراث اللبان العماني"
+        ]
+      },
+      "expoHistory": null,
+      "goodFor": {
+        "en": [
+          "Heritage lovers",
+          "Families"
+        ],
+        "ar": [
+          "محبو التراث",
+          "العائلات"
+        ]
+      },
+      "sources": []
+    },
+    {
+      "name": "Chile Pavilion",
+      "country": "Chile",
+      "zone": "Planet",
+      "experienceTypes": [
+        "CULTURAL",
+        "EDUCATIONAL"
+      ],
+      "overview": {
+        "en": "Chile's pavilion presents the country's very different landscapes, from the Atacama Desert to southern glaciers, and its natural resources.",
+        "ar": "يعرض جناح تشيلي مناظر البلاد المتنوعة جدًا، من صحراء أتاكاما إلى الأنهار الجليدية في الجنوب، ومواردها الطبيعية."
+      },
+      "highlights": {
+        "en": [
+          "Landscapes from desert to glacier"
+        ],
+        "ar": [
+          "مناظر من الصحراء إلى الأنهار الجليدية"
+        ]
+      },
+      "expoHistory": null,
+      "goodFor": {
+        "en": [
+          "Nature lovers"
+        ],
+        "ar": [
+          "محبو الطبيعة"
+        ]
+      },
+      "sources": []
+    },
+    {
+      "name": "Thailand Pavilion",
+      "country": "Thailand",
+      "zone": "Humanity",
+      "experienceTypes": [
+        "CULINARY",
+        "RELAXATION"
+      ],
+      "overview": {
+        "en": "Thailand's pavilion focuses on health and wellbeing, presenting Thai medical care, wellness and hospitality, and how traditional Thai food meets innovation.",
+        "ar": "يركز جناح تايلاند على الصحة وجودة الحياة، ويعرض الرعاية الطبية التايلاندية والعافية والضيافة، وكيف يلتقي الأكل التايلاندي التقليدي بالابتكار."
+      },
+      "highlights": {
+        "en": [
+          "An art wall of healthy Thai dishes",
+          "A Thai herbal therapy relaxation space",
+          "Local Thai food and fusion cuisine"
+        ],
+        "ar": [
+          "جدار فني لأطباق تايلاندية صحية",
+          "مساحة استرخاء بالعلاج العشبي التايلاندي",
+          "أكل تايلاندي محلي ومطبخ مدمج"
+        ]
+      },
+      "expoHistory": null,
+      "goodFor": {
+        "en": [
+          "Food lovers",
+          "A relaxing break"
+        ],
+        "ar": [
+          "محبو الأكل",
+          "استراحة هادئة"
+        ]
+      },
+      "sources": [
+        "https://happyell.co.jp/world/osaka/expo2025-abroad/"
+      ]
+    },
+    {
+      "name": "Belgium Pavilion",
+      "country": "Belgium",
+      "zone": "Humanity",
+      "experienceTypes": [
+        "EDUCATIONAL",
+        "RELAXATION"
+      ],
+      "overview": {
+        "en": "Belgium's pavilion follows the sub-theme 'Saving Lives' and highlights Belgian health and life sciences innovation, built around a water-themed route.",
+        "ar": "يتبع جناح بلجيكا محور «إنقاذ الأرواح» ويبرز ابتكارات بلجيكا في الصحة وعلوم الحياة، من خلال مسار مستوحى من الماء."
+      },
+      "highlights": {
+        "en": [
+          "A water-themed route through about 1,000 m2",
+          "A rooftop 'forest of calm'",
+          "A restaurant"
+        ],
+        "ar": [
+          "مسار مستوحى من الماء على مساحة نحو 1000 م²",
+          "«غابة الهدوء» على السطح",
+          "مطعم"
+        ]
+      },
+      "expoHistory": {
+        "en": "Belgium hosted Expo 58 in Brussels, where the Atomium was built.",
+        "ar": "استضافت بلجيكا إكسبو 58 في بروكسل، وفيه بُني الأتوميوم."
+      },
+      "goodFor": {
+        "en": [
+          "Science lovers",
+          "A relaxing break"
+        ],
+        "ar": [
+          "محبو العلوم",
+          "استراحة هادئة"
+        ]
+      },
+      "sources": [
+        "https://blooloop.com/museum/in-depth/best-country-pavilions-expo-2025/"
+      ]
+    },
+    {
+      "name": "Philippines Pavilion",
+      "country": "Philippines",
+      "zone": "Humanity",
+      "experienceTypes": [
+        "CULTURAL"
+      ],
+      "overview": {
+        "en": "The Philippines pavilion has a facade covered with handwoven textiles from different regions of the country, celebrating Filipino communities and craftsmanship.",
+        "ar": "واجهة جناح الفلبين مغطاة بأقمشة منسوجة يدويًا من مناطق مختلفة في البلاد، احتفاءً بالمجتمعات والحرف الفلبينية."
+      },
+      "highlights": {
+        "en": [
+          "A facade of handwoven textiles"
+        ],
+        "ar": [
+          "واجهة من الأقمشة المنسوجة يدويًا"
+        ]
+      },
+      "expoHistory": null,
+      "goodFor": {
+        "en": [
+          "Craft lovers",
+          "Photo lovers"
+        ],
+        "ar": [
+          "محبو الحرف",
+          "محبو التصوير"
+        ]
+      },
+      "sources": []
+    },
+    {
+      "name": "Bangladesh Pavilion",
+      "country": "Bangladesh",
+      "zone": "Humanity",
+      "experienceTypes": [
+        "CULTURAL",
+        "EDUCATIONAL"
+      ],
+      "overview": {
+        "en": "Bangladesh's pavilion presents its people, its development story and its growing economy.",
+        "ar": "يعرض جناح بنغلاديش شعبها وقصة تنميتها واقتصادها المتنامي."
+      },
+      "highlights": {
+        "en": [
+          "The development story of Bangladesh"
+        ],
+        "ar": [
+          "قصة التنمية في بنغلاديش"
+        ]
+      },
+      "expoHistory": null,
+      "goodFor": {
+        "en": [
+          "Culture lovers"
+        ],
+        "ar": [
+          "محبو الثقافة"
+        ]
+      },
+      "sources": []
+    },
+    {
+      "name": "Angola Pavilion",
+      "country": "Angola",
+      "zone": "Humanity",
+      "experienceTypes": [
+        "CULTURAL",
+        "EDUCATIONAL"
+      ],
+      "overview": {
+        "en": "Angola's pavilion presents its people, its goals in health and education, and its natural and cultural wealth.",
+        "ar": "يعرض جناح أنغولا شعبها وأهدافها في الصحة والتعليم وثرواتها الطبيعية والثقافية."
+      },
+      "highlights": {
+        "en": [
+          "Health and education in Angola"
+        ],
+        "ar": [
+          "الصحة والتعليم في أنغولا"
+        ]
+      },
+      "expoHistory": null,
+      "goodFor": {
+        "en": [
+          "Culture lovers"
+        ],
+        "ar": [
+          "محبو الثقافة"
+        ]
+      },
+      "sources": []
+    },
+    {
+      "name": "Senegal Pavilion",
+      "country": "Senegal",
+      "zone": "Humanity",
+      "experienceTypes": [
+        "CULTURAL"
+      ],
+      "overview": {
+        "en": "Senegal's pavilion introduces its people, its famous hospitality called 'teranga', and its development projects.",
+        "ar": "يعرّف جناح السنغال بشعبها وكرم الضيافة المشهور عندهم واسمه «تيرانغا»، ومشاريعها التنموية."
+      },
+      "highlights": {
+        "en": [
+          "Teranga, Senegalese hospitality"
+        ],
+        "ar": [
+          "«تيرانغا»، كرم الضيافة السنغالي"
+        ]
+      },
+      "expoHistory": null,
+      "goodFor": {
+        "en": [
+          "Culture lovers"
+        ],
+        "ar": [
+          "محبو الثقافة"
+        ]
+      },
+      "sources": []
+    },
+    {
+      "name": "Nepal Pavilion",
+      "country": "Nepal",
+      "zone": "Humanity",
+      "experienceTypes": [
+        "CULTURAL"
+      ],
+      "overview": {
+        "en": "Nepal's pavilion shows its communities, crafts and the Himalayan way of life.",
+        "ar": "يعرض جناح نيبال مجتمعاتها وحرفها وأسلوب الحياة في جبال الهيمالايا."
+      },
+      "highlights": {
+        "en": [
+          "Himalayan crafts and life"
+        ],
+        "ar": [
+          "حرف الهيمالايا وأسلوب الحياة فيها"
+        ]
+      },
+      "expoHistory": null,
+      "goodFor": {
+        "en": [
+          "Culture lovers"
+        ],
+        "ar": [
+          "محبو الثقافة"
+        ]
+      },
+      "sources": []
+    },
+    {
+      "name": "Cambodia Pavilion",
+      "country": "Cambodia",
+      "zone": "Humanity",
+      "experienceTypes": [
+        "CULTURAL"
+      ],
+      "overview": {
+        "en": "Cambodia's pavilion presents Cambodian people, culture and development, with references to the heritage of Angkor.",
+        "ar": "يعرض جناح كمبوديا الشعب الكمبودي وثقافته وتنميته، مع إشارات لتراث أنغكور."
+      },
+      "highlights": {
+        "en": [
+          "Angkor heritage"
+        ],
+        "ar": [
+          "تراث أنغكور"
+        ]
+      },
+      "expoHistory": null,
+      "goodFor": {
+        "en": [
+          "History lovers"
+        ],
+        "ar": [
+          "محبو التاريخ"
+        ]
+      },
+      "sources": []
+    },
+    {
+      "name": "Peru Pavilion",
+      "country": "Peru",
+      "zone": "Humanity",
+      "experienceTypes": [
+        "CULTURAL",
+        "CULINARY"
+      ],
+      "overview": {
+        "en": "Peru's pavilion presents Peruvian people, food, crafts and Andean traditions.",
+        "ar": "يعرض جناح بيرو الشعب البيروفي وأكله وحرفه وتقاليد جبال الأنديز."
+      },
+      "highlights": {
+        "en": [
+          "Andean traditions and crafts",
+          "Peruvian food culture"
+        ],
+        "ar": [
+          "تقاليد الأنديز وحرفها",
+          "ثقافة الأكل البيروفي"
+        ]
+      },
+      "expoHistory": null,
+      "goodFor": {
+        "en": [
+          "Food lovers",
+          "Culture lovers"
+        ],
+        "ar": [
+          "محبو الأكل",
+          "محبو الثقافة"
+        ]
+      },
+      "sources": []
+    },
+    {
+      "name": "Poland Pavilion",
+      "country": "Poland",
+      "zone": "Humanity",
+      "experienceTypes": [
+        "CULTURAL",
+        "EDUCATIONAL"
+      ],
+      "overview": {
+        "en": "Poland's timber pavilion has a facade of wave-shaped wooden elements. It presents Polish people, science, creativity and quality of life.",
+        "ar": "جناح بولندا الخشبي واجهته من عناصر خشبية على شكل أمواج، ويعرض الشعب البولندي وعلومه وإبداعه وجودة الحياة فيه."
+      },
+      "highlights": {
+        "en": [
+          "A wave-shaped timber facade",
+          "Polish creativity and innovation"
+        ],
+        "ar": [
+          "واجهة خشبية على شكل أمواج",
+          "الإبداع والابتكار البولندي"
+        ]
+      },
+      "expoHistory": null,
+      "goodFor": {
+        "en": [
+          "Design lovers"
+        ],
+        "ar": [
+          "محبو التصميم"
+        ]
+      },
+      "sources": [
+        "https://happyell.co.jp/world/osaka/expo2025-abroad/"
+      ]
+    },
+    {
+      "name": "Ireland Pavilion",
+      "country": "Ireland",
+      "zone": "Humanity",
+      "experienceTypes": [
+        "CULTURAL"
+      ],
+      "overview": {
+        "en": "Ireland's pavilion presents Irish people, storytelling and community, and the links between Ireland and Japan.",
+        "ar": "يعرض جناح أيرلندا الشعب الأيرلندي وفن الحكاية والمجتمع، والروابط بين أيرلندا واليابان."
+      },
+      "highlights": {
+        "en": [
+          "Irish storytelling"
+        ],
+        "ar": [
+          "فن الحكاية الأيرلندي"
+        ]
+      },
+      "expoHistory": null,
+      "goodFor": {
+        "en": [
+          "Culture lovers"
+        ],
+        "ar": [
+          "محبو الثقافة"
+        ]
+      },
+      "sources": []
+    },
+    {
+      "name": "Italy Pavilion",
+      "country": "Italy",
+      "zone": "Culture",
+      "experienceTypes": [
+        "CULTURAL",
+        "CULINARY"
+      ],
+      "overview": {
+        "en": "Italy's pavilion, 'Art Regenerates Life', was designed by Mario Cucinella Architects as a modern 'ideal city' with a theatre, a piazza and an Italian garden on the roof. It showed artworks never seen before in Japan.",
+        "ar": "جناح إيطاليا بعنوان «الفن يجدد الحياة»، صممه مكتب ماريو كوتشينيلا كـ«مدينة مثالية» حديثة فيها مسرح وساحة وحديقة إيطالية على السطح، وعرض أعمالًا فنية لم تُعرض في اليابان من قبل."
+      },
+      "highlights": {
+        "en": [
+          "The Farnese Atlas, an ancient Roman marble statue",
+          "A portrait of Ito Mancio from the 16th-century Japanese mission to Rome",
+          "A rooftop garden and a restaurant with Italian food"
+        ],
+        "ar": [
+          "تمثال أطلس فارنيزي، تمثال روماني قديم من الرخام",
+          "لوحة لإيتو مانشيو من البعثة اليابانية إلى روما في القرن السادس عشر",
+          "حديقة على السطح ومطعم أكل إيطالي"
+        ]
+      },
+      "expoHistory": {
+        "en": "Italy hosted Expo 2015 in Milan, themed 'Feeding the Planet, Energy for Life'.",
+        "ar": "استضافت إيطاليا إكسبو 2015 في ميلانو بشعار «تغذية الكوكب، طاقة للحياة»."
+      },
+      "goodFor": {
+        "en": [
+          "Art lovers",
+          "History lovers",
+          "Food lovers"
+        ],
+        "ar": [
+          "محبو الفن",
+          "محبو التاريخ",
+          "محبو الأكل"
+        ]
+      },
+      "sources": [
+        "https://www.dezeen.com/2024/06/19/expo-2025-osaka-national-pavilions/",
+        "https://english.adnkronos.com/2025/10/13/osaka-expo-attracts-visitors-with-authentic-hands-on-exhibits/",
+        "https://happyell.co.jp/world/osaka/expo2025-abroad/"
+      ]
+    },
+    {
+      "name": "France Pavilion",
+      "country": "France",
+      "zone": "Culture",
+      "experienceTypes": [
+        "CULTURAL",
+        "RELAXATION"
+      ],
+      "overview": {
+        "en": "France's pavilion, 'Theatrum Naturae' with the theme 'Hymn to Love', was designed by Coldefy and Carlo Ratti Associati. It is built around the Japanese legend of the 'red thread' and presents French art, fashion, crafts and lifestyle.",
+        "ar": "جناح فرنسا «مسرح الطبيعة» بموضوع «ترنيمة الحب»، صممه مكتب كولدفي وكارلو راتي. مبني حول الأسطورة اليابانية «الخيط الأحمر»، ويعرض الفن والأزياء والحرف وأسلوب الحياة الفرنسي."
+      },
+      "highlights": {
+        "en": [
+          "A path in three acts: ascent, discovery and return",
+          "A rooftop garden showing French landscapes from mountains to coasts",
+          "Boutiques and cafés"
+        ],
+        "ar": [
+          "مسار من ثلاثة فصول: الصعود والاكتشاف والعودة",
+          "حديقة على السطح تعرض المناظر الفرنسية من الجبال إلى السواحل",
+          "متاجر ومقاهٍ"
+        ]
+      },
+      "expoHistory": {
+        "en": "France hosted several expos in Paris. The Eiffel Tower was built for the 1889 Expo.",
+        "ar": "استضافت فرنسا عدة معارض في باريس، وبُني برج إيفل لمعرض 1889."
+      },
+      "goodFor": {
+        "en": [
+          "Art and fashion lovers",
+          "Couples"
+        ],
+        "ar": [
+          "محبو الفن والأزياء",
+          "الأزواج"
+        ]
+      },
+      "sources": [
+        "https://www.dezeen.com/2024/06/19/expo-2025-osaka-national-pavilions/",
+        "https://architizer.com/blog/?p=201307",
+        "https://blooloop.com/museum/in-depth/best-country-pavilions-expo-2025/",
+        "https://happyell.co.jp/world/osaka/expo2025-abroad/",
+        "https://english.adnkronos.com/2025/10/13/osaka-expo-attracts-visitors-with-authentic-hands-on-exhibits/"
+      ]
+    },
+    {
+      "name": "Austria Pavilion",
+      "country": "Austria",
+      "zone": "Culture",
+      "experienceTypes": [
+        "CULTURAL",
+        "ENTERTAINMENT"
+      ],
+      "overview": {
+        "en": "Austria's pavilion, 'Composing the Future', was designed by BWM Architects as a wooden spiral ribbon carrying the notes of Beethoven's 'Ode to Joy'. It celebrates Austrian music and innovation.",
+        "ar": "جناح النمسا بعنوان «تأليف المستقبل»، صممه مكتب BWM كشريط خشبي حلزوني يحمل نوتات «نشيد الفرح» لبيتهوفن، ويحتفي بالموسيقى والابتكار النمساوي."
+      },
+      "highlights": {
+        "en": [
+          "A wooden spiral with the notes of 'Ode to Joy'",
+          "The 'Cathedral of the Future' with AI-driven audiovisual shows",
+          "Exhibits on culture, science and sustainability"
+        ],
+        "ar": [
+          "شريط خشبي حلزوني عليه نوتات «نشيد الفرح»",
+          "«كاتدرائية المستقبل» بعروض صوتية ومرئية بالذكاء الاصطناعي",
+          "معارض عن الثقافة والعلوم والاستدامة"
+        ]
+      },
+      "expoHistory": {
+        "en": "Austria hosted the 1873 World Expo in Vienna.",
+        "ar": "استضافت النمسا معرض فيينا الدولي عام 1873."
+      },
+      "goodFor": {
+        "en": [
+          "Music lovers",
+          "Photo lovers"
+        ],
+        "ar": [
+          "محبو الموسيقى",
+          "محبو التصوير"
+        ]
+      },
+      "sources": [
+        "https://blooloop.com/museum/in-depth/best-country-pavilions-expo-2025/"
+      ]
+    },
+    {
+      "name": "Hungary Pavilion",
+      "country": "Hungary",
+      "zone": "Culture",
+      "experienceTypes": [
+        "CULTURAL",
+        "RELAXATION"
+      ],
+      "overview": {
+        "en": "Hungary's pavilion is a haystack-like mound with an immersive theatre inside, where visitors listen to traditional Hungarian folk singing. It connects people and nature, and shared elements of Hungarian and Japanese culture.",
+        "ar": "جناح المجر تلة تشبه كومة القش، وفي داخلها مسرح غامر يستمع فيه الزوار للغناء الشعبي المجري التقليدي. يربط الإنسان بالطبيعة، ويُبرز عناصر مشتركة بين الثقافتين المجرية واليابانية."
+      },
+      "highlights": {
+        "en": [
+          "Live traditional folk singing in an immersive theatre"
+        ],
+        "ar": [
+          "غناء شعبي تقليدي حي في مسرح غامر"
+        ]
+      },
+      "expoHistory": null,
+      "goodFor": {
+        "en": [
+          "Music lovers",
+          "A calm visit"
+        ],
+        "ar": [
+          "محبو الموسيقى",
+          "زيارة هادئة"
+        ]
+      },
+      "sources": [
+        "https://happyell.co.jp/world/osaka/expo2025-abroad/"
+      ]
+    },
+    {
+      "name": "Egypt Pavilion",
+      "country": "Egypt",
+      "zone": "Culture",
+      "experienceTypes": [
+        "CULTURAL",
+        "EDUCATIONAL"
+      ],
+      "overview": {
+        "en": "Egypt's pavilion presents its ancient civilization and heritage alongside modern Egypt.",
+        "ar": "يعرض جناح مصر حضارتها القديمة وتراثها جنبًا إلى جنب مع مصر الحديثة."
+      },
+      "highlights": {
+        "en": [
+          "Ancient Egyptian heritage",
+          "Modern Egypt"
+        ],
+        "ar": [
+          "التراث المصري القديم",
+          "مصر الحديثة"
+        ]
+      },
+      "expoHistory": null,
+      "goodFor": {
+        "en": [
+          "History lovers",
+          "Families"
+        ],
+        "ar": [
+          "محبو التاريخ",
+          "العائلات"
+        ]
+      },
+      "sources": []
+    },
+    {
+      "name": "Jordan Pavilion",
+      "country": "Jordan",
+      "zone": "Culture",
+      "experienceTypes": [
+        "CULTURAL",
+        "RELAXATION"
+      ],
+      "overview": {
+        "en": "Jordan's pavilion brings the Wadi Rum desert to visitors with 22 tons of real sand from Jordan, where people walk barefoot. It shares Jordanian heritage and hospitality, and ranked first in visitor satisfaction in a Japanese survey.",
+        "ar": "يجلب جناح الأردن صحراء وادي رم للزوار بـ22 طنًا من الرمل الأردني الحقيقي يمشي عليه الناس حفاة، ويعرض التراث الأردني وكرم الضيافة. وحلّ في المركز الأول في رضا الزوار حسب استطلاع ياباني."
+      },
+      "highlights": {
+        "en": [
+          "A desert of 22 tons of real Jordanian sand",
+          "Walking barefoot like in Wadi Rum",
+          "Jordanian hospitality"
+        ],
+        "ar": [
+          "صحراء من 22 طنًا من الرمل الأردني الحقيقي",
+          "المشي حافيًا كأنك في وادي رم",
+          "كرم الضيافة الأردني"
+        ]
+      },
+      "expoHistory": null,
+      "goodFor": {
+        "en": [
+          "Families",
+          "Kids",
+          "A relaxing experience"
+        ],
+        "ar": [
+          "العائلات",
+          "الأطفال",
+          "تجربة هادئة"
+        ]
+      },
+      "sources": [
+        "https://english.adnkronos.com/2025/10/13/osaka-expo-attracts-visitors-with-authentic-hands-on-exhibits/"
+      ]
+    },
+    {
+      "name": "Uzbekistan Pavilion",
+      "country": "Uzbekistan",
+      "zone": "Culture",
+      "experienceTypes": [
+        "CULTURAL",
+        "EDUCATIONAL"
+      ],
+      "overview": {
+        "en": "Uzbekistan's pavilion, 'Garden of Knowledge', was designed by Atelier Brückner with a reclaimed brick base and a forest of wooden columns from Osaka forests. It presents Uzbek heritage and the Silk Road.",
+        "ar": "جناح أوزبكستان بعنوان «حديقة المعرفة»، صممه أتيليه بروكنر بقاعدة من الطوب المعاد استخدامه وغابة من الأعمدة الخشبية من غابات أوساكا. يعرض التراث الأوزبكي وطريق الحرير."
+      },
+      "highlights": {
+        "en": [
+          "A forest of wooden columns, each with an NFC tag",
+          "A rising platform inside a 360-degree media show",
+          "A rooftop café"
+        ],
+        "ar": [
+          "غابة أعمدة خشبية لكل عمود منها شريحة NFC",
+          "منصة ترتفع داخل عرض بزاوية 360 درجة",
+          "مقهى على السطح"
+        ]
+      },
+      "expoHistory": null,
+      "goodFor": {
+        "en": [
+          "History lovers",
+          "Families"
+        ],
+        "ar": [
+          "محبو التاريخ",
+          "العائلات"
+        ]
+      },
+      "sources": [
+        "https://architizer.com/blog/?p=201307",
+        "https://blooloop.com/museum/in-depth/best-country-pavilions-expo-2025/"
+      ]
+    },
+    {
+      "name": "Turkiye Pavilion",
+      "country": "Turkiye",
+      "zone": "Culture",
+      "experienceTypes": [
+        "CULTURAL"
+      ],
+      "overview": {
+        "en": "Turkiye's pavilion presents Turkish history, arts and culture, from ancient civilizations to today.",
+        "ar": "يعرض جناح تركيا التاريخ والفنون والثقافة التركية، من الحضارات القديمة إلى اليوم."
+      },
+      "highlights": {
+        "en": [
+          "Turkish arts and history"
+        ],
+        "ar": [
+          "الفنون والتاريخ التركي"
+        ]
+      },
+      "expoHistory": null,
+      "goodFor": {
+        "en": [
+          "History lovers"
+        ],
+        "ar": [
+          "محبو التاريخ"
+        ]
+      },
+      "sources": []
+    },
+    {
+      "name": "Turkmenistan Pavilion",
+      "country": "Turkmenistan",
+      "zone": "Culture",
+      "experienceTypes": [
+        "CULTURAL"
+      ],
+      "overview": {
+        "en": "Turkmenistan's pavilion presents Turkmen culture, its famous carpets, Akhal-Teke horses and Silk Road heritage.",
+        "ar": "يعرض جناح تركمانستان الثقافة التركمانية وسجادها المشهور وخيول الأخال تيكي وتراث طريق الحرير."
+      },
+      "highlights": {
+        "en": [
+          "Turkmen carpets",
+          "Akhal-Teke horses"
+        ],
+        "ar": [
+          "السجاد التركماني",
+          "خيول الأخال تيكي"
+        ]
+      },
+      "expoHistory": null,
+      "goodFor": {
+        "en": [
+          "Heritage lovers"
+        ],
+        "ar": [
+          "محبو التراث"
+        ]
+      },
+      "sources": []
+    },
+    {
+      "name": "Tunisia Pavilion",
+      "country": "Tunisia",
+      "zone": "Culture",
+      "experienceTypes": [
+        "CULTURAL"
+      ],
+      "overview": {
+        "en": "Tunisia's pavilion shows Tunisian heritage, crafts and Mediterranean culture.",
+        "ar": "يعرض جناح تونس التراث والحرف التونسية وثقافة البحر المتوسط."
+      },
+      "highlights": {
+        "en": [
+          "Tunisian crafts"
+        ],
+        "ar": [
+          "الحرف التونسية"
+        ]
+      },
+      "expoHistory": null,
+      "goodFor": {
+        "en": [
+          "Culture lovers"
+        ],
+        "ar": [
+          "محبو الثقافة"
+        ]
+      },
+      "sources": []
+    },
+    {
+      "name": "Algeria Pavilion",
+      "country": "Algeria",
+      "zone": "Culture",
+      "experienceTypes": [
+        "CULTURAL"
+      ],
+      "overview": {
+        "en": "Algeria's pavilion presents its history, Sahara landscapes and cultural heritage.",
+        "ar": "يعرض جناح الجزائر تاريخها ومناظر الصحراء الكبرى وتراثها الثقافي."
+      },
+      "highlights": {
+        "en": [
+          "Sahara landscapes"
+        ],
+        "ar": [
+          "مناظر الصحراء الكبرى"
+        ]
+      },
+      "expoHistory": null,
+      "goodFor": {
+        "en": [
+          "Culture lovers"
+        ],
+        "ar": [
+          "محبو الثقافة"
+        ]
+      },
+      "sources": []
+    },
+    {
+      "name": "Vietnam Pavilion",
+      "country": "Vietnam",
+      "zone": "Culture",
+      "experienceTypes": [
+        "CULTURAL"
+      ],
+      "overview": {
+        "en": "Vietnam's pavilion presents Vietnamese culture, crafts and traditions, and the country's growth.",
+        "ar": "يعرض جناح فيتنام الثقافة والحرف والتقاليد الفيتنامية ونمو البلاد."
+      },
+      "highlights": {
+        "en": [
+          "Vietnamese crafts and traditions"
+        ],
+        "ar": [
+          "الحرف والتقاليد الفيتنامية"
+        ]
+      },
+      "expoHistory": null,
+      "goodFor": {
+        "en": [
+          "Culture lovers"
+        ],
+        "ar": [
+          "محبو الثقافة"
+        ]
+      },
+      "sources": []
+    },
+    {
+      "name": "Saudi Arabia Pavilion",
+      "country": "Saudi Arabia",
+      "zone": "Collaboration",
+      "experienceTypes": [
+        "CULTURAL",
+        "ENTERTAINMENT"
+      ],
+      "overview": {
+        "en": "The host pavilion of Expo 2030 Riyadh. At Expo 2025 Osaka it was designed by Foster + Partners as a small village of alleys inspired by traditional Saudi towns, leading to a central courtyard. It presents Saudi history, culture and heritage alongside the Kingdom's future.",
+        "ar": "الجناح المستضيف لإكسبو 2030 الرياض. في إكسبو 2025 أوساكا صممه مكتب فوستر وشركاه كقرية صغيرة من الأزقة مستوحاة من البلدات السعودية التقليدية، تنتهي بفناء مركزي. يعرض تاريخ المملكة وثقافتها وتراثها إلى جانب مستقبلها."
+      },
+      "highlights": {
+        "en": [
+          "Alleys inspired by traditional Saudi villages around a planted courtyard",
+          "Immersive environments and audiovisual shows about Saudi culture",
+          "Live performances"
+        ],
+        "ar": [
+          "أزقة مستوحاة من القرى السعودية التقليدية حول فناء مزروع",
+          "بيئات غامرة وعروض صوتية ومرئية عن الثقافة السعودية",
+          "عروض حية"
+        ]
+      },
+      "expoHistory": {
+        "en": "Saudi Arabia had one of the largest pavilions at Expo 2020 Dubai, and it is the host of Expo 2030 Riyadh.",
+        "ar": "كان للمملكة أحد أكبر الأجنحة في إكسبو 2020 دبي، وهي الدولة المستضيفة لإكسبو 2030 الرياض."
+      },
+      "goodFor": {
+        "en": [
+          "Everyone",
+          "Families",
+          "Heritage lovers"
+        ],
+        "ar": [
+          "الجميع",
+          "العائلات",
+          "محبو التراث"
+        ]
+      },
+      "sources": [
+        "https://www.dezeen.com/2024/06/19/expo-2025-osaka-national-pavilions/",
+        "https://blooloop.com/museum/in-depth/best-country-pavilions-expo-2025/",
+        "https://happyell.co.jp/world/osaka/expo2025-abroad/"
+      ]
+    },
+    {
+      "name": "Qatar Pavilion",
+      "country": "Qatar",
+      "zone": "Collaboration",
+      "experienceTypes": [
+        "CULTURAL",
+        "EDUCATIONAL"
+      ],
+      "overview": {
+        "en": "Qatar's pavilion was designed by Kengo Kuma with a timber frame that joins Qatari boat-building with Japanese joinery, wrapped in white fabric inspired by dhow sails. It presents the sea as a shared space for trade and culture between Qatar and Japan.",
+        "ar": "صمم كينغو كوما جناح قطر بهيكل خشبي يجمع صناعة السفن القطرية مع فن الوصل الخشبي الياباني، ومغطى بقماش أبيض مستوحى من أشرعة السفن التقليدية. يقدّم البحر كمساحة مشتركة للتجارة والثقافة بين قطر واليابان."
+      },
+      "highlights": {
+        "en": [
+          "A white sail-like facade",
+          "A multimedia exhibition by OMA*AMO about Qatar's coast",
+          "A library and artworks from Qatar and Japan"
+        ],
+        "ar": [
+          "واجهة بيضاء تشبه الشراع",
+          "معرض متعدد الوسائط من OMA*AMO عن ساحل قطر",
+          "مكتبة وأعمال فنية من قطر واليابان"
+        ]
+      },
+      "expoHistory": null,
+      "goodFor": {
+        "en": [
+          "Design lovers",
+          "Culture lovers"
+        ],
+        "ar": [
+          "محبو التصميم",
+          "محبو الثقافة"
+        ]
+      },
+      "sources": [
+        "https://architizer.com/blog/?p=201307"
+      ]
+    },
+    {
+      "name": "Bahrain Pavilion",
+      "country": "Bahrain",
+      "zone": "Collaboration",
+      "experienceTypes": [
+        "CULTURAL",
+        "EDUCATIONAL"
+      ],
+      "overview": {
+        "en": "Bahrain's pavilion, 'Connecting Seas', was designed by Lina Ghotmeh. It is made of about 3,000 pieces of wood joined without concrete or glue, inspired by traditional dhow boats and Bahrain's sea heritage.",
+        "ar": "جناح البحرين بعنوان «بحار متصلة»، صممته لينا غطمة. مكوّن من نحو 3000 قطعة خشب موصولة بدون خرسانة أو غراء، ومستوحى من السفن التقليدية وتراث البحرين البحري."
+      },
+      "highlights": {
+        "en": [
+          "A timber structure built without concrete or glue",
+          "A sensory journey through pearling and sea trade",
+          "A café"
+        ],
+        "ar": [
+          "هيكل خشبي مبني بدون خرسانة أو غراء",
+          "رحلة حسية عبر الغوص على اللؤلؤ والتجارة البحرية",
+          "مقهى"
+        ]
+      },
+      "expoHistory": null,
+      "goodFor": {
+        "en": [
+          "Heritage lovers",
+          "Design lovers"
+        ],
+        "ar": [
+          "محبو التراث",
+          "محبو التصميم"
+        ]
+      },
+      "sources": [
+        "https://www.dezeen.com/2024/06/19/expo-2025-osaka-national-pavilions/",
+        "https://architizer.com/blog/?p=201307",
+        "https://blooloop.com/museum/in-depth/best-country-pavilions-expo-2025/"
+      ]
+    },
+    {
+      "name": "The Baltics Pavilion",
+      "country": "Latvia, Lithuania",
+      "zone": "Collaboration",
+      "experienceTypes": [
+        "CULTURAL",
+        "EDUCATIONAL"
+      ],
+      "overview": {
+        "en": "A joint pavilion of Latvia and Lithuania, showing their cooperation, nature and digital innovation.",
+        "ar": "جناح مشترك بين لاتفيا وليتوانيا، يعرض تعاونهما وطبيعتهما وابتكارهما الرقمي."
+      },
+      "highlights": {
+        "en": [
+          "Two countries in one pavilion",
+          "Baltic nature and digital innovation"
+        ],
+        "ar": [
+          "دولتان في جناح واحد",
+          "طبيعة البلطيق والابتكار الرقمي"
+        ]
+      },
+      "expoHistory": null,
+      "goodFor": {
+        "en": [
+          "Nature lovers"
+        ],
+        "ar": [
+          "محبو الطبيعة"
+        ]
+      },
+      "sources": [
+        "https://en.wikipedia.org/wiki/Expo_2025"
+      ]
+    },
+    {
+      "name": "Nordic Circle Pavilion",
+      "country": "Denmark, Finland, Iceland, Norway, Sweden",
+      "zone": "Collaboration",
+      "experienceTypes": [
+        "EDUCATIONAL",
+        "RELAXATION"
+      ],
+      "overview": {
+        "en": "A joint timber pavilion of Denmark, Finland, Iceland, Norway and Sweden, called 'Nordic Circle' and designed by AMDL CIRCLE. It focuses on Nordic cooperation, technology and the circular economy.",
+        "ar": "جناح خشبي مشترك بين الدنمارك وفنلندا وآيسلندا والنرويج والسويد، اسمه «الدائرة الشمالية» وصممه مكتب AMDL CIRCLE. يركز على التعاون الشمالي والتقنية والاقتصاد الدائري."
+      },
+      "highlights": {
+        "en": [
+          "Five countries in one pavilion",
+          "An immersive exhibition on Nordic technology",
+          "A rooftop terrace"
+        ],
+        "ar": [
+          "خمس دول في جناح واحد",
+          "معرض غامر عن التقنية الشمالية",
+          "شرفة على السطح"
+        ]
+      },
+      "expoHistory": null,
+      "goodFor": {
+        "en": [
+          "Sustainability fans",
+          "A relaxing break"
+        ],
+        "ar": [
+          "المهتمون بالاستدامة",
+          "استراحة هادئة"
+        ]
+      },
+      "sources": [
+        "https://blooloop.com/museum/in-depth/best-country-pavilions-expo-2025/"
+      ]
+    },
+    {
+      "name": "Azerbaijan Pavilion",
+      "country": "Azerbaijan",
+      "zone": "Collaboration",
+      "experienceTypes": [
+        "CULTURAL"
+      ],
+      "overview": {
+        "en": "Azerbaijan's pavilion, 'Seven Bridges to Sustainability', is about connecting cultures, history and the future.",
+        "ar": "جناح أذربيجان بعنوان «سبعة جسور نحو الاستدامة»، عن ربط الثقافات والتاريخ والمستقبل."
+      },
+      "highlights": {
+        "en": [
+          "Seven 'bridges' linking culture, history and the future"
+        ],
+        "ar": [
+          "سبعة «جسور» تربط الثقافة والتاريخ والمستقبل"
+        ]
+      },
+      "expoHistory": null,
+      "goodFor": {
+        "en": [
+          "Culture lovers"
+        ],
+        "ar": [
+          "محبو الثقافة"
+        ]
+      },
+      "sources": []
+    },
+    {
+      "name": "Serbia Pavilion",
+      "country": "Serbia",
+      "zone": "Collaboration",
+      "experienceTypes": [
+        "ENTERTAINMENT",
+        "CULTURAL"
+      ],
+      "overview": {
+        "en": "Serbia's pavilion, 'Play for Humanity', is inspired by Lido, a natural island where the Sava and Danube rivers meet. It presents Serbia's culture and its role as host of Expo 2027 in Belgrade.",
+        "ar": "جناح صربيا بعنوان «اللعب من أجل الإنسانية»، مستوحى من جزيرة ليدو الطبيعية حيث يلتقي نهرا سافا والدانوب. يعرض ثقافة صربيا ودورها كمستضيفة لإكسبو 2027 في بلغراد."
+      },
+      "highlights": {
+        "en": [
+          "A playful oasis inspired by a river island"
+        ],
+        "ar": [
+          "واحة مرحة مستوحاة من جزيرة نهرية"
+        ]
+      },
+      "expoHistory": {
+        "en": "Serbia will host Expo 2027 in Belgrade, a specialized expo.",
+        "ar": "تستضيف صربيا إكسبو 2027 في بلغراد، وهو معرض متخصص."
+      },
+      "goodFor": {
+        "en": [
+          "Families",
+          "Kids"
+        ],
+        "ar": [
+          "العائلات",
+          "الأطفال"
+        ]
+      },
+      "sources": [
+        "https://happyell.co.jp/world/osaka/expo2025-abroad/"
+      ]
+    },
+    {
+      "name": "Romania Pavilion",
+      "country": "Romania",
+      "zone": "Collaboration",
+      "experienceTypes": [
+        "CULTURAL"
+      ],
+      "overview": {
+        "en": "Romania's pavilion presents Romanian nature, culture and partnerships for a sustainable future.",
+        "ar": "يعرض جناح رومانيا الطبيعة والثقافة الرومانية وشراكاتها من أجل مستقبل مستدام."
+      },
+      "highlights": {
+        "en": [
+          "Romanian nature and culture"
+        ],
+        "ar": [
+          "الطبيعة والثقافة الرومانية"
+        ]
+      },
+      "expoHistory": null,
+      "goodFor": {
+        "en": [
+          "Culture lovers"
+        ],
+        "ar": [
+          "محبو الثقافة"
+        ]
+      },
+      "sources": []
+    },
+    {
+      "name": "Bulgaria Pavilion",
+      "country": "Bulgaria",
+      "zone": "Collaboration",
+      "experienceTypes": [
+        "CULTURAL"
+      ],
+      "overview": {
+        "en": "Bulgaria's pavilion presents Bulgarian culture, nature and traditions.",
+        "ar": "يعرض جناح بلغاريا الثقافة والطبيعة والتقاليد البلغارية."
+      },
+      "highlights": {
+        "en": [
+          "Bulgarian traditions"
+        ],
+        "ar": [
+          "التقاليد البلغارية"
+        ]
+      },
+      "expoHistory": null,
+      "goodFor": {
+        "en": [
+          "Culture lovers"
+        ],
+        "ar": [
+          "محبو الثقافة"
+        ]
+      },
+      "sources": []
+    },
+    {
+      "name": "Malta Pavilion",
+      "country": "Malta",
+      "zone": "Collaboration",
+      "experienceTypes": [
+        "CULTURAL"
+      ],
+      "overview": {
+        "en": "Malta's pavilion presents its Mediterranean heritage and its links with the world.",
+        "ar": "يعرض جناح مالطا تراثها المتوسطي وروابطها مع العالم."
+      },
+      "highlights": {
+        "en": [
+          "Mediterranean heritage"
+        ],
+        "ar": [
+          "التراث المتوسطي"
+        ]
+      },
+      "expoHistory": null,
+      "goodFor": {
+        "en": [
+          "History lovers"
+        ],
+        "ar": [
+          "محبو التاريخ"
+        ]
+      },
+      "sources": []
+    },
+    {
+      "name": "Monaco Pavilion",
+      "country": "Monaco",
+      "zone": "Collaboration",
+      "experienceTypes": [
+        "EDUCATIONAL"
+      ],
+      "overview": {
+        "en": "Monaco's pavilion presents its focus on ocean protection and international cooperation.",
+        "ar": "يعرض جناح موناكو اهتمامها بحماية المحيطات والتعاون الدولي."
+      },
+      "highlights": {
+        "en": [
+          "Ocean protection"
+        ],
+        "ar": [
+          "حماية المحيطات"
+        ]
+      },
+      "expoHistory": null,
+      "goodFor": {
+        "en": [
+          "Ocean lovers"
+        ],
+        "ar": [
+          "محبو البحر"
+        ]
+      },
+      "sources": []
+    }
+  ]
+}
