@@ -27,8 +27,6 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
-// "Find a group": a visitor publishes his roadmap, others see it and copy it into their own journey.
-// There are no requests, accepts or rejects, the people coordinate outside the app on WhatsApp.
 @Service
 @RequiredArgsConstructor
 public class SharedRoadmapService {
@@ -194,8 +192,7 @@ public class SharedRoadmapService {
         return copy;
     }
 
-    // only what the owner agreed to show, the phone only when he turned it on
-    private SharedRoadmapResponse toSharedResponse(Roadmap roadmap, int common){
+    private SharedRoadmapResponse toSharedResponse(Roadmap roadmap, int common){ // only what the owner agreed to show, the phone only when he turned it on
         Visitor owner = roadmap.getVisitor();
         User user = owner.getUser();
         String firstName = user.getFullName().trim().split("\\s+")[0];
