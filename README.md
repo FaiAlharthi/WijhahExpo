@@ -279,15 +279,15 @@ Logout is available at `POST /api/v1/user/auth/logout`.
       TODO: area of work
     </td>
     <td align="center" width="25%">
-      <a href="https://github.com/TODO-USERNAME-2"><img src="https://github.com/TODO-USERNAME-2.png" width="100" alt="Member 2"><br><b>TODO: Name</b></a><br><br>
+      <a href="https://github.com/AmiraAldajani"><img src="https://github.com/AmiraAldajani-2.png" width="100" alt="Member 2"><br><b>Amira</b></a><br><br>
       TODO: area of work
     </td>
     <td align="center" width="25%">
-      <a href="https://github.com/TODO-USERNAME-3"><img src="https://github.com/TODO-USERNAME-3.png" width="100" alt="Member 3"><br><b>TODO: Name</b></a><br><br>
+      <a href="https://github.com/DeemaAlthaqafi"><img src="https://github.com/DeemaAlthaqafi.png" width="100" alt="Member 3"><br><b>Deema</b></a><br><br>
       TODO: area of work
     </td>
     <td align="center" width="25%">
-      <a href="https://github.com/TODO-USERNAME-4"><img src="https://github.com/TODO-USERNAME-4.png" width="100" alt="Member 4"><br><b>TODO: Name</b></a><br><br>
+      <a href="https://github.com/LinaAlshehri"><img src="https://github.com/LinaAlshehri-4.png" width="100" alt="Member 4"><br><b>L</b></a><br><br>
       TODO: area of work
     </td>
   </tr>
