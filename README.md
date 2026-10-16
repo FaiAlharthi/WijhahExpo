@@ -1,6 +1,6 @@
 <div align="center">
 
-<img width="199" height="249" alt="wijha" src="https://github.com/user-attachments/assets/56c13689-95d4-46c3-8287-2fdf5bdcddd3" />
+<img width="99" height="114" alt="wijha" src="https://github.com/user-attachments/assets/56c13689-95d4-46c3-8287-2fdf5bdcddd3" />
 
 
 # Wijha · وِجهة
