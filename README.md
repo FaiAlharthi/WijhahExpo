@@ -271,21 +271,25 @@ Logout is available at `POST /api/v1/user/auth/logout`.
 
 <table>
   <tr>
-    <td align="center" width="25%">
-      <a href="https://github.com/FaiAlharthi"><img src="https://github.com/FaiAlharthi.png" width="100" alt="Fai"><br><b>Fai</b></a><br><br>
-      TODO: area of work
+    <td align="center" width="25%" valign="top">
+      <a href="https://github.com/FaiAlharthi"><img src="https://github.com/FaiAlharthi.png" width="100" alt="Fai"><br><b>Fai Alharthi</b></a><br>
+      <sub>Frontend & Backend</sub><br><br>
+      <sub>SwiftUI iOS app, plus part of the API</sub>
     </td>
-    <td align="center" width="25%">
-      <a href="https://github.com/AmiraAldajani"><img src="https://github.com/AmiraAldajani-2.png" width="100" alt="Member 2"><br><b>Amira</b></a><br><br>
-      TODO: area of work
+    <td align="center" width="25%" valign="top">
+      <a href="https://github.com/aldajaniAmira"><img src="https://github.com/aldajaniAmira.png" width="100" alt="Amira"><br><b>Amira</b></a><br>
+      <sub>Backend</sub><br><br>
+      <sub>Passport and stamps, plus part of the API</sub>
     </td>
-    <td align="center" width="25%">
-      <a href="https://github.com/DeemaAlthaqafi"><img src="https://github.com/DeemaAlthaqafi.png" width="100" alt="Member 3"><br><b>Deema</b></a><br><br>
-      TODO: area of work
+    <td align="center" width="25%" valign="top">
+      <a href="https://github.com/deema1439"><img src="https://github.com/deema1439.png" width="100" alt="Deema"><br><b>Deema</b></a><br>
+      <sub>Backend</sub><br><br>
+      <sub>Expo map and routing, plus part of the API</sub>
     </td>
-    <td align="center" width="25%">
-      <a href="https://github.com/LinaAlshehri"><img src="https://github.com/LinaAlshehri-4.png" width="100" alt="Member 4"><br><b>L</b></a><br><br>
-      TODO: area of work
+    <td align="center" width="25%" valign="top">
+      <a href="https://github.com/Linashehri"><img src="https://github.com/Linashehri.png" width="100" alt="Lina"><br><b>Lina</b></a><br>
+      <sub>UI/UX Designer</sub><br><br>
+      <sub>Designed the app screens in Figma</sub>
     </td>
   </tr>
 </table>
