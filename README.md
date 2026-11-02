@@ -85,7 +85,7 @@ Wijha (وِجهة) helps visitors of Expo 2030 Riyadh get the most out of their 
 Every external call is wrapped so that a failure never breaks the main operation. If the AI is down, the roadmap falls back to the nearest pavilions, a review is accepted without moderation, and the chatbot answers from the closest ready answer. A failed WhatsApp message never fails the roadmap.
 
 ## 🏗️ Architecture
-
+ 
 ```mermaid
 flowchart LR
     C[Flutter app / Postman] --> CT[Controller]
